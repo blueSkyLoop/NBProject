@@ -2,6 +2,14 @@
 
 def shared_pods
 pod 'Masonry', '~> 1.0.0'
+pod 'YYModel', '~> 1.0.4'
+pod 'SDWebImage'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'Bugly'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'IQKeyboardManager', '~> 4.0.13'
+pod 'ReactiveObjC'
+pod 'SVProgressHUD'
 end
 
 target 'NBProject' do

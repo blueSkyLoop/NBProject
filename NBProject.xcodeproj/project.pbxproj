@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		210F0B8120F32F000003EB83 /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 210F0B8020F32F000003EB83 /* .keep */; };
-		210F0B8620F32FAA0003EB83 /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 210F0B8320F32FA90003EB83 /* .keep */; };
-		210F0B8720F32FAA0003EB83 /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 210F0B8520F32FA90003EB83 /* .keep */; };
-		210F0B8C20F32FF40003EB83 /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 210F0B8920F32FF40003EB83 /* .keep */; };
-		210F0B8D20F32FF40003EB83 /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 210F0B8B20F32FF40003EB83 /* .keep */; };
-		2143953C20F2F99E00DF7812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143953B20F2F99E00DF7812 /* ViewController.m */; };
+		210CA17920F6E71C0004B954 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA17820F6E71C0004B954 /* NBLoMainController.m */; };
+		210CA17F20F6EB930004B954 /* MHLogMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA17E20F6EB930004B954 /* MHLogMacros.m */; };
+		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
+		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
+		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
+		210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19B20F706AF0004B954 /* NSString+Font.m */; };
 		2143955120F2F99E00DF7812 /* NBProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955020F2F99E00DF7812 /* NBProjectTests.m */; };
 		2143955C20F2F99E00DF7812 /* NBProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955B20F2F99E00DF7812 /* NBProjectUITests.m */; };
 		2143957A20F3007600DF7812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143956B20F3007600DF7812 /* AppDelegate.m */; };
@@ -21,6 +21,10 @@
 		2143957D20F3007600DF7812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2143957120F3007600DF7812 /* Main.storyboard */; };
 		2143957E20F3007600DF7812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143957320F3007600DF7812 /* main.m */; };
 		2143957F20F3007600DF7812 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2143957420F3007600DF7812 /* Info.plist */; };
+		21721A5520F3435B001C639B /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21721A5420F3435B001C639B /* NBNavigationController.m */; };
+		21780BC620F3643B00A9C192 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* BaseView.m */; };
+		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
+		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
 		51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05EF589098F7D4D375D94A /* libPods-NBProject.a */; };
 /* End PBXBuildFile section */
 
@@ -42,14 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		210F0B8020F32F000003EB83 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
-		210F0B8320F32FA90003EB83 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
-		210F0B8520F32FA90003EB83 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
-		210F0B8920F32FF40003EB83 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
-		210F0B8B20F32FF40003EB83 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		210CA17720F6E71C0004B954 /* NBLoMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
+		210CA17820F6E71C0004B954 /* NBLoMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
+		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
+		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
+		210CA17D20F6EB930004B954 /* MHLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHLogMacros.h; sourceTree = "<group>"; };
+		210CA17E20F6EB930004B954 /* MHLogMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHLogMacros.m; sourceTree = "<group>"; };
+		210CA18020F6EBD80004B954 /* NBNotificationMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNotificationMacros.h; sourceTree = "<group>"; };
+		210CA18120F6F73B0004B954 /* AppDelegate+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Helper.h"; sourceTree = "<group>"; };
+		210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Helper.m"; sourceTree = "<group>"; };
+		210CA18F20F702880004B954 /* UIView+QuickInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickInstance.h"; sourceTree = "<group>"; };
+		210CA19020F702880004B954 /* UIView+QuickInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickInstance.m"; sourceTree = "<group>"; };
+		210CA19720F704D60004B954 /* NBBeelinMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBeelinMainController.h; sourceTree = "<group>"; };
+		210CA19820F704D60004B954 /* NBBeelinMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBeelinMainController.m; sourceTree = "<group>"; };
+		210CA19A20F706AF0004B954 /* NSString+Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Font.h"; sourceTree = "<group>"; };
+		210CA19B20F706AF0004B954 /* NSString+Font.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Font.m"; sourceTree = "<group>"; };
 		2143953420F2F99E00DF7812 /* NBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2143953A20F2F99E00DF7812 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2143953B20F2F99E00DF7812 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2143954C20F2F99E00DF7812 /* NBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143955020F2F99E00DF7812 /* NBProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBProjectTests.m; sourceTree = "<group>"; };
 		2143955220F2F99E00DF7812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +76,15 @@
 		2143957220F3007600DF7812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2143957320F3007600DF7812 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2143957420F3007600DF7812 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21721A5320F3435B001C639B /* NBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNavigationController.h; sourceTree = "<group>"; };
+		21721A5420F3435B001C639B /* NBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNavigationController.m; sourceTree = "<group>"; };
+		21780BC420F3643B00A9C192 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		21780BC520F3643B00A9C192 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		21780BC720F5998300A9C192 /* NBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTabBarController.h; sourceTree = "<group>"; };
+		21780BC820F5998300A9C192 /* NBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTabBarController.m; sourceTree = "<group>"; };
+		21780BCA20F59B9700A9C192 /* NBBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseController.h; sourceTree = "<group>"; };
+		21780BCB20F59B9700A9C192 /* NBBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseController.m; sourceTree = "<group>"; };
+		21780BCE20F5D3F000A9C192 /* NBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacros.h; sourceTree = "<group>"; };
 		3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.release.xcconfig"; sourceTree = "<group>"; };
 		AD05EF589098F7D4D375D94A /* libPods-NBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,12 +124,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		210CA18D20F702880004B954 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				210CA19320F702AF0004B954 /* NSString */,
+				210CA18E20F702880004B954 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		210CA18E20F702880004B954 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				210CA18F20F702880004B954 /* UIView+QuickInstance.h */,
+				210CA19020F702880004B954 /* UIView+QuickInstance.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		210CA19320F702AF0004B954 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				210CA19A20F706AF0004B954 /* NSString+Font.h */,
+				210CA19B20F706AF0004B954 /* NSString+Font.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		210F0B7F20F32F000003EB83 /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				210F0B8820F32FF40003EB83 /* Beelin */,
 				210F0B8A20F32FF40003EB83 /* Lo */,
-				210F0B8020F32F000003EB83 /* .keep */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -115,7 +163,8 @@
 		210F0B8220F32FA90003EB83 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				210F0B8320F32FA90003EB83 /* .keep */,
+				210CA18D20F702880004B954 /* Category */,
+				21780BCD20F5D3D100A9C192 /* Global */,
 				210F0B8420F32FA90003EB83 /* BaseClass */,
 			);
 			path = Utils;
@@ -124,7 +173,8 @@
 		210F0B8420F32FA90003EB83 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				210F0B8520F32FA90003EB83 /* .keep */,
+				21780BC320F3642700A9C192 /* View */,
+				21721A5220F34341001C639B /* Controller */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -132,7 +182,8 @@
 		210F0B8820F32FF40003EB83 /* Beelin */ = {
 			isa = PBXGroup;
 			children = (
-				210F0B8920F32FF40003EB83 /* .keep */,
+				210CA19720F704D60004B954 /* NBBeelinMainController.h */,
+				210CA19820F704D60004B954 /* NBBeelinMainController.m */,
 			);
 			path = Beelin;
 			sourceTree = "<group>";
@@ -140,7 +191,8 @@
 		210F0B8A20F32FF40003EB83 /* Lo */ = {
 			isa = PBXGroup;
 			children = (
-				210F0B8B20F32FF40003EB83 /* .keep */,
+				210CA17720F6E71C0004B954 /* NBLoMainController.h */,
+				210CA17820F6E71C0004B954 /* NBLoMainController.m */,
 			);
 			path = Lo;
 			sourceTree = "<group>";
@@ -175,8 +227,6 @@
 				2143956920F3007600DF7812 /* AppDelegate */,
 				2143956C20F3007600DF7812 /* Resources */,
 				2143956E20F3007600DF7812 /* SupportFile */,
-				2143953A20F2F99E00DF7812 /* ViewController.h */,
-				2143953B20F2F99E00DF7812 /* ViewController.m */,
 			);
 			path = NBProject;
 			sourceTree = "<group>";
@@ -204,6 +254,8 @@
 			children = (
 				2143956A20F3007600DF7812 /* AppDelegate.h */,
 				2143956B20F3007600DF7812 /* AppDelegate.m */,
+				210CA18120F6F73B0004B954 /* AppDelegate+Helper.h */,
+				210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -227,6 +279,42 @@
 			path = SupportFile;
 			sourceTree = "<group>";
 		};
+		21721A5220F34341001C639B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21721A5320F3435B001C639B /* NBNavigationController.h */,
+				21721A5420F3435B001C639B /* NBNavigationController.m */,
+				21780BC720F5998300A9C192 /* NBTabBarController.h */,
+				21780BC820F5998300A9C192 /* NBTabBarController.m */,
+				21780BCA20F59B9700A9C192 /* NBBaseController.h */,
+				21780BCB20F59B9700A9C192 /* NBBaseController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21780BC320F3642700A9C192 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21780BC420F3643B00A9C192 /* BaseView.h */,
+				21780BC520F3643B00A9C192 /* BaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21780BCD20F5D3D100A9C192 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				21780BCE20F5D3F000A9C192 /* NBMacros.h */,
+				210CA17D20F6EB930004B954 /* MHLogMacros.h */,
+				210CA17E20F6EB930004B954 /* MHLogMacros.m */,
+				210CA17C20F6EB930004B954 /* MHSanboxPath.h */,
+				210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */,
+				210CA17B20F6EB930004B954 /* SwizzlingDefine.h */,
+				210CA18020F6EBD80004B954 /* NBNotificationMacros.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		2B737D85641A6F56E6AA7629 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +335,7 @@
 				2143953020F2F99E00DF7812 /* Sources */,
 				2143953120F2F99E00DF7812 /* Frameworks */,
 				2143953220F2F99E00DF7812 /* Resources */,
+				43969ACE6FFD28B59C59FEF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,15 +432,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210F0B8D20F32FF40003EB83 /* .keep in Resources */,
-				210F0B8C20F32FF40003EB83 /* .keep in Resources */,
-				210F0B8620F32FAA0003EB83 /* .keep in Resources */,
-				210F0B8120F32F000003EB83 /* .keep in Resources */,
 				2143957F20F3007600DF7812 /* Info.plist in Resources */,
 				2143957D20F3007600DF7812 /* Main.storyboard in Resources */,
 				2143957B20F3007600DF7812 /* Assets.xcassets in Resources */,
 				2143957C20F3007600DF7812 /* LaunchScreen.storyboard in Resources */,
-				210F0B8720F32FAA0003EB83 /* .keep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +456,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		43969ACE6FFD28B59C59FEF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NBProject/Pods-NBProject-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBProject/Pods-NBProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B4BD90F54869B398B80EF90B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,7 +505,16 @@
 			files = (
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
-				2143953C20F2F99E00DF7812 /* ViewController.m in Sources */,
+				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
+				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
+				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
+				210CA17920F6E71C0004B954 /* NBLoMainController.m in Sources */,
+				21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */,
+				210CA17F20F6EB930004B954 /* MHLogMacros.m in Sources */,
+				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
+				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
+				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
+				210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

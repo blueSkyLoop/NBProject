@@ -15,6 +15,10 @@
 #define MScreenW [UIScreen mainScreen].bounds.size.width
 #define MScreenH [UIScreen mainScreen].bounds.size.height
 
+/* 机型  */
+
+
+
 /* 比例 */
 #define MScale MScreenW/375
 
@@ -37,6 +41,10 @@
 #define MRandomColor MRGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))// 随机色
 #define MColorToRGB(value) MColorToRGBWithAlpha(value, 1.0f)
 #define MColorToRGBWithAlpha(value, alpha1) [UIColor colorWithRed:((float)((value & 0xFF0000) >> 16))/255.0 green:((float)((value & 0xFF00) >> 8))/255.0 blue:((float)(value & 0xFF))/255.0 alpha:alpha1]//十六进制转RGB色
+
+#define MColorTitle MColorToRGB(0X324057)                  //文章标题文本色
+#define MColorContent MColorToRGB(0XC0CCDA)               //文章正文文本色
+#define MColorRed MColorToRGB(0XFF4949)                  //红
 
 /*  默认头像  */
 #define MAvatar  [UIImage imageNamed:@"com_defaultAvartar"]

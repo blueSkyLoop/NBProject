@@ -37,4 +37,21 @@
 }
 
 
+/**
+ * 初始化子控制器
+ */
+- (NBNavigationController *)initWithController:(UIViewController *)curreVC title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
+{
+    UIViewController *vc = (UIViewController *)curreVC;
+    
+    // 设置文字和图片
+    vc.title = title;
+    [vc.tabBarItem setImage:[[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
+    return [[NBNavigationController alloc] initWithRootViewController:vc] ;
+}
+
+
 @end

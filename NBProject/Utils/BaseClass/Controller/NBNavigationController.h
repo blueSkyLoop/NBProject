@@ -10,4 +10,6 @@
 
 @interface NBNavigationController : UINavigationController
 
+/** 初始化 NBNavigationController */
+- (NBNavigationController *)initWithController:(UIViewController *)curreVC title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage;
 @end
