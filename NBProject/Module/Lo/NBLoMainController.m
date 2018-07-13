@@ -7,7 +7,7 @@
 //
 
 #import "NBLoMainController.h"
-
+#import "MHMacrosLog.h"
 @interface NBLoMainController ()
 
 @end
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSMutableArray * datas = [NSMutableArray array];
+    [datas addObject:@""];
 }
 
 @end

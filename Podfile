@@ -10,6 +10,8 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'IQKeyboardManager', '~> 4.0.13'
 pod 'ReactiveObjC'
 pod 'SVProgressHUD'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'SSKeychain', '~> 1.4.1'
 end
 
 target 'NBProject' do

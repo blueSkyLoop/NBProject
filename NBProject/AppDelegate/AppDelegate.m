@@ -21,6 +21,7 @@
     [self.window makeKeyAndVisible];
     [self nb_enterMianUI];
     [self nb_keyBoardConfig];
+    [self nb_bugly];
     return YES;
 }
 

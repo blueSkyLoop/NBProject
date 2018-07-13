@@ -16,8 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     [self nb_setUI];
     [self nb_bindViewModel];
 }
@@ -32,7 +30,7 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-
+/* 父类重写以下方法 */
 - (void)nb_setUI {
     
 }

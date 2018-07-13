@@ -15,5 +15,5 @@
 
 - (void)nb_keyBoardConfig;
 
-- (void)mh_bugly;
+- (void)nb_bugly;
 @end

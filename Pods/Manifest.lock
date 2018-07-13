@@ -22,7 +22,9 @@ PODS:
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
+  - SSKeychain (1.4.1)
   - SVProgressHUD (2.2.5)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -33,7 +35,9 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.0)
   - ReactiveObjC
   - SDWebImage
+  - SSKeychain (~> 1.4.1)
   - SVProgressHUD
+  - "UITableView+FDTemplateLayoutCell"
   - YYModel (~> 1.0.4)
 
 SPEC REPOS:
@@ -45,7 +49,9 @@ SPEC REPOS:
     - MJRefresh
     - ReactiveObjC
     - SDWebImage
+    - SSKeychain
     - SVProgressHUD
+    - "UITableView+FDTemplateLayoutCell"
     - YYModel
 
 SPEC CHECKSUMS:
@@ -56,9 +62,11 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ba70128a068b8fd6370dd656845491f97c61c2dc
+PODFILE CHECKSUM: de98541d11ee33c2d2bffcfd1acd4174086d59f8
 
 COCOAPODS: 1.5.3

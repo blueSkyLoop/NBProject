@@ -23,13 +23,13 @@
     [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
 }
 
-- (void)mh_bugly {
+- (void)nb_bugly {
     BuglyConfig *config = [[BuglyConfig alloc]init];
     config.viewControllerTrackingEnable = YES;
     config.unexpectedTerminatingDetectionEnable = YES;
     config.blockMonitorEnable = YES;
     
-    NSString *buglyKey = @"";
+    NSString *buglyKey = @"55041713-239d-47ab-b439-7b3a55fd5eb4";
     [Bugly startWithAppId:buglyKey config:config];
 }
 @end
