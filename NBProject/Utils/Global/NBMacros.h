@@ -15,6 +15,13 @@
 #define MScreenW [UIScreen mainScreen].bounds.size.width
 #define MScreenH [UIScreen mainScreen].bounds.size.height
 
+#define MSafeAreaStatusHeight (MScreenH == 812.0 ? 44 : 20)  // 状态栏 高度
+#define MSafeAreaBottomHeight (MScreenH == 812.0 ? 34 : 0)   // tabbar 附加高度
+#define MSafeAreaTabBarHeight (MScreenH == 812.0 ? MSafeAreaBottomHeight + 49 : 49) // tabbar 高度
+#define MSafeAreaNaviBarHeight (MScreenH == 812.0 ? 88 : 64) // 导航栏高度 + 状态栏高度
+#define kWJHeightCoefficient (MScreenH == 812.0 ? 667.0/667.0 : MScreenH/667.0)
+
+#define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = false;}
 /* 机型  */
 
 

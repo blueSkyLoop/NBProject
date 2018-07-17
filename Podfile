@@ -1,4 +1,4 @@
-# platform :ios, '8.0'
+platform :ios, '8.0'
 
 def shared_pods
 pod 'Masonry', '~> 1.0.0'

@@ -18,12 +18,21 @@
     [super viewDidLoad];
     [self nb_setUI];
     [self nb_bindViewModel];
+    [self nb_showNavigateionStyIeIines:NO];
+    //    [self resetBackNaviItem];
 }
 
+// 返回按钮
 - (void)resetBackNaviItem {
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"nav_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(nb_naviBack)];
     self.navigationItem.leftBarButtonItem = backItem ;
     self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+}
+
+// 忽略-导航栏分割线
+- (void)nb_showNavigateionStyIeIines:(BOOL)isShow{
+    [self.navigationController.navigationBar setValue:@(isShow)forKeyPath:@"backgroundView.alpha"];
+    self.navigationController.navigationBar.barStyle = isShow ? UIBarStyleDefault : UIBarStyleBlackTranslucent;
 }
 
 - (void)nb_naviBack {
@@ -37,5 +46,9 @@
 
 - (void)nb_bindViewModel {
     
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 @end

@@ -14,6 +14,7 @@
 // 返回按钮样式设置
 - (void)resetBackNaviItem ;
 
+- (void)nb_showNavigateionStyIeIines:(BOOL)isShow ;
 
 #pragma mark - 子类重写以下方法
 // 初始化UI

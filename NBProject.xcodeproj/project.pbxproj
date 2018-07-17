@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		210CA17920F6E71C0004B954 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA17820F6E71C0004B954 /* NBLoMainController.m */; };
 		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
 		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
 		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
@@ -18,10 +17,6 @@
 		210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AD20F75C990004B954 /* NBHttpConfig.m */; };
 		210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AE20F75C990004B954 /* NSObject+parser.m */; };
 		210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AF20F75C990004B954 /* NBParserMarker.m */; };
-		210CA1C020F75C990004B954 /* NBBaseTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1B320F75C990004B954 /* NBBaseTableDelegateModel.m */; };
-		210CA1C120F75C990004B954 /* NBBaseCollectionDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1B520F75C990004B954 /* NBBaseCollectionDelegateModel.m */; };
-		210CA1C220F75C990004B954 /* NBBaseListPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1B720F75C990004B954 /* NBBaseListPageViewModel.m */; };
-		210CA1C320F75C990004B954 /* NBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1B820F75C990004B954 /* NBBaseViewModel.m */; };
 		210CA1C620F75E670004B954 /* NBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C420F75E660004B954 /* NBNetworking.m */; };
 		210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C920F83AB80004B954 /* NSObject+isNull.m */; };
 		210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1CE20F83E240004B954 /* MHMacrosLog.m */; };
@@ -37,6 +32,17 @@
 		21780BC620F3643B00A9C192 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* BaseView.m */; };
 		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
 		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
+		21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */; };
+		21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */; };
+		21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */; };
+		21DCCE0520F88D7F00D4B405 /* NBLoMainDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */; };
+		21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */; };
+		21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */; };
+		21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */; };
+		21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */; };
+		21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */; };
+		21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */; };
+		21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */; };
 		51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05EF589098F7D4D375D94A /* libPods-NBProject.a */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +61,86 @@
 			remoteGlobalIDString = 2143953320F2F99E00DF7812;
 			remoteInfo = NBProject;
 		};
+		21AF388B20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D32B953CEEC6861AEB7B18A750697C;
+			remoteInfo = AFNetworking;
+		};
+		21AF388D20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A0AB3B481DE658A1F838E9EBF8465CF;
+			remoteInfo = IQKeyboardManager;
+		};
+		21AF388F20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0D8B37CD343B021224C789F0E50E12A;
+			remoteInfo = Masonry;
+		};
+		21AF389120FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0EA07E85133EA66C342F9B965421343;
+			remoteInfo = MJRefresh;
+		};
+		21AF389320FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00060A42929E48E93F0CC207EFE077A3;
+			remoteInfo = "Pods-NBProject";
+		};
+		21AF389520FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FF0CCFC8BFAA636EB2A7293BB09CC9D;
+			remoteInfo = ReactiveObjC;
+		};
+		21AF389720FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52B77C5C1FE379F6013AA015F3FD4E8F;
+			remoteInfo = SDWebImage;
+		};
+		21AF389920FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39C3F0CC8DC14FD80F95D59C1CF7FF08;
+			remoteInfo = SSKeychain;
+		};
+		21AF389B20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 798B6120D23F5ADA83DABD2B712898FE;
+			remoteInfo = SVProgressHUD;
+		};
+		21AF389D20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54F899AC95C6CD71F8DFAC0B938389C8;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		21AF389F20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E504FC7DA48E9C57C47A6A7346A271BD;
+			remoteInfo = YYModel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		210CA17720F6E71C0004B954 /* NBLoMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
-		210CA17820F6E71C0004B954 /* NBLoMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
 		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
 		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
@@ -83,15 +164,6 @@
 		210CA1AD20F75C990004B954 /* NBHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHttpConfig.m; sourceTree = "<group>"; };
 		210CA1AE20F75C990004B954 /* NSObject+parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+parser.m"; sourceTree = "<group>"; };
 		210CA1AF20F75C990004B954 /* NBParserMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBParserMarker.m; sourceTree = "<group>"; };
-		210CA1B120F75C990004B954 /* NBBaseCollectionDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseCollectionDelegateModel.h; sourceTree = "<group>"; };
-		210CA1B220F75C990004B954 /* NBBaseListPageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseListPageViewModel.h; sourceTree = "<group>"; };
-		210CA1B320F75C990004B954 /* NBBaseTableDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableDelegateModel.m; sourceTree = "<group>"; };
-		210CA1B420F75C990004B954 /* NBBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseViewModel.h; sourceTree = "<group>"; };
-		210CA1B520F75C990004B954 /* NBBaseCollectionDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseCollectionDelegateModel.m; sourceTree = "<group>"; };
-		210CA1B620F75C990004B954 /* NBCellConfigDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCellConfigDelegate.h; sourceTree = "<group>"; };
-		210CA1B720F75C990004B954 /* NBBaseListPageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseListPageViewModel.m; sourceTree = "<group>"; };
-		210CA1B820F75C990004B954 /* NBBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseViewModel.m; sourceTree = "<group>"; };
-		210CA1B920F75C990004B954 /* NBBaseTableDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseTableDelegateModel.h; sourceTree = "<group>"; };
 		210CA1C420F75E660004B954 /* NBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNetworking.m; sourceTree = "<group>"; };
 		210CA1C520F75E660004B954 /* NBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNetworking.h; sourceTree = "<group>"; };
 		210CA1C820F83AB80004B954 /* NSObject+isNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+isNull.h"; sourceTree = "<group>"; };
@@ -123,6 +195,29 @@
 		21780BCA20F59B9700A9C192 /* NBBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseController.h; sourceTree = "<group>"; };
 		21780BCB20F59B9700A9C192 /* NBBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseController.m; sourceTree = "<group>"; };
 		21780BCE20F5D3F000A9C192 /* NBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacros.h; sourceTree = "<group>"; };
+		21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = /Users/coder/Desktop/NBProject/NBProjectTests/Pods.xcodeproj; sourceTree = "<absolute>"; };
+		21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoGCDController.h; sourceTree = "<group>"; };
+		21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoGCDController.m; sourceTree = "<group>"; };
+		21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
+		21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
+		21DCCE0020F88B7F00D4B405 /* NBLoMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainViewModel.h; sourceTree = "<group>"; };
+		21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainViewModel.m; sourceTree = "<group>"; };
+		21DCCE0320F88D7F00D4B405 /* NBLoMainDelegateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseViewModel.m; sourceTree = "<group>"; };
+		21DCCE0920F8A11200D4B405 /* NBCellConfigDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCellConfigDelegate.h; sourceTree = "<group>"; };
+		21DCCE0A20F8A11200D4B405 /* NBBaseTableDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseTableDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0B20F8A11200D4B405 /* NBBaseCollectionDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseCollectionDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseCollectionDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0D20F8A11200D4B405 /* NBBaseListPageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseListPageViewModel.h; sourceTree = "<group>"; };
+		21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseListPageViewModel.m; sourceTree = "<group>"; };
+		21DCCE0F20F8A11300D4B405 /* NBBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseViewModel.h; sourceTree = "<group>"; };
+		21DCCE1420F8A3A700D4B405 /* NBBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseTableViewCell.h; sourceTree = "<group>"; };
+		21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableViewCell.m; sourceTree = "<group>"; };
+		21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainCell.h; sourceTree = "<group>"; };
+		21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainCell.m; sourceTree = "<group>"; };
+		21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBLoMainCell.xib; sourceTree = "<group>"; };
 		3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.release.xcconfig"; sourceTree = "<group>"; };
 		AD05EF589098F7D4D375D94A /* libPods-NBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,7 +318,6 @@
 			isa = PBXGroup;
 			children = (
 				210CA1A920F75C990004B954 /* Config */,
-				210CA1B020F75C990004B954 /* DataSoure */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -241,22 +335,6 @@
 				210CA1AF20F75C990004B954 /* NBParserMarker.m */,
 			);
 			path = Config;
-			sourceTree = "<group>";
-		};
-		210CA1B020F75C990004B954 /* DataSoure */ = {
-			isa = PBXGroup;
-			children = (
-				210CA1B120F75C990004B954 /* NBBaseCollectionDelegateModel.h */,
-				210CA1B520F75C990004B954 /* NBBaseCollectionDelegateModel.m */,
-				210CA1B220F75C990004B954 /* NBBaseListPageViewModel.h */,
-				210CA1B720F75C990004B954 /* NBBaseListPageViewModel.m */,
-				210CA1B920F75C990004B954 /* NBBaseTableDelegateModel.h */,
-				210CA1B320F75C990004B954 /* NBBaseTableDelegateModel.m */,
-				210CA1B420F75C990004B954 /* NBBaseViewModel.h */,
-				210CA1B820F75C990004B954 /* NBBaseViewModel.m */,
-				210CA1B620F75C990004B954 /* NBCellConfigDelegate.h */,
-			);
-			path = DataSoure;
 			sourceTree = "<group>";
 		};
 		210CA1C720F83A870004B954 /* NSObject */ = {
@@ -292,6 +370,7 @@
 		210F0B8420F32FA90003EB83 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				21DCCE0620F8A0F300D4B405 /* Model */,
 				21780BC320F3642700A9C192 /* View */,
 				21721A5220F34341001C639B /* Controller */,
 			);
@@ -310,8 +389,8 @@
 		210F0B8A20F32FF40003EB83 /* Lo */ = {
 			isa = PBXGroup;
 			children = (
-				210CA17720F6E71C0004B954 /* NBLoMainController.h */,
-				210CA17820F6E71C0004B954 /* NBLoMainController.m */,
+				21AF38A220FC33BE00FD6AC3 /* GCD */,
+				21DCCDF920F88B4500D4B405 /* Main */,
 			);
 			path = Lo;
 			sourceTree = "<group>";
@@ -353,6 +432,7 @@
 		2143954F20F2F99E00DF7812 /* NBProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */,
 				2143955020F2F99E00DF7812 /* NBProjectTests.m */,
 				2143955220F2F99E00DF7812 /* Info.plist */,
 			);
@@ -416,6 +496,8 @@
 			children = (
 				21780BC420F3643B00A9C192 /* BaseView.h */,
 				21780BC520F3643B00A9C192 /* BaseView.m */,
+				21DCCE1420F8A3A700D4B405 /* NBBaseTableViewCell.h */,
+				21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,13 +508,104 @@
 				21780BCE20F5D3F000A9C192 /* NBMacros.h */,
 				210CA1CB20F83D490004B954 /* NBMacrosNotification.h */,
 				210CA1CC20F83D8D0004B954 /* NBMacrosPrompt.h */,
-				210CA1CD20F83E240004B954 /* MHMacrosLog.h */,
-				210CA1CE20F83E240004B954 /* MHMacrosLog.m */,
 				210CA17C20F6EB930004B954 /* MHSanboxPath.h */,
 				210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */,
 				210CA17B20F6EB930004B954 /* SwizzlingDefine.h */,
+				210CA1CD20F83E240004B954 /* MHMacrosLog.h */,
+				210CA1CE20F83E240004B954 /* MHMacrosLog.m */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		21AF387E20FC328D00FD6AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AF388C20FC328D00FD6AC3 /* libAFNetworking.a */,
+				21AF388E20FC328D00FD6AC3 /* libIQKeyboardManager.a */,
+				21AF389020FC328D00FD6AC3 /* libMasonry.a */,
+				21AF389220FC328D00FD6AC3 /* libMJRefresh.a */,
+				21AF389420FC328D00FD6AC3 /* libPods-NBProject.a */,
+				21AF389620FC328D00FD6AC3 /* libReactiveObjC.a */,
+				21AF389820FC328D00FD6AC3 /* libSDWebImage.a */,
+				21AF389A20FC328D00FD6AC3 /* libSSKeychain.a */,
+				21AF389C20FC328D00FD6AC3 /* libSVProgressHUD.a */,
+				21AF389E20FC328D00FD6AC3 /* libUITableView+FDTemplateLayoutCell.a */,
+				21AF38A020FC328D00FD6AC3 /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21AF38A220FC33BE00FD6AC3 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				21AF38A320FC33EA00FD6AC3 /* Controller */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		21AF38A320FC33EA00FD6AC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */,
+				21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21DCCDF920F88B4500D4B405 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCDFA20F88B4500D4B405 /* ViewModel */,
+				21DCCDFB20F88B4500D4B405 /* Controller */,
+				21DCCDFE20F88B4500D4B405 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21DCCDFA20F88B4500D4B405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE0020F88B7F00D4B405 /* NBLoMainViewModel.h */,
+				21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */,
+				21DCCE0320F88D7F00D4B405 /* NBLoMainDelegateModel.h */,
+				21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21DCCDFB20F88B4500D4B405 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */,
+				21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21DCCDFE20F88B4500D4B405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */,
+				21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */,
+				21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21DCCE0620F8A0F300D4B405 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE0B20F8A11200D4B405 /* NBBaseCollectionDelegateModel.h */,
+				21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */,
+				21DCCE0D20F8A11200D4B405 /* NBBaseListPageViewModel.h */,
+				21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */,
+				21DCCE0A20F8A11200D4B405 /* NBBaseTableDelegateModel.h */,
+				21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */,
+				21DCCE0F20F8A11300D4B405 /* NBBaseViewModel.h */,
+				21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */,
+				21DCCE0920F8A11200D4B405 /* NBCellConfigDelegate.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2B737D85641A6F56E6AA7629 /* Pods */ = {
@@ -539,6 +712,12 @@
 			mainGroup = 2143952B20F2F99E00DF7812;
 			productRefGroup = 2143953520F2F99E00DF7812 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21AF387E20FC328D00FD6AC3 /* Products */;
+					ProjectRef = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2143953320F2F99E00DF7812 /* NBProject */,
@@ -548,11 +727,92 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		21AF388C20FC328D00FD6AC3 /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 21AF388B20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF388E20FC328D00FD6AC3 /* libIQKeyboardManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIQKeyboardManager.a;
+			remoteRef = 21AF388D20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389020FC328D00FD6AC3 /* libMasonry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMasonry.a;
+			remoteRef = 21AF388F20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389220FC328D00FD6AC3 /* libMJRefresh.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMJRefresh.a;
+			remoteRef = 21AF389120FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389420FC328D00FD6AC3 /* libPods-NBProject.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NBProject.a";
+			remoteRef = 21AF389320FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389620FC328D00FD6AC3 /* libReactiveObjC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactiveObjC.a;
+			remoteRef = 21AF389520FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389820FC328D00FD6AC3 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 21AF389720FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389A20FC328D00FD6AC3 /* libSSKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSSKeychain.a;
+			remoteRef = 21AF389920FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389C20FC328D00FD6AC3 /* libSVProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVProgressHUD.a;
+			remoteRef = 21AF389B20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389E20FC328D00FD6AC3 /* libUITableView+FDTemplateLayoutCell.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUITableView+FDTemplateLayoutCell.a";
+			remoteRef = 21AF389D20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF38A020FC328D00FD6AC3 /* libYYModel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYYModel.a;
+			remoteRef = 21AF389F20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2143953220F2F99E00DF7812 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */,
 				2143957F20F3007600DF7812 /* Info.plist in Resources */,
 				2143957D20F3007600DF7812 /* Main.storyboard in Resources */,
 				2143957B20F3007600DF7812 /* Assets.xcassets in Resources */,
@@ -639,26 +899,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */,
+				21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */,
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
 				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
+				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
+				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
-				210CA1C320F75C990004B954 /* NBBaseViewModel.m in Sources */,
-				210CA1C120F75C990004B954 /* NBBaseCollectionDelegateModel.m in Sources */,
-				210CA17920F6E71C0004B954 /* NBLoMainController.m in Sources */,
 				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
+				21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */,
 				21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */,
 				210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */,
+				21DCCE0520F88D7F00D4B405 /* NBLoMainDelegateModel.m in Sources */,
 				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
 				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
 				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
-				210CA1C020F75C990004B954 /* NBBaseTableDelegateModel.m in Sources */,
+				21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */,
+				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
+				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
-				210CA1C220F75C990004B954 /* NBBaseListPageViewModel.m in Sources */,
 				210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */,
+				21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */,
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
 				210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */,

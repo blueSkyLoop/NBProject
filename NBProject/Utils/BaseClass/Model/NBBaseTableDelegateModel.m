@@ -46,6 +46,7 @@
     if(self){
         tableView.dataSource = self;
         tableView.delegate = self;
+        tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
         self.useAutomaticDimension = useAutomaticDimension;
         self.dataArr = dataArr;
         self.cellClassNames = [cellClassNames mutableCopy];
