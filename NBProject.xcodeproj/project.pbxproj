@@ -44,6 +44,7 @@
 		21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */; };
 		21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */; };
 		51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05EF589098F7D4D375D94A /* libPods-NBProject.a */; };
+		8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA41D20FD9F9A00F0338A /* UIViewController+TableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +221,8 @@
 		21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBLoMainCell.xib; sourceTree = "<group>"; };
 		3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.release.xcconfig"; sourceTree = "<group>"; };
+		8E7FA41C20FD9F9A00F0338A /* UIViewController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TableView.h"; sourceTree = "<group>"; };
+		8E7FA41D20FD9F9A00F0338A /* UIViewController+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TableView.m"; sourceTree = "<group>"; };
 		AD05EF589098F7D4D375D94A /* libPods-NBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -260,6 +263,7 @@
 		210CA18D20F702880004B954 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8E7FA41B20FD9F9A00F0338A /* UIViewController */,
 				210CA1C720F83A870004B954 /* NSObject */,
 				210CA19320F702AF0004B954 /* NSString */,
 				210CA18E20F702880004B954 /* UIView */,
@@ -617,6 +621,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8E7FA41B20FD9F9A00F0338A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E7FA41C20FD9F9A00F0338A /* UIViewController+TableView.h */,
+				8E7FA41D20FD9F9A00F0338A /* UIViewController+TableView.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -909,6 +922,7 @@
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
+				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
 				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
 				21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */,
