@@ -7,12 +7,30 @@
 		<key>NBProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>9</integer>
 		</dict>
 		<key>iOSProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2143953320F2F99E00DF7812</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2143954B20F2F99E00DF7812</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2143955620F2F99E00DF7812</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

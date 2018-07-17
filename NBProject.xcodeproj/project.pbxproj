@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2143953C20F2F99E00DF7812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143953B20F2F99E00DF7812 /* ViewController.m */; };
+		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
+		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
+		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
+		210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19B20F706AF0004B954 /* NSString+Font.m */; };
+		210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1A120F75C980004B954 /* JFAuthorizationStatusManager.m */; };
+		210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1A420F75C980004B954 /* NBDeviceManager.m */; };
+		210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1A620F75C980004B954 /* MHHUDManager.m */; };
+		210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AD20F75C990004B954 /* NBHttpConfig.m */; };
+		210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AE20F75C990004B954 /* NSObject+parser.m */; };
+		210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1AF20F75C990004B954 /* NBParserMarker.m */; };
+		210CA1C620F75E670004B954 /* NBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C420F75E660004B954 /* NBNetworking.m */; };
+		210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C920F83AB80004B954 /* NSObject+isNull.m */; };
+		210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1CE20F83E240004B954 /* MHMacrosLog.m */; };
 		2143955120F2F99E00DF7812 /* NBProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955020F2F99E00DF7812 /* NBProjectTests.m */; };
 		2143955C20F2F99E00DF7812 /* NBProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955B20F2F99E00DF7812 /* NBProjectUITests.m */; };
 		2143957A20F3007600DF7812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143956B20F3007600DF7812 /* AppDelegate.m */; };
@@ -16,6 +28,22 @@
 		2143957D20F3007600DF7812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2143957120F3007600DF7812 /* Main.storyboard */; };
 		2143957E20F3007600DF7812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143957320F3007600DF7812 /* main.m */; };
 		2143957F20F3007600DF7812 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2143957420F3007600DF7812 /* Info.plist */; };
+		21721A5520F3435B001C639B /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21721A5420F3435B001C639B /* NBNavigationController.m */; };
+		21780BC620F3643B00A9C192 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* BaseView.m */; };
+		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
+		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
+		21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */; };
+		21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */; };
+		21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */; };
+		21DCCE0520F88D7F00D4B405 /* NBLoMainDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */; };
+		21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */; };
+		21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */; };
+		21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */; };
+		21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */; };
+		21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */; };
+		21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */; };
+		21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */; };
+		51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05EF589098F7D4D375D94A /* libPods-NBProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,12 +61,118 @@
 			remoteGlobalIDString = 2143953320F2F99E00DF7812;
 			remoteInfo = NBProject;
 		};
+		21AF388B20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D32B953CEEC6861AEB7B18A750697C;
+			remoteInfo = AFNetworking;
+		};
+		21AF388D20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A0AB3B481DE658A1F838E9EBF8465CF;
+			remoteInfo = IQKeyboardManager;
+		};
+		21AF388F20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0D8B37CD343B021224C789F0E50E12A;
+			remoteInfo = Masonry;
+		};
+		21AF389120FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0EA07E85133EA66C342F9B965421343;
+			remoteInfo = MJRefresh;
+		};
+		21AF389320FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00060A42929E48E93F0CC207EFE077A3;
+			remoteInfo = "Pods-NBProject";
+		};
+		21AF389520FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FF0CCFC8BFAA636EB2A7293BB09CC9D;
+			remoteInfo = ReactiveObjC;
+		};
+		21AF389720FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52B77C5C1FE379F6013AA015F3FD4E8F;
+			remoteInfo = SDWebImage;
+		};
+		21AF389920FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39C3F0CC8DC14FD80F95D59C1CF7FF08;
+			remoteInfo = SSKeychain;
+		};
+		21AF389B20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 798B6120D23F5ADA83DABD2B712898FE;
+			remoteInfo = SVProgressHUD;
+		};
+		21AF389D20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54F899AC95C6CD71F8DFAC0B938389C8;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		21AF389F20FC328D00FD6AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E504FC7DA48E9C57C47A6A7346A271BD;
+			remoteInfo = YYModel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
+		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
+		210CA18120F6F73B0004B954 /* AppDelegate+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Helper.h"; sourceTree = "<group>"; };
+		210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Helper.m"; sourceTree = "<group>"; };
+		210CA18F20F702880004B954 /* UIView+QuickInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickInstance.h"; sourceTree = "<group>"; };
+		210CA19020F702880004B954 /* UIView+QuickInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickInstance.m"; sourceTree = "<group>"; };
+		210CA19720F704D60004B954 /* NBBeelinMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBeelinMainController.h; sourceTree = "<group>"; };
+		210CA19820F704D60004B954 /* NBBeelinMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBeelinMainController.m; sourceTree = "<group>"; };
+		210CA19A20F706AF0004B954 /* NSString+Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Font.h"; sourceTree = "<group>"; };
+		210CA19B20F706AF0004B954 /* NSString+Font.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Font.m"; sourceTree = "<group>"; };
+		210CA1A120F75C980004B954 /* JFAuthorizationStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAuthorizationStatusManager.m; sourceTree = "<group>"; };
+		210CA1A220F75C980004B954 /* NBDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBDeviceManager.h; sourceTree = "<group>"; };
+		210CA1A320F75C980004B954 /* JFAuthorizationStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAuthorizationStatusManager.h; sourceTree = "<group>"; };
+		210CA1A420F75C980004B954 /* NBDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBDeviceManager.m; sourceTree = "<group>"; };
+		210CA1A620F75C980004B954 /* MHHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHHUDManager.m; sourceTree = "<group>"; };
+		210CA1A720F75C980004B954 /* MHHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHHUDManager.h; sourceTree = "<group>"; };
+		210CA1AA20F75C990004B954 /* NSObject+parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+parser.h"; sourceTree = "<group>"; };
+		210CA1AB20F75C990004B954 /* NBHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBHttpConfig.h; sourceTree = "<group>"; };
+		210CA1AC20F75C990004B954 /* NBParserMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBParserMarker.h; sourceTree = "<group>"; };
+		210CA1AD20F75C990004B954 /* NBHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBHttpConfig.m; sourceTree = "<group>"; };
+		210CA1AE20F75C990004B954 /* NSObject+parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+parser.m"; sourceTree = "<group>"; };
+		210CA1AF20F75C990004B954 /* NBParserMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBParserMarker.m; sourceTree = "<group>"; };
+		210CA1C420F75E660004B954 /* NBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNetworking.m; sourceTree = "<group>"; };
+		210CA1C520F75E660004B954 /* NBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNetworking.h; sourceTree = "<group>"; };
+		210CA1C820F83AB80004B954 /* NSObject+isNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+isNull.h"; sourceTree = "<group>"; };
+		210CA1C920F83AB80004B954 /* NSObject+isNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+isNull.m"; sourceTree = "<group>"; };
+		210CA1CB20F83D490004B954 /* NBMacrosNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacrosNotification.h; sourceTree = "<group>"; };
+		210CA1CC20F83D8D0004B954 /* NBMacrosPrompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacrosPrompt.h; sourceTree = "<group>"; };
+		210CA1CD20F83E240004B954 /* MHMacrosLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHMacrosLog.h; sourceTree = "<group>"; };
+		210CA1CE20F83E240004B954 /* MHMacrosLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHMacrosLog.m; sourceTree = "<group>"; };
 		2143953420F2F99E00DF7812 /* NBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2143953A20F2F99E00DF7812 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2143953B20F2F99E00DF7812 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2143954C20F2F99E00DF7812 /* NBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143955020F2F99E00DF7812 /* NBProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBProjectTests.m; sourceTree = "<group>"; };
 		2143955220F2F99E00DF7812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +186,41 @@
 		2143957220F3007600DF7812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2143957320F3007600DF7812 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2143957420F3007600DF7812 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21721A5320F3435B001C639B /* NBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNavigationController.h; sourceTree = "<group>"; };
+		21721A5420F3435B001C639B /* NBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNavigationController.m; sourceTree = "<group>"; };
+		21780BC420F3643B00A9C192 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		21780BC520F3643B00A9C192 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		21780BC720F5998300A9C192 /* NBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTabBarController.h; sourceTree = "<group>"; };
+		21780BC820F5998300A9C192 /* NBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTabBarController.m; sourceTree = "<group>"; };
+		21780BCA20F59B9700A9C192 /* NBBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseController.h; sourceTree = "<group>"; };
+		21780BCB20F59B9700A9C192 /* NBBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseController.m; sourceTree = "<group>"; };
+		21780BCE20F5D3F000A9C192 /* NBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacros.h; sourceTree = "<group>"; };
+		21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = /Users/coder/Desktop/NBProject/NBProjectTests/Pods.xcodeproj; sourceTree = "<absolute>"; };
+		21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoGCDController.h; sourceTree = "<group>"; };
+		21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoGCDController.m; sourceTree = "<group>"; };
+		21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
+		21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
+		21DCCE0020F88B7F00D4B405 /* NBLoMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainViewModel.h; sourceTree = "<group>"; };
+		21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainViewModel.m; sourceTree = "<group>"; };
+		21DCCE0320F88D7F00D4B405 /* NBLoMainDelegateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseViewModel.m; sourceTree = "<group>"; };
+		21DCCE0920F8A11200D4B405 /* NBCellConfigDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCellConfigDelegate.h; sourceTree = "<group>"; };
+		21DCCE0A20F8A11200D4B405 /* NBBaseTableDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseTableDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0B20F8A11200D4B405 /* NBBaseCollectionDelegateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseCollectionDelegateModel.h; sourceTree = "<group>"; };
+		21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseCollectionDelegateModel.m; sourceTree = "<group>"; };
+		21DCCE0D20F8A11200D4B405 /* NBBaseListPageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseListPageViewModel.h; sourceTree = "<group>"; };
+		21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseListPageViewModel.m; sourceTree = "<group>"; };
+		21DCCE0F20F8A11300D4B405 /* NBBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseViewModel.h; sourceTree = "<group>"; };
+		21DCCE1420F8A3A700D4B405 /* NBBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseTableViewCell.h; sourceTree = "<group>"; };
+		21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableViewCell.m; sourceTree = "<group>"; };
+		21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainCell.h; sourceTree = "<group>"; };
+		21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainCell.m; sourceTree = "<group>"; };
+		21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBLoMainCell.xib; sourceTree = "<group>"; };
+		3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.release.xcconfig"; sourceTree = "<group>"; };
+		AD05EF589098F7D4D375D94A /* libPods-NBProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +249,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194A9E3160C1ED83441E7273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD05EF589098F7D4D375D94A /* libPods-NBProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		210CA18D20F702880004B954 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1C720F83A870004B954 /* NSObject */,
+				210CA19320F702AF0004B954 /* NSString */,
+				210CA18E20F702880004B954 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		210CA18E20F702880004B954 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				210CA18F20F702880004B954 /* UIView+QuickInstance.h */,
+				210CA19020F702880004B954 /* UIView+QuickInstance.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		210CA19320F702AF0004B954 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				210CA19A20F706AF0004B954 /* NSString+Font.h */,
+				210CA19B20F706AF0004B954 /* NSString+Font.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		210CA19F20F75C980004B954 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1A020F75C980004B954 /* Device */,
+				210CA1A520F75C980004B954 /* HUD */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		210CA1A020F75C980004B954 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1A120F75C980004B954 /* JFAuthorizationStatusManager.m */,
+				210CA1A320F75C980004B954 /* JFAuthorizationStatusManager.h */,
+				210CA1A220F75C980004B954 /* NBDeviceManager.h */,
+				210CA1A420F75C980004B954 /* NBDeviceManager.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		210CA1A520F75C980004B954 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1A720F75C980004B954 /* MHHUDManager.h */,
+				210CA1A620F75C980004B954 /* MHHUDManager.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		210CA1A820F75C990004B954 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1A920F75C990004B954 /* Config */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		210CA1A920F75C990004B954 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1C520F75E660004B954 /* NBNetworking.h */,
+				210CA1C420F75E660004B954 /* NBNetworking.m */,
+				210CA1AA20F75C990004B954 /* NSObject+parser.h */,
+				210CA1AE20F75C990004B954 /* NSObject+parser.m */,
+				210CA1AB20F75C990004B954 /* NBHttpConfig.h */,
+				210CA1AD20F75C990004B954 /* NBHttpConfig.m */,
+				210CA1AC20F75C990004B954 /* NBParserMarker.h */,
+				210CA1AF20F75C990004B954 /* NBParserMarker.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		210CA1C720F83A870004B954 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				210CA1C820F83AB80004B954 /* NSObject+isNull.h */,
+				210CA1C920F83AB80004B954 /* NSObject+isNull.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		210F0B7F20F32F000003EB83 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				210F0B8820F32FF40003EB83 /* Beelin */,
+				210F0B8A20F32FF40003EB83 /* Lo */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		210F0B8220F32FA90003EB83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				210CA19F20F75C980004B954 /* Manager */,
+				210CA1A820F75C990004B954 /* NetWork */,
+				210CA18D20F702880004B954 /* Category */,
+				21780BCD20F5D3D100A9C192 /* Global */,
+				210F0B8420F32FA90003EB83 /* BaseClass */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		210F0B8420F32FA90003EB83 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE0620F8A0F300D4B405 /* Model */,
+				21780BC320F3642700A9C192 /* View */,
+				21721A5220F34341001C639B /* Controller */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		210F0B8820F32FF40003EB83 /* Beelin */ = {
+			isa = PBXGroup;
+			children = (
+				210CA19720F704D60004B954 /* NBBeelinMainController.h */,
+				210CA19820F704D60004B954 /* NBBeelinMainController.m */,
+			);
+			path = Beelin;
+			sourceTree = "<group>";
+		};
+		210F0B8A20F32FF40003EB83 /* Lo */ = {
+			isa = PBXGroup;
+			children = (
+				21AF38A220FC33BE00FD6AC3 /* GCD */,
+				21DCCDF920F88B4500D4B405 /* Main */,
+			);
+			path = Lo;
+			sourceTree = "<group>";
+		};
 		2143952B20F2F99E00DF7812 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +402,8 @@
 				2143954F20F2F99E00DF7812 /* NBProjectTests */,
 				2143955A20F2F99E00DF7812 /* NBProjectUITests */,
 				2143953520F2F99E00DF7812 /* Products */,
+				2B737D85641A6F56E6AA7629 /* Pods */,
+				194A9E3160C1ED83441E7273 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +420,11 @@
 		2143953620F2F99E00DF7812 /* NBProject */ = {
 			isa = PBXGroup;
 			children = (
+				210F0B8220F32FA90003EB83 /* Utils */,
+				210F0B7F20F32F000003EB83 /* Module */,
 				2143956920F3007600DF7812 /* AppDelegate */,
-				2143957720F3007600DF7812 /* Modules */,
 				2143956C20F3007600DF7812 /* Resources */,
 				2143956E20F3007600DF7812 /* SupportFile */,
-				2143957520F3007600DF7812 /* Utils */,
-				2143953A20F2F99E00DF7812 /* ViewController.h */,
-				2143953B20F2F99E00DF7812 /* ViewController.m */,
 			);
 			path = NBProject;
 			sourceTree = "<group>";
@@ -116,6 +432,7 @@
 		2143954F20F2F99E00DF7812 /* NBProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */,
 				2143955020F2F99E00DF7812 /* NBProjectTests.m */,
 				2143955220F2F99E00DF7812 /* Info.plist */,
 			);
@@ -136,6 +453,8 @@
 			children = (
 				2143956A20F3007600DF7812 /* AppDelegate.h */,
 				2143956B20F3007600DF7812 /* AppDelegate.m */,
+				210CA18120F6F73B0004B954 /* AppDelegate+Helper.h */,
+				210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -159,42 +478,143 @@
 			path = SupportFile;
 			sourceTree = "<group>";
 		};
-		2143957520F3007600DF7812 /* Utils */ = {
+		21721A5220F34341001C639B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2143957620F3007600DF7812 /* BaseClass */,
+				21721A5320F3435B001C639B /* NBNavigationController.h */,
+				21721A5420F3435B001C639B /* NBNavigationController.m */,
+				21780BC720F5998300A9C192 /* NBTabBarController.h */,
+				21780BC820F5998300A9C192 /* NBTabBarController.m */,
+				21780BCA20F59B9700A9C192 /* NBBaseController.h */,
+				21780BCB20F59B9700A9C192 /* NBBaseController.m */,
 			);
-			path = Utils;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		2143957620F3007600DF7812 /* BaseClass */ = {
+		21780BC320F3642700A9C192 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				21780BC420F3643B00A9C192 /* BaseView.h */,
+				21780BC520F3643B00A9C192 /* BaseView.m */,
+				21DCCE1420F8A3A700D4B405 /* NBBaseTableViewCell.h */,
+				21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */,
 			);
-			path = BaseClass;
+			path = View;
 			sourceTree = "<group>";
 		};
-		2143957720F3007600DF7812 /* Modules */ = {
+		21780BCD20F5D3D100A9C192 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				2143957820F3007600DF7812 /* Beelin */,
-				2143957920F3007600DF7812 /* Lo */,
+				21780BCE20F5D3F000A9C192 /* NBMacros.h */,
+				210CA1CB20F83D490004B954 /* NBMacrosNotification.h */,
+				210CA1CC20F83D8D0004B954 /* NBMacrosPrompt.h */,
+				210CA17C20F6EB930004B954 /* MHSanboxPath.h */,
+				210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */,
+				210CA17B20F6EB930004B954 /* SwizzlingDefine.h */,
+				210CA1CD20F83E240004B954 /* MHMacrosLog.h */,
+				210CA1CE20F83E240004B954 /* MHMacrosLog.m */,
 			);
-			path = Modules;
+			path = Global;
 			sourceTree = "<group>";
 		};
-		2143957820F3007600DF7812 /* Beelin */ = {
+		21AF387E20FC328D00FD6AC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				21AF388C20FC328D00FD6AC3 /* libAFNetworking.a */,
+				21AF388E20FC328D00FD6AC3 /* libIQKeyboardManager.a */,
+				21AF389020FC328D00FD6AC3 /* libMasonry.a */,
+				21AF389220FC328D00FD6AC3 /* libMJRefresh.a */,
+				21AF389420FC328D00FD6AC3 /* libPods-NBProject.a */,
+				21AF389620FC328D00FD6AC3 /* libReactiveObjC.a */,
+				21AF389820FC328D00FD6AC3 /* libSDWebImage.a */,
+				21AF389A20FC328D00FD6AC3 /* libSSKeychain.a */,
+				21AF389C20FC328D00FD6AC3 /* libSVProgressHUD.a */,
+				21AF389E20FC328D00FD6AC3 /* libUITableView+FDTemplateLayoutCell.a */,
+				21AF38A020FC328D00FD6AC3 /* libYYModel.a */,
 			);
-			path = Beelin;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2143957920F3007600DF7812 /* Lo */ = {
+		21AF38A220FC33BE00FD6AC3 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				21AF38A320FC33EA00FD6AC3 /* Controller */,
 			);
-			path = Lo;
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		21AF38A320FC33EA00FD6AC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */,
+				21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21DCCDF920F88B4500D4B405 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCDFA20F88B4500D4B405 /* ViewModel */,
+				21DCCDFB20F88B4500D4B405 /* Controller */,
+				21DCCDFE20F88B4500D4B405 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21DCCDFA20F88B4500D4B405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE0020F88B7F00D4B405 /* NBLoMainViewModel.h */,
+				21DCCE0120F88B7F00D4B405 /* NBLoMainViewModel.m */,
+				21DCCE0320F88D7F00D4B405 /* NBLoMainDelegateModel.h */,
+				21DCCE0420F88D7F00D4B405 /* NBLoMainDelegateModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21DCCDFB20F88B4500D4B405 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */,
+				21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21DCCDFE20F88B4500D4B405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */,
+				21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */,
+				21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21DCCE0620F8A0F300D4B405 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21DCCE0B20F8A11200D4B405 /* NBBaseCollectionDelegateModel.h */,
+				21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */,
+				21DCCE0D20F8A11200D4B405 /* NBBaseListPageViewModel.h */,
+				21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */,
+				21DCCE0A20F8A11200D4B405 /* NBBaseTableDelegateModel.h */,
+				21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */,
+				21DCCE0F20F8A11300D4B405 /* NBBaseViewModel.h */,
+				21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */,
+				21DCCE0920F8A11200D4B405 /* NBCellConfigDelegate.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B737D85641A6F56E6AA7629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */,
+				8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +624,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2143956020F2F99E00DF7812 /* Build configuration list for PBXNativeTarget "NBProject" */;
 			buildPhases = (
+				B4BD90F54869B398B80EF90B /* [CP] Check Pods Manifest.lock */,
 				2143953020F2F99E00DF7812 /* Sources */,
 				2143953120F2F99E00DF7812 /* Frameworks */,
 				2143953220F2F99E00DF7812 /* Resources */,
+				43969ACE6FFD28B59C59FEF5 /* [CP] Copy Pods Resources */,
+				210CA19D20F73B960004B954 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -264,7 +687,7 @@
 				TargetAttributes = {
 					2143953320F2F99E00DF7812 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					2143954B20F2F99E00DF7812 = {
 						CreatedOnToolsVersion = 9.2;
@@ -289,6 +712,12 @@
 			mainGroup = 2143952B20F2F99E00DF7812;
 			productRefGroup = 2143953520F2F99E00DF7812 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21AF387E20FC328D00FD6AC3 /* Products */;
+					ProjectRef = 21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2143953320F2F99E00DF7812 /* NBProject */,
@@ -298,11 +727,92 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		21AF388C20FC328D00FD6AC3 /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 21AF388B20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF388E20FC328D00FD6AC3 /* libIQKeyboardManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIQKeyboardManager.a;
+			remoteRef = 21AF388D20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389020FC328D00FD6AC3 /* libMasonry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMasonry.a;
+			remoteRef = 21AF388F20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389220FC328D00FD6AC3 /* libMJRefresh.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMJRefresh.a;
+			remoteRef = 21AF389120FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389420FC328D00FD6AC3 /* libPods-NBProject.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NBProject.a";
+			remoteRef = 21AF389320FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389620FC328D00FD6AC3 /* libReactiveObjC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactiveObjC.a;
+			remoteRef = 21AF389520FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389820FC328D00FD6AC3 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 21AF389720FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389A20FC328D00FD6AC3 /* libSSKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSSKeychain.a;
+			remoteRef = 21AF389920FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389C20FC328D00FD6AC3 /* libSVProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVProgressHUD.a;
+			remoteRef = 21AF389B20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF389E20FC328D00FD6AC3 /* libUITableView+FDTemplateLayoutCell.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUITableView+FDTemplateLayoutCell.a";
+			remoteRef = 21AF389D20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21AF38A020FC328D00FD6AC3 /* libYYModel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYYModel.a;
+			remoteRef = 21AF389F20FC328D00FD6AC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2143953220F2F99E00DF7812 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */,
 				2143957F20F3007600DF7812 /* Info.plist in Resources */,
 				2143957D20F3007600DF7812 /* Main.storyboard in Resources */,
 				2143957B20F3007600DF7812 /* Assets.xcassets in Resources */,
@@ -326,14 +836,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		210CA19D20F73B960004B954 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"df789ed794\"\n# #\nBUGLY_APP_KEY=\"55041713-239d-47ab-b439-7b3a55fd5eb4\"\n# #\nBUNDLE_IDENTIFIER=\"NB.NBProject.com\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\nUPLOAD_DEBUG_SYMBOLS=1\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=1\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi\n";
+		};
+		43969ACE6FFD28B59C59FEF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NBProject/Pods-NBProject-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SSKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NBProject/Pods-NBProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BD90F54869B398B80EF90B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NBProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2143953020F2F99E00DF7812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */,
+				21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */,
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
+				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
-				2143953C20F2F99E00DF7812 /* ViewController.m in Sources */,
+				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
+				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
+				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
+				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
+				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
+				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
+				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
+				21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */,
+				21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */,
+				210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */,
+				21DCCE0520F88D7F00D4B405 /* NBLoMainDelegateModel.m in Sources */,
+				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
+				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
+				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
+				21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */,
+				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
+				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
+				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
+				210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */,
+				21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */,
+				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
+				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
+				210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */,
+				210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,14 +1088,16 @@
 		};
 		2143956120F2F99E00DF7812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = "$(SRCROOT)/NBProject/SupportFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.NBProject;
+				PRODUCT_BUNDLE_IDENTIFIER = NB.NBProject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,14 +1106,16 @@
 		};
 		2143956220F2F99E00DF7812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = "$(SRCROOT)/NBProject/SupportFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.NBProject;
+				PRODUCT_BUNDLE_IDENTIFIER = NB.NBProject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

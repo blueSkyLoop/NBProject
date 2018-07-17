@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+Helper.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    // test commit,haha
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor             = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    [self nb_enterMianUI];
+    [self nb_keyBoardConfig];
+    [self nb_bugly];
     return YES;
 }
 
