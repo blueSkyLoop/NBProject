@@ -12,6 +12,7 @@
 
 #import "NBLoMainDelegateModel.h"
 #import "NBLoMainViewModel.h"
+#import "NBControllerModel.h"
 
 #import "NBLoMainCell.h"
 @interface NBLoMainController ()
@@ -21,7 +22,8 @@
 @end
 
 @implementation NBLoMainController
-static NSString *cellIndentifier = @"NBLoMainCell";
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -29,9 +31,9 @@ static NSString *cellIndentifier = @"NBLoMainCell";
 
 - (void)nb_bindViewModel {
     self.delegateModel = [[NBLoMainDelegateModel alloc] initWithDataArr:self.viewModel.dataSoure tableView:self.tableView cellClassNames:@[NSStringFromClass([NBLoMainCell class])] useAutomaticDimension:YES cellDidSelectedBlock:^(NSIndexPath *indexPath, id cellModel) {
-        NSString *vcName = self.viewModel.dataSoure[indexPath.row];
-        UIViewController *vc = [NSClassFromString(vcName) new];
-        vc.title = vcName;
+        NBControllerModel *model = self.viewModel.dataSoure[indexPath.row];
+        UIViewController *vc = [NSClassFromString(model.className) new];
+        vc.title = model.title;
         [self.navigationController pushViewController:vc animated:YES];
     }];
 }

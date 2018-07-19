@@ -12,7 +12,7 @@
 
 #pragma mark - 快速创建控件
 + (UILabel *)quickCreateLabelWithFont:(UIFont *)afont textColor:(UIColor *)textColor;
-+ (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalTextColor:(UIColor *)normalColor selectTextColor:(UIColor *)selectTextColor;
++ (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalTextColor:(UIColor *)normalColor selectTextColor:(UIColor *)selectTextColor text:(NSString *)text;
 + (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalImage:(UIImage *)normalImage selectImage:(UIImage *)selectImage;
 
 #pragma mark - 空状态视图

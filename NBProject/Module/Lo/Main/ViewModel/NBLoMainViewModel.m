@@ -7,10 +7,23 @@
 //
 
 #import "NBLoMainViewModel.h"
+#import "NBControllerModel.h"
+
 #import "NBLoGCDController.h"
+
+
 @implementation NBLoMainViewModel
 - (void)mh_initialize {
-    [self.dataSoure addObjectsFromArray:@[@"NBLoGCDController",
-                                          @"NBLoGCDController"]];
+    NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoGCDController"};
+    
+    NSArray *dics = @[gcdDic];
+
+    [self.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
+
+
 @end
+
+
+
+

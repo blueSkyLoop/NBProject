@@ -10,4 +10,5 @@
 
 @implementation NBLoMainDelegateModel
 
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2109B9DC20FDF2D300315653 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9DB20FDF2D300315653 /* NBControllerModel.m */; };
 		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
 		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
 		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
@@ -142,6 +143,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2109B9DA20FDF2D300315653 /* NBControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBControllerModel.h; sourceTree = "<group>"; };
+		2109B9DB20FDF2D300315653 /* NBControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
 		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
 		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
@@ -258,6 +261,15 @@
 				AD05EF589098F7D4D375D94A /* libPods-NBProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2109B9CE20FDF2C400315653 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2109B9DA20FDF2D300315653 /* NBControllerModel.h */,
+				2109B9DB20FDF2D300315653 /* NBControllerModel.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		210CA18D20F702880004B954 /* Category */ = {
@@ -393,6 +405,7 @@
 		210F0B8A20F32FF40003EB83 /* Lo */ = {
 			isa = PBXGroup;
 			children = (
+				2109B9CE20FDF2C400315653 /* Common */,
 				21AF38A220FC33BE00FD6AC3 /* GCD */,
 				21DCCDF920F88B4500D4B405 /* Main */,
 			);
@@ -917,6 +930,7 @@
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
+				2109B9DC20FDF2D300315653 /* NBControllerModel.m in Sources */,
 				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
 				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,

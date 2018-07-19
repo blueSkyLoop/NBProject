@@ -7,11 +7,11 @@
 //
 
 #import "NBLoMainCell.h"
-
+#import "NBControllerModel.h"
 @implementation NBLoMainCell 
 
-- (void)mh_configCellWithInfor:(id)model {
-    self.textLabel.text = model ;
+- (void)mh_configCellWithInfor:(NBControllerModel *)model {
+    self.textLabel.text = model.title ;
 }
 
 @end

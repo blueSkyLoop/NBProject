@@ -20,11 +20,12 @@
     if(textColor) alabel.textColor = textColor;
     return alabel;
 }
-+ (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalTextColor:(UIColor *)normalColor selectTextColor:(UIColor *)selectTextColor{
++ (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalTextColor:(UIColor *)normalColor selectTextColor:(UIColor *)selectTextColor text:(NSString *)text{
     UIButton *button = [UIButton new];
     if(afont)  button.titleLabel.font = afont;
     if(normalColor) [button setTitleColor:normalColor forState:UIControlStateNormal];
     if(selectTextColor) [button setTitleColor:selectTextColor forState:UIControlStateSelected];
+    if(text) [button setTitle:text forState:UIControlStateNormal];
     return button;
 }
 + (UIButton *)quickCreateButtonWithFont:(UIFont *)afont normalImage:(UIImage *)normalImage selectImage:(UIImage *)selectImage{

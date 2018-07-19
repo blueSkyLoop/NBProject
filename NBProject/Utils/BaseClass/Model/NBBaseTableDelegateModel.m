@@ -131,7 +131,6 @@
         }
     }else{
         cellClass = NSClassFromString([self.cellClassNames firstObject]);
-        
     }
     NSAssert(cellClass, @"获取到的cell不能为空");
 #if DEBUG
