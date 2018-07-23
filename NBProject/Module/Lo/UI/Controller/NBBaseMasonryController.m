@@ -57,15 +57,15 @@
     self.blackV = [UIView quickCreateButtonWithFont:[UIFont systemFontOfSize:18.0] normalTextColor:[UIColor blueColor] selectTextColor:[UIColor whiteColor] text:@"mas_update"];
     self.blackV.backgroundColor = [UIColor blackColor];
     [self.view addSubview:self.blackV];
-    [self.blackV addTarget:self action:@selector(mas_update) forControlEvents:UIControlEventTouchUpInside];
+    [self.blackV addTarget:self action:@selector(blackV_mas_update) forControlEvents:UIControlEventTouchUpInside];
     
     
     self.redV = [UIView quickCreateButtonWithFont:[UIFont systemFontOfSize:18.0] normalTextColor:[UIColor blueColor] selectTextColor:[UIColor whiteColor] text:@"remake"];
     self.redV.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.redV];
-    [self.redV addTarget:self action:@selector(remake) forControlEvents:UIControlEventTouchUpInside];
+    [self.redV addTarget:self action:@selector(redV_mas_remake) forControlEvents:UIControlEventTouchUpInside];
 
-    [self mas_makeBtnConstraints];
+    [self mas_makeConstraintsWithBtns];
     
     self.centerBtn = [UIView quickCreateButtonWithFont:[UIFont systemFontOfSize:18.0] normalTextColor:[UIColor blueColor] selectTextColor:[UIColor whiteColor] text:@"resetLayout"];
     self.centerBtn.backgroundColor = [UIColor yellowColor];
@@ -74,10 +74,11 @@
     [self.centerBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
         make.size.mas_equalTo(BtnSize);
+        
     }];
 }
 
-- (void)mas_makeBtnConstraints {
+- (void)mas_makeConstraintsWithBtns {
     [self.blackV mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(MSafeAreaNaviBarHeight + margir);
         make.left.equalTo(self.view).offset(margir);
@@ -85,7 +86,7 @@
     }];
     [self.redV mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.blackV);
-//      make.size.with.and.height.mas_equalTo(BtnSize);
+//      make.size.and.height.mas_equalTo(BtnSize);
         make.right.mas_equalTo(self.view.mas_right).offset(-margir);
     }];
     
@@ -97,12 +98,21 @@
 }
 
 
-- (void)resetLayout {
-    [self mas_makeBtnConstraints];
+
+
+
+// 以现有的约束参照物为主，更新约束
+- (void)blackV_mas_update {
+    [self.blackV mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(200, 200));
+    }];
+    [self.redV mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(MSafeAreaNaviBarHeight + margir, 5, MSafeAreaTabBarHeight, 5));
+    }];
 }
 
 // 清除之前的约束，重新设置
-- (void)remake {
+- (void)redV_mas_remake {
     [self.redV mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.height.equalTo(self.centerBtn);
         make.left.mas_equalTo(self.centerBtn.mas_right).offset(margir);
@@ -110,12 +120,11 @@
     }];
 }
 
-// 以现有的约束参照物为主，更新约束
-- (void)mas_update {
-    [self.blackV mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.right.and.bottom.equalTo(self.view).offset(-margir);
-    }];
+// 重设布局
+- (void)resetLayout {
+    [self mas_makeConstraintsWithBtns];
 }
+
 
 - (UIView *)quickCreatViewWithColor:(UIColor *)color {
     UIView *view = [UIView new];
