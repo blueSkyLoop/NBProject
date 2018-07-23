@@ -10,6 +10,7 @@
 
 #import "UITableView+FDTemplateLayoutCell.h"
 
+#import <Masonry.h>
 @interface NBBaseTableDelegateModel()
 
 @property (nonatomic,strong,readwrite)NSArray <NSString *> *cellClassNames;
@@ -23,13 +24,19 @@
 
 @implementation NBBaseTableDelegateModel
 //nibCellNames 存放实现了MHCellConfigDelegate协议的有xib的类名  classCellNames 存放实现了MHCellConfigDelegate协议的类名
-+ (UITableView *)createTableWithStyle:(UITableViewStyle)style rigistNibCellNames:(NSArray <NSString *> *)nibCellNames rigistClassCellNames:(NSArray <NSString *> *)classCellNames{
++ (UITableView *)createTableWithStyle:(UITableViewStyle)style superView:(UIView *)superView rigistNibCellNames:(NSArray <NSString *> *)nibCellNames rigistClassCellNames:(NSArray <NSString *> *)classCellNames{
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:style];
     for(NSString *className in nibCellNames){
         [tableView registerNib:[UINib nibWithNibName:className bundle:nil] forCellReuseIdentifier:className];
     }
     for(NSString *className in classCellNames){
         [tableView registerClass:NSClassFromString(className) forCellReuseIdentifier:className];
+    }
+    if (superView) {
+        [superView addSubview:tableView];
+        [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(superView);
+        }];
     }
     return tableView;
 }

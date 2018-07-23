@@ -228,7 +228,6 @@
 - (void)test8{
     dispatch_queue_t q = dispatch_queue_create("dsb", DISPATCH_QUEUE_CONCURRENT);
     
-    
     NSLog(@"start--%@",[NSThread currentThread]);//1
     
     for (int i = 0; i<10; i++) {
@@ -246,9 +245,6 @@
         });
     }
     NSLog(@"end2--%@",[NSThread currentThread]);  // 4
-    
-    
-    
 }
 
 /**  全局队列创建 */
@@ -270,7 +266,7 @@
         
     });
     dispatch_group_async(group, queue, ^{
-        for (NSInteger i = 0; i < 6666; i ++) {
+        for (NSInteger i = 0; i < 66666; i ++) {
             NSLog(@"bbbbb----i:%ld",i);
         }
     });
@@ -278,6 +274,18 @@
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{
         NSLog(@"通知到线程组里");
     });
+    
+    // DISPATCH_TIME_FOREVER ：永久等待
+//   dispatch_time_t time = dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
+    
+    // 设置指定时间
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 100*1000*1000*1000);
+    long result = dispatch_group_wait(group, time);
+    if (result == 0) {
+//        dispatch group的全部处理执行结束
+    }else {
+//        dispatch groupe的某一处理还在执行中
+    }
     
 }
 

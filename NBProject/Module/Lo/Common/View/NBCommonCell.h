@@ -1,5 +1,5 @@
 //
-//  NBLoMainCell.h
+//  NBCommonCell
 //  NBProject
 //
 //  Created by Lucas on 2018/7/13.
@@ -8,6 +8,6 @@
 
 #import "NBBaseTableViewCell.h"
 #import "NBCellConfigDelegate.h"
-@interface NBLoMainCell : NBBaseTableViewCell <NBCellConfigDelegate>
+@interface NBCommonCell : NBBaseTableViewCell <NBCellConfigDelegate>
 
 @end

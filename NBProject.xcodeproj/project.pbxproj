@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2109B9DC20FDF2D300315653 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9DB20FDF2D300315653 /* NBControllerModel.m */; };
+		2109B9F1210076C600315653 /* NBUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9F0210076C600315653 /* NBUIController.m */; };
+		2109B9F5210078DB00315653 /* NBUIDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9F4210078DB00315653 /* NBUIDelegateModel.m */; };
+		2109B9F8210078F500315653 /* NBUIViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9F7210078F500315653 /* NBUIViewModel.m */; };
+		2109B9FB210079B800315653 /* NBBaseMasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9FA210079B800315653 /* NBBaseMasonryController.m */; };
+		2109BA03210184BF00315653 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9FD210184BF00315653 /* NBControllerModel.m */; };
+		2109BA04210184BF00315653 /* NBCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2109BA00210184BF00315653 /* NBCommonCell.xib */; };
+		2109BA05210184BF00315653 /* NBCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109BA02210184BF00315653 /* NBCommonCell.m */; };
 		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
 		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
 		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
@@ -42,8 +48,6 @@
 		21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0C20F8A11200D4B405 /* NBBaseCollectionDelegateModel.m */; };
 		21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0E20F8A11300D4B405 /* NBBaseListPageViewModel.m */; };
 		21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */; };
-		21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */; };
-		21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */; };
 		51493C41E81840DD573FEA8C /* libPods-NBProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD05EF589098F7D4D375D94A /* libPods-NBProject.a */; };
 		8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA41D20FD9F9A00F0338A /* UIViewController+TableView.m */; };
 /* End PBXBuildFile section */
@@ -143,8 +147,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2109B9DA20FDF2D300315653 /* NBControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBControllerModel.h; sourceTree = "<group>"; };
-		2109B9DB20FDF2D300315653 /* NBControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
+		2109B9EF210076C600315653 /* NBUIController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIController.h; sourceTree = "<group>"; };
+		2109B9F0210076C600315653 /* NBUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIController.m; sourceTree = "<group>"; };
+		2109B9F3210078DB00315653 /* NBUIDelegateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIDelegateModel.h; sourceTree = "<group>"; };
+		2109B9F4210078DB00315653 /* NBUIDelegateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIDelegateModel.m; sourceTree = "<group>"; };
+		2109B9F6210078F500315653 /* NBUIViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIViewModel.h; sourceTree = "<group>"; };
+		2109B9F7210078F500315653 /* NBUIViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIViewModel.m; sourceTree = "<group>"; };
+		2109B9F9210079B800315653 /* NBBaseMasonryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseMasonryController.h; sourceTree = "<group>"; };
+		2109B9FA210079B800315653 /* NBBaseMasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseMasonryController.m; sourceTree = "<group>"; };
+		2109B9FD210184BF00315653 /* NBControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
+		2109B9FE210184BF00315653 /* NBControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBControllerModel.h; sourceTree = "<group>"; };
+		2109BA00210184BF00315653 /* NBCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBCommonCell.xib; sourceTree = "<group>"; };
+		2109BA01210184BF00315653 /* NBCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCommonCell.h; sourceTree = "<group>"; };
+		2109BA02210184BF00315653 /* NBCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCommonCell.m; sourceTree = "<group>"; };
+		2109BA072101872600315653 /* NBUIComHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIComHeaderFile.h; sourceTree = "<group>"; };
 		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
 		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
@@ -219,9 +235,6 @@
 		21DCCE0F20F8A11300D4B405 /* NBBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseViewModel.h; sourceTree = "<group>"; };
 		21DCCE1420F8A3A700D4B405 /* NBBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseTableViewCell.h; sourceTree = "<group>"; };
 		21DCCE1520F8A3A700D4B405 /* NBBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableViewCell.m; sourceTree = "<group>"; };
-		21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoMainCell.h; sourceTree = "<group>"; };
-		21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoMainCell.m; sourceTree = "<group>"; };
-		21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBLoMainCell.xib; sourceTree = "<group>"; };
 		3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBProject/Pods-NBProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E7FA41C20FD9F9A00F0338A /* UIViewController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TableView.h"; sourceTree = "<group>"; };
@@ -266,10 +279,69 @@
 		2109B9CE20FDF2C400315653 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				2109B9DA20FDF2D300315653 /* NBControllerModel.h */,
-				2109B9DB20FDF2D300315653 /* NBControllerModel.m */,
+				2109BA06210186BF00315653 /* Other */,
+				2109B9FF210184BF00315653 /* View */,
+				2109B9FC210184BF00315653 /* ViewModel */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		2109B9E22100760F00315653 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2109B9F22100789D00315653 /* ViewModel */,
+				2109B9EE2100767300315653 /* Controller */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2109B9EE2100767300315653 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2109B9EF210076C600315653 /* NBUIController.h */,
+				2109B9F0210076C600315653 /* NBUIController.m */,
+				2109B9F9210079B800315653 /* NBBaseMasonryController.h */,
+				2109B9FA210079B800315653 /* NBBaseMasonryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2109B9F22100789D00315653 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2109B9F3210078DB00315653 /* NBUIDelegateModel.h */,
+				2109B9F4210078DB00315653 /* NBUIDelegateModel.m */,
+				2109B9F6210078F500315653 /* NBUIViewModel.h */,
+				2109B9F7210078F500315653 /* NBUIViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2109B9FC210184BF00315653 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2109B9FE210184BF00315653 /* NBControllerModel.h */,
+				2109B9FD210184BF00315653 /* NBControllerModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2109B9FF210184BF00315653 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2109BA01210184BF00315653 /* NBCommonCell.h */,
+				2109BA02210184BF00315653 /* NBCommonCell.m */,
+				2109BA00210184BF00315653 /* NBCommonCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2109BA06210186BF00315653 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2109BA072101872600315653 /* NBUIComHeaderFile.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		210CA18D20F702880004B954 /* Category */ = {
@@ -405,6 +477,7 @@
 		210F0B8A20F32FF40003EB83 /* Lo */ = {
 			isa = PBXGroup;
 			children = (
+				2109B9E22100760F00315653 /* UI */,
 				2109B9CE20FDF2C400315653 /* Common */,
 				21AF38A220FC33BE00FD6AC3 /* GCD */,
 				21DCCDF920F88B4500D4B405 /* Main */,
@@ -574,7 +647,6 @@
 			children = (
 				21DCCDFA20F88B4500D4B405 /* ViewModel */,
 				21DCCDFB20F88B4500D4B405 /* Controller */,
-				21DCCDFE20F88B4500D4B405 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -597,16 +669,6 @@
 				21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		21DCCDFE20F88B4500D4B405 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				21DCCE1720F8AA7900D4B405 /* NBLoMainCell.h */,
-				21DCCE1820F8AA7900D4B405 /* NBLoMainCell.m */,
-				21DCCE1920F8AA7900D4B405 /* NBLoMainCell.xib */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		21DCCE0620F8A0F300D4B405 /* Model */ = {
@@ -838,10 +900,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21DCCE1B20F8AA7900D4B405 /* NBLoMainCell.xib in Resources */,
 				2143957F20F3007600DF7812 /* Info.plist in Resources */,
 				2143957D20F3007600DF7812 /* Main.storyboard in Resources */,
 				2143957B20F3007600DF7812 /* Assets.xcassets in Resources */,
+				2109BA04210184BF00315653 /* NBCommonCell.xib in Resources */,
 				2143957C20F3007600DF7812 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -930,11 +992,12 @@
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
-				2109B9DC20FDF2D300315653 /* NBControllerModel.m in Sources */,
+				2109BA03210184BF00315653 /* NBControllerModel.m in Sources */,
 				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
 				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
+				2109BA05210184BF00315653 /* NBCommonCell.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
@@ -946,7 +1009,6 @@
 				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
 				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
 				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
-				21DCCE1A20F8AA7900D4B405 /* NBLoMainCell.m in Sources */,
 				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
 				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
@@ -954,7 +1016,11 @@
 				21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */,
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
+				2109B9FB210079B800315653 /* NBBaseMasonryController.m in Sources */,
+				2109B9F5210078DB00315653 /* NBUIDelegateModel.m in Sources */,
+				2109B9F1210076C600315653 /* NBUIController.m in Sources */,
 				210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */,
+				2109B9F8210078F500315653 /* NBUIViewModel.m in Sources */,
 				210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

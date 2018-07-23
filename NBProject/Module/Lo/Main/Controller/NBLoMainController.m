@@ -14,7 +14,9 @@
 #import "NBLoMainViewModel.h"
 #import "NBControllerModel.h"
 
-#import "NBLoMainCell.h"
+#import "NBMacros.h"
+
+#import "NBCommonCell.h"
 @interface NBLoMainController ()
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NBLoMainViewModel  *viewModel;
@@ -26,11 +28,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+//    AdjustsScrollViewInsetNever(self, self.tableView);
 }
 
 - (void)nb_bindViewModel {
-    self.delegateModel = [[NBLoMainDelegateModel alloc] initWithDataArr:self.viewModel.dataSoure tableView:self.tableView cellClassNames:@[NSStringFromClass([NBLoMainCell class])] useAutomaticDimension:YES cellDidSelectedBlock:^(NSIndexPath *indexPath, id cellModel) {
+    
+    self.delegateModel = [[NBLoMainDelegateModel alloc] initWithDataArr:self.viewModel.dataSoure tableView:self.tableView cellClassNames:@[NSStringFromClass([NBCommonCell class])] useAutomaticDimension:YES cellDidSelectedBlock:^(NSIndexPath *indexPath, id cellModel) {
         NBControllerModel *model = self.viewModel.dataSoure[indexPath.row];
         UIViewController *vc = [NSClassFromString(model.className) new];
         vc.title = model.title;
@@ -38,18 +41,13 @@
     }];
 }
 
-- (void)nb_setUI {
-    [self.view addSubview:self.tableView];
-    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];
-}
+
 
 
 #pragma mark - lazy
 - (UITableView *)tableView {
     if (!_tableView) {
-        _tableView = [NBLoMainDelegateModel createTableWithStyle:UITableViewStylePlain rigistNibCellNames:@[NSStringFromClass([NBLoMainCell class])] rigistClassCellNames:nil];
+        _tableView = [NBLoMainDelegateModel createTableWithStyle:UITableViewStylePlain superView:self.view rigistNibCellNames:@[NSStringFromClass([NBCommonCell class])] rigistClassCellNames:nil];
     }return _tableView;
 }
 

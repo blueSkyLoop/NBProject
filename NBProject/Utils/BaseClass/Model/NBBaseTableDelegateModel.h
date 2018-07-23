@@ -43,8 +43,8 @@ typedef void(^tableViewDidSelectBlock)(NSIndexPath *indexPath,id cellModel);
 //获取有多少个组，默认为1
 @property (nonatomic,copy)NSInteger(^mh_tableViewSectionNumBlock)(void);
 
-//NSArray 存放实现了MHCellConfigDelegate协议的有xib的类名  classCellNames 存放实现了MHCellConfigDelegate协议的类名
-+ (UITableView *)createTableWithStyle:(UITableViewStyle)style rigistNibCellNames:(NSArray <NSString *> *)nibCellNames rigistClassCellNames:(NSArray <NSString *> *)classCellNames;
+//NSArray 存放实现了MHCellConfigDelegate协议的有xib的类名  classCellNames 存放实现了MHCellConfigDelegate协议的类名    把 tableView 添加到 superView 上
++ (UITableView *)createTableWithStyle:(UITableViewStyle)style superView:(UIView *)superView rigistNibCellNames:(NSArray <NSString *> *)nibCellNames rigistClassCellNames:(NSArray <NSString *> *)classCellNames;
 
 /*
  基类实现了@required修饰的代理和点击回调的代理 如果子类还有其它要求，请实现其它代理,或者可以再次实现 ，也可以通过实现相关Block来实现 useAutomaticDimension YES 则采用系统自动计算高度，但没有缓存，每次都要重新计算高度   NO 则采用UITableView+FDTemplateLayoutCell第三方库来自动计算高度并缓存（针对列表里面不会有操作导致cell高度实时变化的，如果有，则需要自己手动去掉缓存，比如点一下cell的某个按钮，然后某个label的内容增加，导致高度变化了，这种情况要手动删除缓存,这种情况比较少）
