@@ -106,8 +106,9 @@
     [self.blackV mas_updateConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(200, 200));
     }];
+    
     [self.redV mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(MSafeAreaNaviBarHeight + margir, 5, MSafeAreaTabBarHeight, 5));
+        make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(MSafeAreaNaviBarHeight + margir * 2, margir, MSafeAreaTabBarHeight, margir));
     }];
 }
 
