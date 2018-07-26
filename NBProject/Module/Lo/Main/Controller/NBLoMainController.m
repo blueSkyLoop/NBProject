@@ -29,6 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    AdjustsScrollViewInsetNever(self, self.tableView);
+//    NSMutableArray *arr = [NSArray copy];
+//    [arr removeAllObjects];
 }
 
 - (void)nb_bindViewModel {

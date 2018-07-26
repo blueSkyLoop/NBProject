@@ -14,8 +14,9 @@
 - (void)mh_initialize {
     NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoGCDController"};
     NSDictionary *UIDic = @{@"title":@"UI",@"className":@"NBUIController"};
+    NSDictionary *CallDic = @{@"title":@"获取通话记录",@"className":@"NBLoCallPhoneHistoryController"};
     
-    NSArray *dics = @[gcdDic,UIDic];
+    NSArray *dics = @[gcdDic,UIDic,CallDic];
 
     [self.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }

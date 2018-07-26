@@ -40,6 +40,11 @@
     return NO;
 }
 
+
+- (BOOL)nb_isNull {
+    return [NSObject isNull:self];
+}
+
 - (NSMutableDictionary *)createDictionayFromModelProperties
 {
     NSMutableDictionary *propsDic = [NSMutableDictionary dictionary];

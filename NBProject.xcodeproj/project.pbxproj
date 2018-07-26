@@ -11,9 +11,6 @@
 		2109B9F5210078DB00315653 /* NBUIDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9F4210078DB00315653 /* NBUIDelegateModel.m */; };
 		2109B9F8210078F500315653 /* NBUIViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9F7210078F500315653 /* NBUIViewModel.m */; };
 		2109B9FB210079B800315653 /* NBBaseMasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9FA210079B800315653 /* NBBaseMasonryController.m */; };
-		2109BA03210184BF00315653 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109B9FD210184BF00315653 /* NBControllerModel.m */; };
-		2109BA04210184BF00315653 /* NBCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2109BA00210184BF00315653 /* NBCommonCell.xib */; };
-		2109BA05210184BF00315653 /* NBCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109BA02210184BF00315653 /* NBCommonCell.m */; };
 		210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */; };
 		210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19020F702880004B954 /* UIView+QuickInstance.m */; };
 		210CA19920F704D60004B954 /* NBBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA19820F704D60004B954 /* NBBeelinMainController.m */; };
@@ -35,7 +32,17 @@
 		2143957D20F3007600DF7812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2143957120F3007600DF7812 /* Main.storyboard */; };
 		2143957E20F3007600DF7812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143957320F3007600DF7812 /* main.m */; };
 		2143957F20F3007600DF7812 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2143957420F3007600DF7812 /* Info.plist */; };
+		214E250C2106FC440021227A /* NBCallPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E250B2106FC440021227A /* NBCallPhoneModel.m */; };
+		214E25102106FE4A0021227A /* NBLoCallPhoneHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E250F2106FE4A0021227A /* NBLoCallPhoneHistoryController.m */; };
+		214E251521071FFE0021227A /* NSDate+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E251421071FFE0021227A /* NSDate+Comparison.m */; };
+		214E2525210810EF0021227A /* UIViewController+MHTelephone.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E2523210810EF0021227A /* UIViewController+MHTelephone.m */; };
 		21721A5520F3435B001C639B /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21721A5420F3435B001C639B /* NBNavigationController.m */; };
+		217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173528C2106CAF400FEE5A0 /* NBControllerModel.m */; };
+		217352952106CAF400FEE5A0 /* NBCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217352912106CAF400FEE5A0 /* NBCommonCell.xib */; };
+		217352962106CAF400FEE5A0 /* NBCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217352932106CAF400FEE5A0 /* NBCommonCell.m */; };
+		217352992106CBFF00FEE5A0 /* AppDelegate+CallHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 217352982106CBFF00FEE5A0 /* AppDelegate+CallHistory.m */; };
+		2173529D2106CE9400FEE5A0 /* NSDate+ChangeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173529C2106CE9400FEE5A0 /* NSDate+ChangeString.m */; };
+		217352A02106D01500FEE5A0 /* NSDate+Current.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173529F2106D01500FEE5A0 /* NSDate+Current.m */; };
 		21780BC620F3643B00A9C192 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* BaseView.m */; };
 		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
 		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
@@ -155,12 +162,6 @@
 		2109B9F7210078F500315653 /* NBUIViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIViewModel.m; sourceTree = "<group>"; };
 		2109B9F9210079B800315653 /* NBBaseMasonryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseMasonryController.h; sourceTree = "<group>"; };
 		2109B9FA210079B800315653 /* NBBaseMasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseMasonryController.m; sourceTree = "<group>"; };
-		2109B9FD210184BF00315653 /* NBControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
-		2109B9FE210184BF00315653 /* NBControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBControllerModel.h; sourceTree = "<group>"; };
-		2109BA00210184BF00315653 /* NBCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBCommonCell.xib; sourceTree = "<group>"; };
-		2109BA01210184BF00315653 /* NBCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCommonCell.h; sourceTree = "<group>"; };
-		2109BA02210184BF00315653 /* NBCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCommonCell.m; sourceTree = "<group>"; };
-		2109BA072101872600315653 /* NBUIComHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIComHeaderFile.h; sourceTree = "<group>"; };
 		210CA17A20F6EB920004B954 /* MHWeakStrongDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWeakStrongDefine.h; sourceTree = "<group>"; };
 		210CA17B20F6EB930004B954 /* SwizzlingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		210CA17C20F6EB930004B954 /* MHSanboxPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSanboxPath.h; sourceTree = "<group>"; };
@@ -206,8 +207,28 @@
 		2143957220F3007600DF7812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2143957320F3007600DF7812 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2143957420F3007600DF7812 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E250A2106FC440021227A /* NBCallPhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBCallPhoneModel.h; sourceTree = "<group>"; };
+		214E250B2106FC440021227A /* NBCallPhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCallPhoneModel.m; sourceTree = "<group>"; };
+		214E250E2106FE4A0021227A /* NBLoCallPhoneHistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoCallPhoneHistoryController.h; sourceTree = "<group>"; };
+		214E250F2106FE4A0021227A /* NBLoCallPhoneHistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoCallPhoneHistoryController.m; sourceTree = "<group>"; };
+		214E251321071FFE0021227A /* NSDate+Comparison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Comparison.h"; sourceTree = "<group>"; };
+		214E251421071FFE0021227A /* NSDate+Comparison.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Comparison.m"; sourceTree = "<group>"; };
+		214E2523210810EF0021227A /* UIViewController+MHTelephone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MHTelephone.m"; sourceTree = "<group>"; };
+		214E2524210810EF0021227A /* UIViewController+MHTelephone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MHTelephone.h"; sourceTree = "<group>"; };
 		21721A5320F3435B001C639B /* NBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNavigationController.h; sourceTree = "<group>"; };
 		21721A5420F3435B001C639B /* NBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNavigationController.m; sourceTree = "<group>"; };
+		2173528C2106CAF400FEE5A0 /* NBControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
+		2173528D2106CAF400FEE5A0 /* NBControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBControllerModel.h; sourceTree = "<group>"; };
+		2173528F2106CAF400FEE5A0 /* NBUIComHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBUIComHeaderFile.h; sourceTree = "<group>"; };
+		217352912106CAF400FEE5A0 /* NBCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBCommonCell.xib; sourceTree = "<group>"; };
+		217352922106CAF400FEE5A0 /* NBCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCommonCell.h; sourceTree = "<group>"; };
+		217352932106CAF400FEE5A0 /* NBCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCommonCell.m; sourceTree = "<group>"; };
+		217352972106CBFF00FEE5A0 /* AppDelegate+CallHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+CallHistory.h"; sourceTree = "<group>"; };
+		217352982106CBFF00FEE5A0 /* AppDelegate+CallHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+CallHistory.m"; sourceTree = "<group>"; };
+		2173529B2106CE9400FEE5A0 /* NSDate+ChangeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ChangeString.h"; sourceTree = "<group>"; };
+		2173529C2106CE9400FEE5A0 /* NSDate+ChangeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ChangeString.m"; sourceTree = "<group>"; };
+		2173529E2106D01500FEE5A0 /* NSDate+Current.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Current.h"; sourceTree = "<group>"; };
+		2173529F2106D01500FEE5A0 /* NSDate+Current.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Current.m"; sourceTree = "<group>"; };
 		21780BC420F3643B00A9C192 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		21780BC520F3643B00A9C192 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		21780BC720F5998300A9C192 /* NBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTabBarController.h; sourceTree = "<group>"; };
@@ -276,16 +297,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2109B9CE20FDF2C400315653 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				2109BA06210186BF00315653 /* Other */,
-				2109B9FF210184BF00315653 /* View */,
-				2109B9FC210184BF00315653 /* ViewModel */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		2109B9E22100760F00315653 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,36 +328,10 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		2109B9FC210184BF00315653 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				2109B9FE210184BF00315653 /* NBControllerModel.h */,
-				2109B9FD210184BF00315653 /* NBControllerModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		2109B9FF210184BF00315653 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2109BA01210184BF00315653 /* NBCommonCell.h */,
-				2109BA02210184BF00315653 /* NBCommonCell.m */,
-				2109BA00210184BF00315653 /* NBCommonCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2109BA06210186BF00315653 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				2109BA072101872600315653 /* NBUIComHeaderFile.h */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
 		210CA18D20F702880004B954 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2173529A2106CD0600FEE5A0 /* NSDate */,
 				8E7FA41B20FD9F9A00F0338A /* UIViewController */,
 				210CA1C720F83A870004B954 /* NSObject */,
 				210CA19320F702AF0004B954 /* NSString */,
@@ -446,6 +431,7 @@
 		210F0B8220F32FA90003EB83 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				217352892106CAF400FEE5A0 /* LoCommonUtils */,
 				210CA19F20F75C980004B954 /* Manager */,
 				210CA1A820F75C990004B954 /* NetWork */,
 				210CA18D20F702880004B954 /* Category */,
@@ -477,8 +463,8 @@
 		210F0B8A20F32FF40003EB83 /* Lo */ = {
 			isa = PBXGroup;
 			children = (
+				217352882106CA6E00FEE5A0 /* Other */,
 				2109B9E22100760F00315653 /* UI */,
-				2109B9CE20FDF2C400315653 /* Common */,
 				21AF38A220FC33BE00FD6AC3 /* GCD */,
 				21DCCDF920F88B4500D4B405 /* Main */,
 			);
@@ -545,6 +531,8 @@
 				2143956B20F3007600DF7812 /* AppDelegate.m */,
 				210CA18120F6F73B0004B954 /* AppDelegate+Helper.h */,
 				210CA18220F6F73B0004B954 /* AppDelegate+Helper.m */,
+				217352972106CBFF00FEE5A0 /* AppDelegate+CallHistory.h */,
+				217352982106CBFF00FEE5A0 /* AppDelegate+CallHistory.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -568,6 +556,24 @@
 			path = SupportFile;
 			sourceTree = "<group>";
 		};
+		214E24FE2106FBF50021227A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				214E250A2106FC440021227A /* NBCallPhoneModel.h */,
+				214E250B2106FC440021227A /* NBCallPhoneModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		214E250D2106FE060021227A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				214E250E2106FE4A0021227A /* NBLoCallPhoneHistoryController.h */,
+				214E250F2106FE4A0021227A /* NBLoCallPhoneHistoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		21721A5220F34341001C639B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +585,73 @@
 				21780BCB20F59B9700A9C192 /* NBBaseController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		217352882106CA6E00FEE5A0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				214E250D2106FE060021227A /* Controller */,
+				214E24FE2106FBF50021227A /* ViewModel */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		217352892106CAF400FEE5A0 /* LoCommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2173528A2106CAF400FEE5A0 /* Common */,
+			);
+			path = LoCommonUtils;
+			sourceTree = "<group>";
+		};
+		2173528A2106CAF400FEE5A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2173528B2106CAF400FEE5A0 /* ViewModel */,
+				2173528E2106CAF400FEE5A0 /* Other */,
+				217352902106CAF400FEE5A0 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2173528B2106CAF400FEE5A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2173528C2106CAF400FEE5A0 /* NBControllerModel.m */,
+				2173528D2106CAF400FEE5A0 /* NBControllerModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2173528E2106CAF400FEE5A0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2173528F2106CAF400FEE5A0 /* NBUIComHeaderFile.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		217352902106CAF400FEE5A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				217352912106CAF400FEE5A0 /* NBCommonCell.xib */,
+				217352922106CAF400FEE5A0 /* NBCommonCell.h */,
+				217352932106CAF400FEE5A0 /* NBCommonCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2173529A2106CD0600FEE5A0 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				2173529B2106CE9400FEE5A0 /* NSDate+ChangeString.h */,
+				2173529C2106CE9400FEE5A0 /* NSDate+ChangeString.m */,
+				2173529E2106D01500FEE5A0 /* NSDate+Current.h */,
+				2173529F2106D01500FEE5A0 /* NSDate+Current.m */,
+				214E251321071FFE0021227A /* NSDate+Comparison.h */,
+				214E251421071FFE0021227A /* NSDate+Comparison.m */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 		21780BC320F3642700A9C192 /* View */ = {
@@ -699,6 +772,8 @@
 		8E7FA41B20FD9F9A00F0338A /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				214E2524210810EF0021227A /* UIViewController+MHTelephone.h */,
+				214E2523210810EF0021227A /* UIViewController+MHTelephone.m */,
 				8E7FA41C20FD9F9A00F0338A /* UIViewController+TableView.h */,
 				8E7FA41D20FD9F9A00F0338A /* UIViewController+TableView.m */,
 			);
@@ -903,7 +978,7 @@
 				2143957F20F3007600DF7812 /* Info.plist in Resources */,
 				2143957D20F3007600DF7812 /* Main.storyboard in Resources */,
 				2143957B20F3007600DF7812 /* Assets.xcassets in Resources */,
-				2109BA04210184BF00315653 /* NBCommonCell.xib in Resources */,
+				217352952106CAF400FEE5A0 /* NBCommonCell.xib in Resources */,
 				2143957C20F3007600DF7812 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -987,19 +1062,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214E2525210810EF0021227A /* UIViewController+MHTelephone.m in Sources */,
+				217352A02106D01500FEE5A0 /* NSDate+Current.m in Sources */,
+				214E251521071FFE0021227A /* NSDate+Comparison.m in Sources */,
 				21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */,
 				21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */,
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
-				2109BA03210184BF00315653 /* NBControllerModel.m in Sources */,
 				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
 				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
+				217352962106CAF400FEE5A0 /* NBCommonCell.m in Sources */,
+				214E250C2106FC440021227A /* NBCallPhoneModel.m in Sources */,
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
-				2109BA05210184BF00315653 /* NBCommonCell.m in Sources */,
+				214E25102106FE4A0021227A /* NBLoCallPhoneHistoryController.m in Sources */,
+				217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
+				2173529D2106CE9400FEE5A0 /* NSDate+ChangeString.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
 				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
 				21DCCE0220F88B7F00D4B405 /* NBLoMainViewModel.m in Sources */,
@@ -1012,6 +1093,7 @@
 				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
 				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
+				217352992106CBFF00FEE5A0 /* AppDelegate+CallHistory.m in Sources */,
 				210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */,
 				21DCCE1620F8A3A700D4B405 /* NBBaseTableViewCell.m in Sources */,
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
@@ -1194,7 +1276,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NB.NBProject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1212,7 +1294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NB.NBProject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

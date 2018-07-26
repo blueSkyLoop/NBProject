@@ -29,7 +29,7 @@
     config.unexpectedTerminatingDetectionEnable = YES;
     config.blockMonitorEnable = YES;
     
-    NSString *buglyKey = @"55041713-239d-47ab-b439-7b3a55fd5eb4";
-    [Bugly startWithAppId:buglyKey config:config];
+    NSString *buglyId = @"df789ed794";
+    [Bugly startWithAppId:buglyId config:config];
 }
 @end
