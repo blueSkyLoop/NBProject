@@ -8,7 +8,7 @@
 
 #import "NBBaseMasonryController.h"
 
-#import "NBUIComHeaderFile.h"
+#import "NBComHeaderFile.h"
 
 #import "NBBaseTableDelegateModel.h"
 #import "NBBaseViewModel.h"

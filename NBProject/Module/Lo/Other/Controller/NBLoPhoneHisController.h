@@ -1,5 +1,5 @@
 //
-//  NBLoCallPhoneHistoryController.h
+//  NBLoPhoneHisController.h
 //  NBProject
 //
 //  Created by Lucas on 2018/7/24.
@@ -8,6 +8,6 @@
 
 #import "NBBaseController.h"
 
-@interface NBLoCallPhoneHistoryController : NBBaseController
+@interface NBLoPhoneHisController : NBBaseController
 
 @end

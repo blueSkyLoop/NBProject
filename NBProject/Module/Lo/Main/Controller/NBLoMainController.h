@@ -6,8 +6,8 @@
 //  Copyright © 2018年 com.cn. All rights reserved.
 //
 
-#import "NBBaseController.h"
+#import "NBCommonBaseController.h"
 
-@interface NBLoMainController : NBBaseController
+@interface NBLoMainController : NBCommonBaseController
 
 @end

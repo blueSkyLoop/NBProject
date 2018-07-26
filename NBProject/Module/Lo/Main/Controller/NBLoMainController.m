@@ -8,19 +8,12 @@
 
 #import "NBLoMainController.h"
 
-#import <Masonry.h>
 
-#import "NBLoMainDelegateModel.h"
-#import "NBLoMainViewModel.h"
-#import "NBControllerModel.h"
 
-#import "NBMacros.h"
+#import "NBComHeaderFile.h"
 
-#import "NBCommonCell.h"
 @interface NBLoMainController ()
-@property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NBLoMainViewModel  *viewModel;
-@property (nonatomic, strong) NBLoMainDelegateModel  *delegateModel;
+
 @end
 
 @implementation NBLoMainController
@@ -33,30 +26,15 @@
 //    [arr removeAllObjects];
 }
 
-- (void)nb_bindViewModel {
+- (void)nb_setDataSource {
+    NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoGCDController"};
+    NSDictionary *UIDic = @{@"title":@"UI",@"className":@"NBLoUIController"};
+    NSDictionary *CallDic = @{@"title":@"获取通话记录",@"className":@"NBLoPhoneHisController"};
+    NSDictionary *sqlDic = @{@"title":@"SQL",@"className":@"NBLoSQLController"};
     
-    self.delegateModel = [[NBLoMainDelegateModel alloc] initWithDataArr:self.viewModel.dataSoure tableView:self.tableView cellClassNames:@[NSStringFromClass([NBCommonCell class])] useAutomaticDimension:YES cellDidSelectedBlock:^(NSIndexPath *indexPath, id cellModel) {
-        NBControllerModel *model = self.viewModel.dataSoure[indexPath.row];
-        UIViewController *vc = [NSClassFromString(model.className) new];
-        vc.title = model.title;
-        [self.navigationController pushViewController:vc animated:YES];
-    }];
+    NSArray *dics = @[gcdDic,UIDic,CallDic,sqlDic];
+    [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 
-
-
-
-#pragma mark - lazy
-- (UITableView *)tableView {
-    if (!_tableView) {
-        _tableView = [NBLoMainDelegateModel createTableWithStyle:UITableViewStylePlain superView:self.view rigistNibCellNames:@[NSStringFromClass([NBCommonCell class])] rigistClassCellNames:nil];
-    }return _tableView;
-}
-
-- (NBLoMainViewModel *)viewModel {
-    if (!_viewModel) {
-        _viewModel = [NBLoMainViewModel new];
-    }return _viewModel;
-}
 
 @end

@@ -12,6 +12,7 @@ pod 'ReactiveObjC'
 pod 'SVProgressHUD'
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'SSKeychain', '~> 1.4.1'
+pod 'FMDB', '~> 2.7.2'
 end
 
 target 'NBProject' do

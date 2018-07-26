@@ -1,12 +1,12 @@
 //
-//  NBLoCallPhoneHistoryController.m
+//  NBLoPhoneHisController.m
 //  NBProject
 //
 //  Created by Lucas on 2018/7/24.
 //  Copyright © 2018年 com.cn. All rights reserved.
 //
 
-#import "NBLoCallPhoneHistoryController.h"
+#import "NBLoPhoneHisController.h"
 #import "NBCallPhoneModel.h"
 
 #import "UIView+QuickInstance.h"
@@ -14,7 +14,7 @@
 
 #import <Masonry.h>
 #import "NBMacros.h"
-@interface NBLoCallPhoneHistoryController ()
+@interface NBLoPhoneHisController ()
 
 @property (strong, nonatomic) UITextField *phoneTF;
 
@@ -36,7 +36,7 @@
 
 @end
 
-@implementation NBLoCallPhoneHistoryController
+@implementation NBLoPhoneHisController
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
