@@ -326,8 +326,6 @@
     
 }
 
-- (void)dealloc {
-    NSLog(@"%@ delalloc",NSStringFromClass([self class]));
-}
+
 
 @end

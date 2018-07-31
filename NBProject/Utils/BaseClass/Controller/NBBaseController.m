@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self nb_setUI];
     [self nb_bindViewModel];
     [self nb_showNavigateionStyIeIines:NO];

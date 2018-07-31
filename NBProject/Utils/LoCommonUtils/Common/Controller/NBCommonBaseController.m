@@ -7,7 +7,7 @@
 //
 
 #import "NBCommonBaseController.h"
-
+#import "MHMacrosLog.h"
 
 @interface NBCommonBaseController ()
 
@@ -48,5 +48,9 @@
     if (!_viewModel) {
         _viewModel = [NBCommonViewMoedel new];
     }return _viewModel;
+}
+
+- (void)dealloc {
+    NSLog(@"%@ delalloc",NSStringFromClass([self class]));
 }
 @end

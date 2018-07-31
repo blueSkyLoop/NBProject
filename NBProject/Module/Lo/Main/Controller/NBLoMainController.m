@@ -29,10 +29,10 @@
 - (void)nb_setDataSource {
     NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoGCDController"};
     NSDictionary *UIDic = @{@"title":@"UI",@"className":@"NBLoUIController"};
-    NSDictionary *CallDic = @{@"title":@"获取通话记录",@"className":@"NBLoPhoneHisController"};
     NSDictionary *sqlDic = @{@"title":@"SQL",@"className":@"NBLoSQLController"};
+    NSDictionary *otherDic = @{@"title":@"其他",@"className":@"NBLoOtherController"};
     
-    NSArray *dics = @[gcdDic,UIDic,CallDic,sqlDic];
+    NSArray *dics = @[gcdDic,UIDic,sqlDic,otherDic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

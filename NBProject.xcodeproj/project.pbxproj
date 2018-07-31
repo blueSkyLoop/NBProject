@@ -51,6 +51,12 @@
 		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
 		21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */; };
 		21D6354921099B1900A29035 /* NBCommonBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6354821099B1900A29035 /* NBCommonBaseController.m */; };
+		21D635582109AFE500A29035 /* NBLoOtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D635572109AFE500A29035 /* NBLoOtherController.m */; };
+		21D63564210AEBD100A29035 /* BGDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6355F210AEBD100A29035 /* BGDB.m */; };
+		21D63565210AEBD100A29035 /* NSCache+BGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63560210AEBD100A29035 /* NSCache+BGCache.m */; };
+		21D63566210AEBD100A29035 /* NSObject+BGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63561210AEBD100A29035 /* NSObject+BGModel.m */; };
+		21D63567210AEBD100A29035 /* BGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63562210AEBD100A29035 /* BGTool.m */; };
+		21D6356A210AFD9400A29035 /* NBSQLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63569210AFD9400A29035 /* NBSQLPerson.m */; };
 		21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */; };
 		21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */; };
 		21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */; };
@@ -248,6 +254,20 @@
 		21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoGCDController.m; sourceTree = "<group>"; };
 		21D6354721099B1900A29035 /* NBCommonBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBCommonBaseController.h; sourceTree = "<group>"; };
 		21D6354821099B1900A29035 /* NBCommonBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCommonBaseController.m; sourceTree = "<group>"; };
+		21D635562109AFE500A29035 /* NBLoOtherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoOtherController.h; sourceTree = "<group>"; };
+		21D635572109AFE500A29035 /* NBLoOtherController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoOtherController.m; sourceTree = "<group>"; };
+		21D6355A210AEBD100A29035 /* NSCache+BGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+BGCache.h"; sourceTree = "<group>"; };
+		21D6355B210AEBD100A29035 /* NSObject+BGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BGModel.h"; sourceTree = "<group>"; };
+		21D6355C210AEBD100A29035 /* BGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTool.h; sourceTree = "<group>"; };
+		21D6355D210AEBD100A29035 /* BGFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGFMDB.h; sourceTree = "<group>"; };
+		21D6355E210AEBD100A29035 /* BGFMDBConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGFMDBConfig.h; sourceTree = "<group>"; };
+		21D6355F210AEBD100A29035 /* BGDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGDB.m; sourceTree = "<group>"; };
+		21D63560210AEBD100A29035 /* NSCache+BGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+BGCache.m"; sourceTree = "<group>"; };
+		21D63561210AEBD100A29035 /* NSObject+BGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BGModel.m"; sourceTree = "<group>"; };
+		21D63562210AEBD100A29035 /* BGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTool.m; sourceTree = "<group>"; };
+		21D63563210AEBD100A29035 /* BGDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGDB.h; sourceTree = "<group>"; };
+		21D63568210AFD9400A29035 /* NBSQLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBSQLPerson.h; sourceTree = "<group>"; };
+		21D63569210AFD9400A29035 /* NBSQLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBSQLPerson.m; sourceTree = "<group>"; };
 		21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
 		21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
 		21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableDelegateModel.m; sourceTree = "<group>"; };
@@ -354,6 +374,7 @@
 		210CA19F20F75C980004B954 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				21D63559210AEBD100A29035 /* SQL */,
 				210CA1A020F75C980004B954 /* Device */,
 				210CA1A520F75C980004B954 /* HUD */,
 			);
@@ -564,6 +585,8 @@
 			children = (
 				214E250E2106FE4A0021227A /* NBLoPhoneHisController.h */,
 				214E250F2106FE4A0021227A /* NBLoPhoneHisController.m */,
+				21D635562109AFE500A29035 /* NBLoOtherController.h */,
+				21D635572109AFE500A29035 /* NBLoOtherController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -580,6 +603,8 @@
 		214E2535210968FF0021227A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				21D63568210AFD9400A29035 /* NBSQLPerson.h */,
+				21D63569210AFD9400A29035 /* NBSQLPerson.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -749,6 +774,23 @@
 				21D6354821099B1900A29035 /* NBCommonBaseController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		21D63559210AEBD100A29035 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				21D6355A210AEBD100A29035 /* NSCache+BGCache.h */,
+				21D6355B210AEBD100A29035 /* NSObject+BGModel.h */,
+				21D6355C210AEBD100A29035 /* BGTool.h */,
+				21D63562210AEBD100A29035 /* BGTool.m */,
+				21D6355D210AEBD100A29035 /* BGFMDB.h */,
+				21D6355E210AEBD100A29035 /* BGFMDBConfig.h */,
+				21D63563210AEBD100A29035 /* BGDB.h */,
+				21D6355F210AEBD100A29035 /* BGDB.m */,
+				21D63560210AEBD100A29035 /* NSCache+BGCache.m */,
+				21D63561210AEBD100A29035 /* NSObject+BGModel.m */,
+			);
+			path = SQL;
 			sourceTree = "<group>";
 		};
 		21DCCDF920F88B4500D4B405 /* Main */ = {
@@ -1092,9 +1134,11 @@
 				214E251521071FFE0021227A /* NSDate+Comparison.m in Sources */,
 				21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */,
 				21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */,
+				21D6356A210AFD9400A29035 /* NBSQLPerson.m in Sources */,
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
 				2143957E20F3007600DF7812 /* main.m in Sources */,
+				21D635582109AFE500A29035 /* NBLoOtherController.m in Sources */,
 				210CA1BE20F75C990004B954 /* NSObject+parser.m in Sources */,
 				21DCCE1320F8A11300D4B405 /* NBBaseListPageViewModel.m in Sources */,
 				210CA18320F6F73B0004B954 /* AppDelegate+Helper.m in Sources */,
@@ -1105,17 +1149,21 @@
 				217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
+				21D63565210AEBD100A29035 /* NSCache+BGCache.m in Sources */,
 				2173529D2106CE9400FEE5A0 /* NSDate+ChangeString.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
 				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
 				214E253B21096B480021227A /* NBFMDBController.m in Sources */,
 				21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */,
+				21D63566210AEBD100A29035 /* NSObject+BGModel.m in Sources */,
+				21D63567210AEBD100A29035 /* BGTool.m in Sources */,
 				210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */,
 				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
 				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
 				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
 				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
 				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
+				21D63564210AEBD100A29035 /* BGDB.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
 				217352992106CBFF00FEE5A0 /* AppDelegate+CallHistory.m in Sources */,
 				210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */,
