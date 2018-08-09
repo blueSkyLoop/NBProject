@@ -22,9 +22,12 @@ PODS:
   - Masonry (1.0.2)
   - MJRefresh (3.1.15.3)
   - ReactiveObjC (3.1.0)
-  - SDWebImage (4.3.3):
-    - SDWebImage/Core (= 4.3.3)
-  - SDWebImage/Core (4.3.3)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SSKeychain (1.4.1)
   - SVProgressHUD (2.2.5)
   - "UITableView+FDTemplateLayoutCell (1.6)"
@@ -38,6 +41,7 @@ DEPENDENCIES:
   - Masonry (~> 1.0.0)
   - MJRefresh (~> 3.1.0)
   - ReactiveObjC
+  - Realm
   - SDWebImage
   - SSKeychain (~> 1.4.1)
   - SVProgressHUD
@@ -53,6 +57,7 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - ReactiveObjC
+    - Realm
     - SDWebImage
     - SSKeychain
     - SVProgressHUD
@@ -67,12 +72,13 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 7c9ee092e1f4402ac42b1cf7aa01b32e18777d5e
+PODFILE CHECKSUM: f9591f411b75f7423c18ce00428909bbe13ef05b
 
 COCOAPODS: 1.5.3

@@ -14,10 +14,10 @@
 
 @implementation NBLoSQLController
 
-
 - (void)nb_setDataSource {
     NSDictionary *fmdbDic = @{@"title":@"FMDB",@"className":@"NBFMDBController"};
-    NSArray *dics = @[fmdbDic];
+    NSDictionary *realmDic = @{@"title":@"Realm",@"className":@"NBRealmController"};
+    NSArray *dics = @[fmdbDic,realmDic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 @end

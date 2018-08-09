@@ -7,9 +7,6 @@
 //
 
 #import "NBLoMainController.h"
-
-
-
 #import "NBComHeaderFile.h"
 
 @interface NBLoMainController ()
@@ -22,8 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    AdjustsScrollViewInsetNever(self, self.tableView);
-//    NSMutableArray *arr = [NSArray copy];
-//    [arr removeAllObjects];
 }
 
 - (void)nb_setDataSource {

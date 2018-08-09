@@ -15,4 +15,5 @@
 #import "NBCommonViewMoedel.h"
 #import "NBCommonTableDelegateModel.h"
 #import "NBCommonCell.h"
+#import <YYModel.h>
 #endif /* NBComHeaderFile_h */

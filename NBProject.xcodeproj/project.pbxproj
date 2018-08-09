@@ -22,6 +22,7 @@
 		210CA1C620F75E670004B954 /* NBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C420F75E660004B954 /* NBNetworking.m */; };
 		210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1C920F83AB80004B954 /* NSObject+isNull.m */; };
 		210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CA1CE20F83E240004B954 /* MHMacrosLog.m */; };
+		21147C9521130D5000F70B26 /* NSObject+PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 21147C9421130D5000F70B26 /* NSObject+PropertyList.m */; };
 		2143955120F2F99E00DF7812 /* NBProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955020F2F99E00DF7812 /* NBProjectTests.m */; };
 		2143955C20F2F99E00DF7812 /* NBProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143955B20F2F99E00DF7812 /* NBProjectUITests.m */; };
 		2143957A20F3007600DF7812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143956B20F3007600DF7812 /* AppDelegate.m */; };
@@ -49,6 +50,7 @@
 		21780BC620F3643B00A9C192 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* BaseView.m */; };
 		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
 		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
+		219B03612119830700CAEFC2 /* NBBaseRealmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B03542119830700CAEFC2 /* NBBaseRealmModel.m */; };
 		21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */; };
 		21D6354921099B1900A29035 /* NBCommonBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6354821099B1900A29035 /* NBCommonBaseController.m */; };
 		21D635582109AFE500A29035 /* NBLoOtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D635572109AFE500A29035 /* NBLoOtherController.m */; };
@@ -57,6 +59,9 @@
 		21D63566210AEBD100A29035 /* NSObject+BGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63561210AEBD100A29035 /* NSObject+BGModel.m */; };
 		21D63567210AEBD100A29035 /* BGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63562210AEBD100A29035 /* BGTool.m */; };
 		21D6356A210AFD9400A29035 /* NBSQLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63569210AFD9400A29035 /* NBSQLPerson.m */; };
+		21D6356F211039BE00A29035 /* NBRealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D6356E211039BE00A29035 /* NBRealmController.m */; };
+		21D6357C211039D400A29035 /* NBRealmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D6357B211039D400A29035 /* NBRealmController.xib */; };
+		21D63582211055AA00A29035 /* NBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D63581211055A900A29035 /* NBPerson.m */; };
 		21DCCDFF20F88B4500D4B405 /* NBLoMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */; };
 		21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */; };
 		21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCCE0820F8A11200D4B405 /* NBBaseViewModel.m */; };
@@ -197,6 +202,8 @@
 		210CA1CC20F83D8D0004B954 /* NBMacrosPrompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacrosPrompt.h; sourceTree = "<group>"; };
 		210CA1CD20F83E240004B954 /* MHMacrosLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHMacrosLog.h; sourceTree = "<group>"; };
 		210CA1CE20F83E240004B954 /* MHMacrosLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHMacrosLog.m; sourceTree = "<group>"; };
+		21147C9321130D5000F70B26 /* NSObject+PropertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyList.h"; sourceTree = "<group>"; };
+		21147C9421130D5000F70B26 /* NSObject+PropertyList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyList.m"; sourceTree = "<group>"; };
 		2143953420F2F99E00DF7812 /* NBProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143954C20F2F99E00DF7812 /* NBProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143955020F2F99E00DF7812 /* NBProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBProjectTests.m; sourceTree = "<group>"; };
@@ -249,6 +256,8 @@
 		21780BCA20F59B9700A9C192 /* NBBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseController.h; sourceTree = "<group>"; };
 		21780BCB20F59B9700A9C192 /* NBBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseController.m; sourceTree = "<group>"; };
 		21780BCE20F5D3F000A9C192 /* NBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacros.h; sourceTree = "<group>"; };
+		219B03542119830700CAEFC2 /* NBBaseRealmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseRealmModel.m; sourceTree = "<group>"; };
+		219B03552119830700CAEFC2 /* NBBaseRealmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseRealmModel.h; sourceTree = "<group>"; };
 		21AF387D20FC328D00FD6AC3 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = /Users/coder/Desktop/NBProject/NBProjectTests/Pods.xcodeproj; sourceTree = "<absolute>"; };
 		21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoGCDController.h; sourceTree = "<group>"; };
 		21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoGCDController.m; sourceTree = "<group>"; };
@@ -268,6 +277,11 @@
 		21D63563210AEBD100A29035 /* BGDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGDB.h; sourceTree = "<group>"; };
 		21D63568210AFD9400A29035 /* NBSQLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBSQLPerson.h; sourceTree = "<group>"; };
 		21D63569210AFD9400A29035 /* NBSQLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBSQLPerson.m; sourceTree = "<group>"; };
+		21D6356D211039BE00A29035 /* NBRealmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBRealmController.h; sourceTree = "<group>"; };
+		21D6356E211039BE00A29035 /* NBRealmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBRealmController.m; sourceTree = "<group>"; };
+		21D6357B211039D400A29035 /* NBRealmController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NBRealmController.xib; sourceTree = "<group>"; };
+		21D63580211055A900A29035 /* NBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBPerson.h; sourceTree = "<group>"; };
+		21D63581211055A900A29035 /* NBPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBPerson.m; sourceTree = "<group>"; };
 		21DCCDFC20F88B4500D4B405 /* NBLoMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoMainController.m; sourceTree = "<group>"; };
 		21DCCDFD20F88B4500D4B405 /* NBLoMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLoMainController.h; sourceTree = "<group>"; };
 		21DCCE0720F8A11200D4B405 /* NBBaseTableDelegateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableDelegateModel.m; sourceTree = "<group>"; };
@@ -429,6 +443,8 @@
 			children = (
 				210CA1C820F83AB80004B954 /* NSObject+isNull.h */,
 				210CA1C920F83AB80004B954 /* NSObject+isNull.m */,
+				21147C9321130D5000F70B26 /* NSObject+PropertyList.h */,
+				21147C9421130D5000F70B26 /* NSObject+PropertyList.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -445,6 +461,7 @@
 		210F0B8220F32FA90003EB83 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				219B03532119830700CAEFC2 /* Realm */,
 				217352892106CAF400FEE5A0 /* LoCommonUtils */,
 				210CA19F20F75C980004B954 /* Manager */,
 				210CA1A820F75C990004B954 /* NetWork */,
@@ -605,6 +622,8 @@
 			children = (
 				21D63568210AFD9400A29035 /* NBSQLPerson.h */,
 				21D63569210AFD9400A29035 /* NBSQLPerson.m */,
+				21D63580211055A900A29035 /* NBPerson.h */,
+				21D63581211055A900A29035 /* NBPerson.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -617,6 +636,9 @@
 				214E253A21096B480021227A /* NBFMDBController.xib */,
 				214E254821096C010021227A /* NBLoSQLController.h */,
 				214E254921096C010021227A /* NBLoSQLController.m */,
+				21D6356D211039BE00A29035 /* NBRealmController.h */,
+				21D6356E211039BE00A29035 /* NBRealmController.m */,
+				21D6357B211039D400A29035 /* NBRealmController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -730,6 +752,15 @@
 				210CA1CE20F83E240004B954 /* MHMacrosLog.m */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		219B03532119830700CAEFC2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				219B03552119830700CAEFC2 /* NBBaseRealmModel.h */,
+				219B03542119830700CAEFC2 /* NBBaseRealmModel.m */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		21AF387E20FC328D00FD6AC3 /* Products */ = {
@@ -1047,6 +1078,7 @@
 				217352952106CAF400FEE5A0 /* NBCommonCell.xib in Resources */,
 				214E253C21096B480021227A /* NBFMDBController.xib in Resources */,
 				2143957C20F3007600DF7812 /* LaunchScreen.storyboard in Resources */,
+				21D6357C211039D400A29035 /* NBRealmController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,19 +1179,23 @@
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
 				214E25102106FE4A0021227A /* NBLoPhoneHisController.m in Sources */,
 				217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */,
+				21D63582211055AA00A29035 /* NBPerson.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
 				21D63565210AEBD100A29035 /* NSCache+BGCache.m in Sources */,
+				219B03612119830700CAEFC2 /* NBBaseRealmModel.m in Sources */,
 				2173529D2106CE9400FEE5A0 /* NSDate+ChangeString.m in Sources */,
 				210CA19C20F706AF0004B954 /* NSString+Font.m in Sources */,
 				210CA1CF20F83E240004B954 /* MHMacrosLog.m in Sources */,
 				214E253B21096B480021227A /* NBFMDBController.m in Sources */,
 				21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */,
+				21147C9521130D5000F70B26 /* NSObject+PropertyList.m in Sources */,
 				21D63566210AEBD100A29035 /* NSObject+BGModel.m in Sources */,
 				21D63567210AEBD100A29035 /* BGTool.m in Sources */,
 				210CA1BF20F75C990004B954 /* NBParserMarker.m in Sources */,
 				21721A5520F3435B001C639B /* NBNavigationController.m in Sources */,
 				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
+				21D6356F211039BE00A29035 /* NBRealmController.m in Sources */,
 				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
 				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
 				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
