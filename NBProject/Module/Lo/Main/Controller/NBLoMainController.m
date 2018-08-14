@@ -22,7 +22,7 @@
 }
 
 - (void)nb_setDataSource {
-    NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoGCDController"};
+    NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoThreadListController"};
     NSDictionary *UIDic = @{@"title":@"UI",@"className":@"NBLoUIController"};
     NSDictionary *sqlDic = @{@"title":@"SQL",@"className":@"NBLoSQLController"};
     NSDictionary *otherDic = @{@"title":@"其他",@"className":@"NBLoOtherController"};

@@ -40,6 +40,10 @@
 		214E254A21096C010021227A /* NBLoSQLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E254921096C010021227A /* NBLoSQLController.m */; };
 		214E254D2109762C0021227A /* NBCommonTableDelegateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E254C2109762C0021227A /* NBCommonTableDelegateModel.m */; };
 		214E2550210977830021227A /* NBCommonViewMoedel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214E254F210977830021227A /* NBCommonViewMoedel.m */; };
+		21505432211C406F0063CBBD /* NBLoThreadListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21505431211C406F0063CBBD /* NBLoThreadListController.m */; };
+		21505441211D26140063CBBD /* NBLoOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2150543F211D26140063CBBD /* NBLoOperationController.m */; };
+		21505446211D31A10063CBBD /* NBLoThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21505444211D31A10063CBBD /* NBLoThreadController.m */; };
+		2150544B21212AEC0063CBBD /* NBBaseThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2150544A21212AEC0063CBBD /* NBBaseThreadController.m */; };
 		21721A5520F3435B001C639B /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21721A5420F3435B001C639B /* NBNavigationController.m */; };
 		217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173528C2106CAF400FEE5A0 /* NBControllerModel.m */; };
 		217352952106CAF400FEE5A0 /* NBCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217352912106CAF400FEE5A0 /* NBCommonCell.xib */; };
@@ -235,6 +239,14 @@
 		214E254C2109762C0021227A /* NBCommonTableDelegateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCommonTableDelegateModel.m; sourceTree = "<group>"; };
 		214E254E210977830021227A /* NBCommonViewMoedel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBCommonViewMoedel.h; sourceTree = "<group>"; };
 		214E254F210977830021227A /* NBCommonViewMoedel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBCommonViewMoedel.m; sourceTree = "<group>"; };
+		21505430211C406F0063CBBD /* NBLoThreadListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoThreadListController.h; sourceTree = "<group>"; };
+		21505431211C406F0063CBBD /* NBLoThreadListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoThreadListController.m; sourceTree = "<group>"; };
+		2150543E211D26140063CBBD /* NBLoOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoOperationController.h; sourceTree = "<group>"; };
+		2150543F211D26140063CBBD /* NBLoOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoOperationController.m; sourceTree = "<group>"; };
+		21505443211D31A10063CBBD /* NBLoThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoThreadController.h; sourceTree = "<group>"; };
+		21505444211D31A10063CBBD /* NBLoThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoThreadController.m; sourceTree = "<group>"; };
+		2150544921212AEC0063CBBD /* NBBaseThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseThreadController.h; sourceTree = "<group>"; };
+		2150544A21212AEC0063CBBD /* NBBaseThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseThreadController.m; sourceTree = "<group>"; };
 		21721A5320F3435B001C639B /* NBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNavigationController.h; sourceTree = "<group>"; };
 		21721A5420F3435B001C639B /* NBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNavigationController.m; sourceTree = "<group>"; };
 		2173528C2106CAF400FEE5A0 /* NBControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
@@ -643,6 +655,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		2150544821212ABF0063CBBD /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				2150544921212AEC0063CBBD /* NBBaseThreadController.h */,
+				2150544A21212AEC0063CBBD /* NBBaseThreadController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
 		21721A5220F34341001C639B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +805,7 @@
 		21AF38A220FC33BE00FD6AC3 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				2150544821212ABF0063CBBD /* BaseClass */,
 				21AF38A320FC33EA00FD6AC3 /* Controller */,
 			);
 			path = GCD;
@@ -794,6 +816,12 @@
 			children = (
 				21AF38A420FC343C00FD6AC3 /* NBLoGCDController.h */,
 				21AF38A520FC343C00FD6AC3 /* NBLoGCDController.m */,
+				2150543E211D26140063CBBD /* NBLoOperationController.h */,
+				2150543F211D26140063CBBD /* NBLoOperationController.m */,
+				21505443211D31A10063CBBD /* NBLoThreadController.h */,
+				21505444211D31A10063CBBD /* NBLoThreadController.m */,
+				21505430211C406F0063CBBD /* NBLoThreadListController.h */,
+				21505431211C406F0063CBBD /* NBLoThreadListController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1161,6 +1189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2150544B21212AEC0063CBBD /* NBBaseThreadController.m in Sources */,
 				214E2525210810EF0021227A /* UIViewController+MHTelephone.m in Sources */,
 				217352A02106D01500FEE5A0 /* NSDate+Current.m in Sources */,
 				214E251521071FFE0021227A /* NSDate+Comparison.m in Sources */,
@@ -1177,7 +1206,9 @@
 				217352962106CAF400FEE5A0 /* NBCommonCell.m in Sources */,
 				214E250C2106FC440021227A /* NBCallPhoneModel.m in Sources */,
 				21780BC620F3643B00A9C192 /* BaseView.m in Sources */,
+				21505441211D26140063CBBD /* NBLoOperationController.m in Sources */,
 				214E25102106FE4A0021227A /* NBLoPhoneHisController.m in Sources */,
+				21505432211C406F0063CBBD /* NBLoThreadListController.m in Sources */,
 				217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */,
 				21D63582211055AA00A29035 /* NBPerson.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
@@ -1207,6 +1238,7 @@
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
 				214E254D2109762C0021227A /* NBCommonTableDelegateModel.m in Sources */,
 				214E254A21096C010021227A /* NBLoSQLController.m in Sources */,
+				21505446211D31A10063CBBD /* NBLoThreadController.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
 				214E2550210977830021227A /* NBCommonViewMoedel.m in Sources */,
 				2109B9FB210079B800315653 /* NBBaseMasonryController.m in Sources */,

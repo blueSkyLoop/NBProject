@@ -7,11 +7,8 @@
 //
 
 #import "NBLoGCDController.h"
-#import "UIView+QuickInstance.h"
-#import "NBMacros.h"
-//#import "MHMacrosLog.h"
 
-#import <Masonry.h>
+
 @interface NBLoGCDController ()
 
 @end
@@ -19,6 +16,7 @@
 @implementation NBLoGCDController
 
 - (void)viewDidLoad {
+    self.btns = @[@"串行异步",@"串行同步",@"并行异步",@"并行同步",@"串行：异步转同步",@"串行：同步转异步",@"并发：异步转同步",@"并发：同步转异步",@"全局队列创建",@"线程组",@"GCD快速迭代方法",@"栅栏",@"挂起与恢复",@"信号量使用"];
     [super viewDidLoad];
  
     NSLog(@"1");
@@ -28,55 +26,7 @@
     NSLog(@"3");
 }
 
-- (void)nb_setUI {
-    NSArray *btns = @[@"串行异步",@"串行同步",@"并行异步",@"并行同步",@"串行：异步转同步",@"串行：同步转异步",@"并发：异步转同步",@"并发：同步转异步",@"全局队列创建",@"线程组",@"GCD快速迭代方法",@"栅栏"];
-    
-    // 位置参照物
-    UIButton * refBtn ;
-    // 列数
-    NSInteger column = 2 ;
-    // 间隔
-    CGFloat Margin = 30 ;
-    // 宽度
-    CGFloat btn_W = (MScreenW - (column + 1) *Margin) / column ;
-    // 高度
-    CGFloat btn_H = 30 ;
-    CGSize btn_size = CGSizeMake(btn_W, btn_H);
-    // 换行的高度 =  参照物按钮高度 + 上下之间的间距
-    CGFloat ref_H = btn_H + Margin;
-    
-    
-    for (NSInteger i = 1 ; i < btns.count + 1; i ++) {
-        NSString *btnTitle = btns[i-1];
-        UIButton *btn = [UIView quickCreateButtonWithFont:[UIFont systemFontOfSize:17] normalTextColor:[UIColor blackColor] selectTextColor:[UIColor grayColor] text:btnTitle];
-        btn.layer.borderColor = [UIColor blueColor].CGColor;
-        btn.layer.cornerRadius = 0.5;
-        btn.layer.borderWidth  = 1;
-        btn.layer.masksToBounds = YES;
-        [self.view addSubview:btn];
-        
-        NSString *funcName = [NSString stringWithFormat:@"test%ld",i];
-        SEL func = NSSelectorFromString(funcName);
-        [btn addTarget:self action:func forControlEvents:UIControlEventTouchUpInside];
-        [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-            if (i == 1) {
-                make.left.equalTo(self.view).offset(Margin);
-                make.top.equalTo(self.view).offset(Margin + MSafeAreaNaviBarHeight);
-            }else{
-                if (i%column == 1) {
-                    make.left.equalTo(self.view).offset(Margin);
-                    make.top.equalTo(refBtn.mas_bottom).offset(ref_H);
-                }else{
-                    make.left.equalTo(refBtn.mas_right).offset(Margin);
-                    make.top.equalTo(refBtn);
-                }
-            }
-            make.size.sizeOffset(btn_size);
-        }];
-        [self.view layoutIfNeeded];
-        refBtn = btn;
-    }
-}
+
 
 
 // 串行异步
@@ -292,9 +242,13 @@
 // GCD apply 遍历， 以0开始遍历到 N-1的 index
 - (void)test11 {
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_apply(6666, queue, ^(size_t index) {
-        NSLog(@"%zd------%@",index, [NSThread currentThread]);
+    dispatch_async(queue, ^{
+        dispatch_apply(6666, queue, ^(size_t index) {
+            NSLog(@"%zd------%@",index, [NSThread currentThread]);
+        });
     });
+    
+    
 }
 
 // 栅栏  dispatch_barrier_async
@@ -326,6 +280,59 @@
     
 }
 
+// 恢复与挂起
+- (void)test13 {
+    dispatch_queue_t queue  = dispatch_queue_create("test", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_suspend(queue);
+    dispatch_async(queue, ^{
+        dispatch_apply(5, queue, ^(size_t index) {
+            NSLog(@"index:%ld -----%@",index,[NSThread currentThread]);
+        });
+    });
+     NSLog(@"aaa！-----%@",[NSThread currentThread]);
+    dispatch_resume(queue);
+}
 
+// 信号量使用
+- (void)test14 {
+    /*
+     一般情况下，发送信号和等待信号是成对出现的。也就是说，一个dispatch_semaphore_signal(sem);对应一个dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+     */
+    
+    
+    dispatch_group_t grp = dispatch_group_create();
+    dispatch_queue_t queue =  dispatch_queue_create("去你大爷的", DISPATCH_QUEUE_CONCURRENT);
+    
+    dispatch_group_async(grp, queue, ^{
+        dispatch_semaphore_t sem = dispatch_semaphore_create(0);
+        
+            NSLog(@"task1 begin : %@",[NSThread currentThread]);   // 1
+        
+        dispatch_async(queue, ^{
+            NSLog(@"task1 finish : %@",[NSThread currentThread]);  // 2
+            dispatch_semaphore_signal(sem);
+        });
+        
+        dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+    });
+    
+    dispatch_group_async(grp, queue, ^{
+        
+      dispatch_semaphore_t sem =  dispatch_semaphore_create(0);
+        
+        NSLog(@"task2 begin : %@",[NSThread currentThread]);   // 1
+        
+        dispatch_async(queue, ^{
+           NSLog(@"task2 finish : %@",[NSThread currentThread]);  // 2
+            dispatch_semaphore_signal(sem);
+        });
+        
+        dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+    });
+    
+    dispatch_group_notify(grp, dispatch_get_main_queue(), ^{
+        NSLog(@"refresh UI");  // 3
+    });
+}
 
 @end

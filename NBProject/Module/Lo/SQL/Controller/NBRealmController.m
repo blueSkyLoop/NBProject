@@ -11,7 +11,7 @@
 #import "NBPerson.h"
 
 #import "NBComHeaderFile.h"
-
+#import <objc/runtime.h>
 @interface NBRealmController ()
 @property (nonatomic, strong) NBPerson *realmM;
 

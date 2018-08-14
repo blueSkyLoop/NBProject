@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NBMacros.h"
 @interface NBBaseController : UIViewController
 
 

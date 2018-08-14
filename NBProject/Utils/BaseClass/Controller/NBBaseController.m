@@ -7,7 +7,6 @@
 //
 
 #import "NBBaseController.h"
-
 @interface NBBaseController ()
 
 @end
