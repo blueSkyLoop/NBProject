@@ -6,10 +6,10 @@
 //  Copyright © 2018年 com.cn. All rights reserved.
 //
 
-#import "NBFMDBController.h"
+#import "NBLoFMDBController.h"
 #import "NBSQLPerson.h"
 #import <YYModel.h>
-@interface NBFMDBController ()
+@interface NBLoFMDBController ()
 
 // 单条数据
 @property (nonatomic, strong)NBSQLPerson *person ;
@@ -26,7 +26,7 @@
 
 @end
 
-@implementation NBFMDBController
+@implementation NBLoFMDBController
 
 //static NSString * tablename = @"NBSQLPerson_Table";
 

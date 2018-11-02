@@ -13,7 +13,11 @@ pod 'SVProgressHUD'
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'SSKeychain', '~> 1.4.1'
 pod 'FMDB', '~> 2.7.2'
-pod 'Realm'
+#pod 'Realm'
+pod 'Realm', '~> 3.7.6'
+pod 'Texture'
+#pod 'YYKit', '~> 1.0.9'
+
 end
 
 target 'NBProject' do

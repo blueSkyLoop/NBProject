@@ -15,7 +15,7 @@
     UITableView *tableView = objc_getAssociatedObject(self, @selector(tableView));
     if (!tableView) {
         // frame 可以重写，默认此frame
-        CGRect frame = CGRectMake(0, MSafeAreaNaviBarHeight, MScreenW, MScreenH - MSafeAreaNaviBarHeight);
+        CGRect frame = CGRectMake(0, MSafeAreaHeight_NaviBar, MScreenW, MScreenH - MSafeAreaHeight_NaviBar);
         tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
         
         // 设置代理，减少重复性写这两句代段，反正我懒。

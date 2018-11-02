@@ -20,9 +20,10 @@
 }
 
 - (void)nb_setDataSource {
-        NSDictionary *CallDic = @{@"title":@"获取通话记录",@"className":@"NBLoPhoneHisController"};
+     NSDictionary *CallDic = @{@"title":@"获取通话记录",@"className":@"NBLoPhoneHisController"};
+     NSDictionary *downLoadDic = @{@"title":@"断点续传",@"className":@"NBLoDownLoadController"};
     
-    NSArray *dics = @[CallDic];
+    NSArray *dics = @[CallDic,downLoadDic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 @end

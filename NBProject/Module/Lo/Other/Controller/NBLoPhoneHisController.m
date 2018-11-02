@@ -61,7 +61,7 @@
     [self.view addSubview:self.phoneTF];
     self.phoneTF.text = @"10000";
     [self.phoneTF mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.view).offset(MSafeAreaNaviBarHeight + Magir);
+        make.top.equalTo(self.view).offset(MSafeAreaHeight_NaviBar + Magir);
         make.centerX.equalTo(self.view);
         make.size.mas_equalTo(SubViews_Size);
     }];

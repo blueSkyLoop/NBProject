@@ -12,15 +12,19 @@
 
 
 + (instancetype)nb_dequeueReusableCellWithTableView:(UITableView *)tableView {
-    NSString *cellID = NSStringFromClass(self);
-    NBBaseTableViewCell *cell  = [tableView dequeueReusableCellWithIdentifier:cellID];
+    
+    NBBaseTableViewCell *cell  = [tableView dequeueReusableCellWithIdentifier:[self cellIndentifier]];
     
     if (!cell) {
-        [tableView registerNib:[UINib nibWithNibName:NSStringFromClass(self) bundle:nil] forCellReuseIdentifier:cellID];
-        cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+        [tableView registerNib:[UINib nibWithNibName:NSStringFromClass(self) bundle:nil] forCellReuseIdentifier:[self cellIndentifier]];
+        cell = [tableView dequeueReusableCellWithIdentifier:[self cellIndentifier]];
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone ;
     return cell;
+}
+
++ (NSString *)cellIndentifier {
+    return NSStringFromClass([self class]);
 }
 
 @end

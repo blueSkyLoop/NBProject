@@ -11,4 +11,7 @@
 @interface NBBaseTableViewCell : UITableViewCell
 
 + (instancetype)nb_dequeueReusableCellWithTableView:(UITableView *)tableView;
+
++ (NSString *)cellIndentifier ;
+
 @end

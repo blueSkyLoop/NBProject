@@ -34,4 +34,8 @@
  获取接口规定的信息
  */
 + (NSDictionary *)getDeviceInfos;
+
+/* 获取设备当前电量 */
++ (NSString *)getDeviceBatteryLevel;
+
 @end

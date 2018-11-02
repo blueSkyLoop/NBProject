@@ -15,9 +15,12 @@
 @implementation NBLoSQLController
 
 - (void)nb_setDataSource {
-    NSDictionary *fmdbDic = @{@"title":@"FMDB",@"className":@"NBFMDBController"};
-    NSDictionary *realmDic = @{@"title":@"Realm",@"className":@"NBRealmController"};
-    NSArray *dics = @[fmdbDic,realmDic];
+    NSDictionary *fmdbDic = @{@"title":@"FMDB",@"className":@"NBLoFMDBController"};
+    NSDictionary *realmDic = @{@"title":@"Realm",@"className":@"NBLoRealmController"};
+    
+    NSDictionary *archiverDic = @{@"title":@"KeydeArchiver",@"className":@"NBKeyedArchiverController"};
+    
+    NSArray *dics = @[fmdbDic,realmDic,archiverDic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 @end

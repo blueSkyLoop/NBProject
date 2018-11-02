@@ -8,7 +8,7 @@
 
 #import "NBLoMainController.h"
 #import "NBComHeaderFile.h"
-
+#import "NBDeviceManager.h"
 @interface NBLoMainController ()
 
 @end
@@ -18,16 +18,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    AdjustsScrollViewInsetNever(self, self.tableView);
+
+   
+   
 }
 
 - (void)nb_setDataSource {
     NSDictionary *gcdDic = @{@"title":@"多线程",@"className":@"NBLoThreadListController"};
     NSDictionary *UIDic = @{@"title":@"UI",@"className":@"NBLoUIController"};
     NSDictionary *sqlDic = @{@"title":@"SQL",@"className":@"NBLoSQLController"};
+    NSDictionary *perDic = @{@"title":@"性能优化",@"className":@"NBLoPerformanceController"};
+    NSDictionary *runtimeDic = @{@"title":@"Runtime",@"className":@"NBLoRuntimeListController"};
+    NSDictionary *ConceptDic = @{@"title":@"概念",@"className":@"NBLoConceptListController"};
     NSDictionary *otherDic = @{@"title":@"其他",@"className":@"NBLoOtherController"};
     
-    NSArray *dics = @[gcdDic,UIDic,sqlDic,otherDic];
+    
+    NSArray *dics = @[gcdDic,UIDic,sqlDic,perDic,runtimeDic,ConceptDic,otherDic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

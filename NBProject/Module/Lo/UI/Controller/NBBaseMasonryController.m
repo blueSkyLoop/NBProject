@@ -6,7 +6,7 @@
 //  Copyright © 2018年 com.cn. All rights reserved.
 //
 
-#import "NBBaseMasonryController.h"
+#import "NBMasonryController.h"
 
 #import "NBComHeaderFile.h"
 
@@ -15,7 +15,7 @@
 #import "NBCommonCell.h"
 #import "UIView+QuickInstance.h"
 
-@interface NBBaseMasonryController ()
+@interface NBMasonryController ()
 
 @property (nonatomic, strong)NBBaseViewModel *viewModel;
 @property (nonatomic, strong)NBBaseTableDelegateModel *delegateModel;
@@ -26,7 +26,7 @@
 @property (nonatomic, strong) UIButton  *centerBtn;
 @end
 
-@implementation NBBaseMasonryController
+@implementation NBMasonryController
 /*
  1.mas_makeConstraints 只负责新增约束,Autolayout 不能同时存在两条针对于同一对象约束 否则会报错
  2.mas_remakeConstraints 会清除之前的所有约束 仅保留最新的约束

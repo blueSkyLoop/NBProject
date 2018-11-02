@@ -17,8 +17,11 @@
 
 
 - (void)nb_setDataSource {
-    NSDictionary *masonry =  @{@"title":@"masonry",@"className":@"NBBaseMasonryController"};;
-    NSArray *dics = @[masonry];
+    NSDictionary *masonry =  @{@"title":@"masonry",@"className":@"NBLoMasonryController"};
+    NSDictionary *AnimationScroll =  @{@"title":@"AnimationScrollView",@"className":@"NBLoScrollAnimationController"};
+        NSDictionary *CALayer =  @{@"title":@"CALayer",@"className":@"NBCALayerController"};
+    
+    NSArray *dics = @[masonry,AnimationScroll,CALayer];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

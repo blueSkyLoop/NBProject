@@ -70,4 +70,19 @@
              @"app_v" : [self appVersion] ? [self appVersion] : [NSNull null]};
 }
 
+
++ (NSString *)getDeviceBatteryLevel {
+    //#import
+    UIDevice *device = [UIDevice currentDevice];
+    device.batteryMonitoringEnabled = YES;
+    //UIDevice返回的batteryLevel的范围在0到1之间。
+    NSString * batteryLevel = [NSString stringWithFormat:@"%.0f",device.batteryLevel * 100];
+    //获取充电状态
+    UIDeviceBatteryState state = device.batteryState;
+    if (state == UIDeviceBatteryStateCharging || state == UIDeviceBatteryStateFull) {
+        //正在充电和电池已满
+    }
+    return batteryLevel;
+}
+
 @end

@@ -17,7 +17,6 @@
 + (void)load {
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setBarTintColor:MRGBColor(123, 208, 244)];
-   
 }
 
 - (void)viewDidLoad {
@@ -42,7 +41,23 @@
         viewController.navigationItem.leftBarButtonItem = backItem ;
         viewController.hidesBottomBarWhenPushed = YES;
         self.interactivePopGestureRecognizer.enabled = NO;
+        
+//        if (animated) { // 的确能加快页面加载速度，但会导致导航栏丢失的bug
+//            CATransition *animation = [CATransition animation];
+//            animation.duration = 0.4f;
+//            animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+//            animation.type = kCATransitionPush;
+//            animation.subtype = kCATransitionFromRight;
+//            [self.navigationController.view.layer addAnimation:animation forKey:nil];
+//            [self.view.layer addAnimation:animation forKey:nil];
+//            [super pushViewController:viewControll er animated:NO];
+//            return;
+//        }
     }
+    
+    
+    
+    
     [super pushViewController:viewController animated:animated];
 }
 

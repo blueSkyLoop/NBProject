@@ -21,15 +21,37 @@ PODS:
   - IQKeyboardManager (4.0.13)
   - Masonry (1.0.2)
   - MJRefresh (3.1.15.3)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
   - ReactiveObjC (3.1.0)
-  - Realm (3.7.5):
-    - Realm/Headers (= 3.7.5)
-  - Realm/Headers (3.7.5)
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
   - SSKeychain (1.4.1)
   - SVProgressHUD (2.2.5)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
   - "UITableView+FDTemplateLayoutCell (1.6)"
   - YYModel (1.0.4)
 
@@ -41,10 +63,11 @@ DEPENDENCIES:
   - Masonry (~> 1.0.0)
   - MJRefresh (~> 3.1.0)
   - ReactiveObjC
-  - Realm
+  - Realm (~> 3.7.6)
   - SDWebImage
   - SSKeychain (~> 1.4.1)
   - SVProgressHUD
+  - Texture
   - "UITableView+FDTemplateLayoutCell"
   - YYModel (~> 1.0.4)
 
@@ -56,11 +79,15 @@ SPEC REPOS:
     - IQKeyboardManager
     - Masonry
     - MJRefresh
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
     - ReactiveObjC
     - Realm
     - SDWebImage
     - SSKeychain
     - SVProgressHUD
+    - Texture
     - "UITableView+FDTemplateLayoutCell"
     - YYModel
 
@@ -71,14 +98,18 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: f9591f411b75f7423c18ce00428909bbe13ef05b
+PODFILE CHECKSUM: 6aa7e4a2ac0582ae85d1ba38e4bf11ebab55d329
 
 COCOAPODS: 1.5.3
