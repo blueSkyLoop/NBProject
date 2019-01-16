@@ -109,8 +109,10 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    __weak typeof(self) weakSelf = self;
     if(self.mh_tableViewDidSelectBlock){
-        self.mh_tableViewDidSelectBlock(indexPath,[self cellModelWithIndexPath:indexPath]);
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        strongSelf.mh_tableViewDidSelectBlock(indexPath,[strongSelf cellModelWithIndexPath:indexPath]);
     }
 }
 

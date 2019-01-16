@@ -4,7 +4,7 @@
 //
 //  Created by Lucas on 2018/10/31.
 //  Copyright © 2018年 com.cn. All rights reserved.
-//
+//  代理模式
 
 #import <Foundation/Foundation.h>
 

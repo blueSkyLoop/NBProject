@@ -92,12 +92,18 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBBannerView.xib"
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBBannerViewController.xib"
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBMuteDetector.mp3"
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBBannerView.xib"
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBBannerViewController.xib"
+  install_resource "${PODS_ROOT}/EBBannerView/EBBannerView/Classes/EBMuteDetector.mp3"
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle"

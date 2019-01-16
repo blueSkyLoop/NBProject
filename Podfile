@@ -1,3 +1,4 @@
+#source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 def shared_pods
@@ -16,8 +17,9 @@ pod 'FMDB', '~> 2.7.2'
 #pod 'Realm'
 pod 'Realm', '~> 3.7.6'
 pod 'Texture'
+pod 'MLeaksFinder'
 #pod 'YYKit', '~> 1.0.9'
-
+pod 'EBBannerView'
 end
 
 target 'NBProject' do

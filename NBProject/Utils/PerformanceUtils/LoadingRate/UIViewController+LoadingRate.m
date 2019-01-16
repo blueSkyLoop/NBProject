@@ -28,23 +28,23 @@ static char *viewLoadStartTimeKey = "viewLoadStartTimeKey";
     dispatch_once(&onceToken, ^{
         SEL origSel = @selector(viewDidAppear:);
         SEL swizSel = @selector(swiz_viewDidAppear:);
-        [self nb_exchangeInstanceMethod1:origSel method2:swizSel];
+        [self nb_exchangeInstanceOriginSEL:origSel currentSEL:swizSel];
         
         SEL vcWillAppearSel=@selector(viewWillAppear:);
         SEL swizWillAppearSel=@selector(swiz_viewWillAppear:);
-        [self nb_exchangeInstanceMethod1:vcWillAppearSel method2:swizWillAppearSel];
+        [self nb_exchangeInstanceOriginSEL:vcWillAppearSel currentSEL:swizWillAppearSel];
         
         SEL vcDidLoadSel=@selector(viewDidLoad);
         SEL swizDidLoadSel=@selector(swiz_viewDidLoad);
-        [self nb_exchangeInstanceMethod1:vcDidLoadSel method2:swizDidLoadSel];
+        [self nb_exchangeInstanceOriginSEL:vcDidLoadSel currentSEL:swizDidLoadSel];
         
         SEL vcDidDisappearSel=@selector(viewDidDisappear:);
         SEL swizDidDisappearSel=@selector(swiz_viewDidDisappear:);
-        [self nb_exchangeInstanceMethod1:vcDidDisappearSel method2:swizDidDisappearSel];
+        [self nb_exchangeInstanceOriginSEL:vcDidDisappearSel currentSEL:swizDidDisappearSel];
         
         SEL vcWillDisappearSel=@selector(viewWillDisappear:);
         SEL swizWillDisappearSel=@selector(swiz_viewWillDisappear:);
-        [self nb_exchangeInstanceMethod1:vcWillDisappearSel method2:swizWillDisappearSel];
+        [self nb_exchangeInstanceOriginSEL:vcWillDisappearSel currentSEL:swizWillDisappearSel];
     });
 }
 

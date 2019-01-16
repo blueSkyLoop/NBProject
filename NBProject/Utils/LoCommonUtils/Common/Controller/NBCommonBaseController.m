@@ -21,11 +21,13 @@
 }
 
 - (void)nb_bindViewModel {
+    __weak typeof(self) weakSelf = self;
     self.delegateModel = [[NBCommonTableDelegateModel alloc] initWithDataArr:self.viewModel.dataSoure tableView:self.tableView cellClassNames:@[NSStringFromClass([NBCommonCell class])] useAutomaticDimension:YES cellDidSelectedBlock:^(NSIndexPath *indexPath, id cellModel) {
-        NBControllerModel *model = self.viewModel.dataSoure[indexPath.row];
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        NBControllerModel *model = strongSelf.viewModel.dataSoure[indexPath.row];
         UIViewController *vc = [NSClassFromString(model.className) new];
-        vc.title = model.title;
-        [self.navigationController pushViewController:vc animated:YES];
+        vc.title = model.className;
+        [strongSelf.navigationController pushViewController:vc animated:YES];
     }];
 }
 

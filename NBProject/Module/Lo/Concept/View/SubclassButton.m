@@ -32,7 +32,7 @@
     dispatch_once(&onceToken, ^{
         SEL originalSelector = @selector(testButtonLog);
         SEL swizzledSelector = @selector(xl_testButtonLog);
-        [self nb_exchangeInstanceMethod1:originalSelector method2:swizzledSelector];
+        [self nb_exchangeInstanceOriginSEL:originalSelector currentSEL:swizzledSelector];
     });
 }
 

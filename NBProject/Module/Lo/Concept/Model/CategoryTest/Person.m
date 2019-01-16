@@ -10,6 +10,15 @@
 
 @implementation Person
 
+- (void)setName:(NSString *)name {
+    _name = [name stringByAppendingString:@"---hahah"];
+}
+
+- (NSMutableArray *)dogs {
+    if (!_dogs) {
+        _dogs = [NSMutableArray array];
+    }return _dogs;
+}
 
 
 @end

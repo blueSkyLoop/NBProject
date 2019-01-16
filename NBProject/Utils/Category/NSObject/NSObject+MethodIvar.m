@@ -21,9 +21,10 @@
     for(int i = 0; i < numIvars; i++) {
         Ivar thisIvar = vars[i];
         key = [NSString stringWithUTF8String:ivar_getName(thisIvar)];  //获取成员变量的名字
-        NSLog(@"variable name :%@", key);
         type = [NSString stringWithUTF8String:ivar_getTypeEncoding(thisIvar)]; //获取成员变量的数据类型
-        NSLog(@"variable type :%@", type);
+        NSLog(@"variable name :%@\ntype:%@", key,type);
+        
+//        NSLog(@"variable type :%@", type);
     }
 #endif
 

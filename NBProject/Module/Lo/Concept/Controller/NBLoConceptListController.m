@@ -21,9 +21,10 @@
     NSDictionary *kDic = @{@"title":@"KVC,KVO",@"className":@"NBLoKvcKvoController"};
     
     NSDictionary *pDic = @{@"title":@"协议",@"className":@"NBLoProtocolController"};
+    NSDictionary *customKVODic = @{@"title":@"自定义KVO",@"className":@"NBLoCustomKVOController"};
+    NSDictionary *containerKVODic = @{@"title":@"KVO容器类",@"className":@"NBLoContainerKVOController"};
     
-    
-    NSArray *dics = @[categoryDic,proDic,initDic,kDic,pDic];
+    NSArray *dics = @[categoryDic,proDic,initDic,kDic,pDic,customKVODic,containerKVODic];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

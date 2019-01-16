@@ -15,11 +15,11 @@
 /**
  交换两个实例方法
  */
-+ (void)nb_exchangeInstanceMethod1:(SEL)originalSelector method2:(SEL)swizzledSelector;
++ (void)nb_exchangeInstanceOriginSEL:(SEL)originSEl currentSEL:(SEL)currentSEL;
 /**
  交换两个类方法
  */
-+ (void)nb_exchangeClassMethod1:(SEL)originalSelector method2:(SEL)swizzledSelector;
++ (void)nb_exchangeClassOriginSEL:(SEL)originSEL currentSEL:(SEL)currentSEL;
 
 @end
 

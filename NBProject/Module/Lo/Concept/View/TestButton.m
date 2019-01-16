@@ -19,7 +19,7 @@
 + (void)load
 {
     NSLog(@"%@ \t\tload",[self class]);
-    [self nb_exchangeInstanceMethod1:NSSelectorFromString(@"dealloc") method2:@selector(xl_dealloc)];
+    [self nb_exchangeInstanceOriginSEL:NSSelectorFromString(@"dealloc") currentSEL:@selector(xl_dealloc)];
 }
 
 - (void)xl_dealloc

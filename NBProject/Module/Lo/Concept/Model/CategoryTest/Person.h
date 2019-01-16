@@ -13,11 +13,13 @@
 @property (nonatomic, copy) NSString *name;
 
 
+
+
 @property (nonatomic, assign) NSInteger money;
 
 @property (nonatomic, strong) Dog  *dog;
 
-/** 🐩们 */
-@property (strong,nonatomic) NSArray <Dog *>*dogs;
+/** 数组，容器类 */
+@property (strong,nonatomic) NSMutableArray <Dog *>*dogs;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "NBLoRuntimeMethodController.h"
 #import "NSObject+MethodIvar.h"
+#import <objc/runtime.h>
 
 #import "Student.h"
 @interface NBLoRuntimeMethodController ()
@@ -19,10 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.stu = [[Student alloc]init];
+    NSLog(@"%@",self.stu.class);
+    
 }
 
 - (IBAction)objIvars:(id)sender {
-    [NSObject nb_objectWithIvars:self.stu];
+    Ivar *ivars = [NSObject nb_objectWithIvars:self.stu];
+    free(ivars);
 }
 
 - (IBAction)methodsList:(id)sender {

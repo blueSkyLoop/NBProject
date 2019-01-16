@@ -34,7 +34,6 @@
 
 - (void)category {
     Student *stu = [Student new];
-    
     // 1.stu.h声明 study 但没实现， 却在类别 Student+skills 实现方法
     // 注意，若 stu 类  与 类别 Student+skills 都实现了 study 方法的话， 类别方法会把  stu 类 的方法覆盖掉
     [stu study];

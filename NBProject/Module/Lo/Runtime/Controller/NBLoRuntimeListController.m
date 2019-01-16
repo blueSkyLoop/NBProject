@@ -7,7 +7,7 @@
 //
 
 #import "NBLoRuntimeListController.h"
-
+#import <objc/objc.h>
 @interface NBLoRuntimeListController ()
 
 @end
@@ -17,7 +17,9 @@
 
 - (void)nb_setDataSource {
     NSDictionary *Method = @{@"title":@"属性、方法遍历",@"className":@"NBLoRuntimeMethodController"};
-    NSArray *dics = @[Method];
+    NSDictionary *Method1 = @{@"title":@"方法交互",@"className":@"NBLoMethodSwizzlingController"};
+    
+    NSArray *dics = @[Method,Method1];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

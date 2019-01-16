@@ -17,7 +17,9 @@
 - (void)nb_setDataSource {
     NSDictionary *YYFPS = @{@"title":@"YYFPS检测帧数",@"className":@"NBLoYYFPSController"};
     NSDictionary *LoadingRate = @{@"title":@"页面加载速率",@"className":@"NBLoRateController"};
-    NSArray *dics = @[YYFPS,LoadingRate];
+    NSDictionary *memoryLeak = @{@"title":@"内存泄漏自动检测工具",@"className":@"NBLoMemoryLeakController"};
+    
+    NSArray *dics = @[YYFPS,LoadingRate,memoryLeak];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 
