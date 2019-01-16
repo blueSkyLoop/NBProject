@@ -40,7 +40,6 @@
     RAC(self.statusLB,text) = self.loginViewModel.statusSubject;
     
     @weakify(self)
-    
     // vm ---> UI
     // RACObserve --> signal
     [RACObserve(self.loginViewModel,iconUrl) subscribeNext:^(id  _Nullable x) {
