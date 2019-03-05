@@ -23,8 +23,9 @@
     NSDictionary *gcdDic = @{@"title":@"GCD",@"className":@"NBLoGCDController"};
     NSDictionary *operation = @{@"title":@"NSOperation",@"className":@"NBLoOperationController"};
     NSDictionary *thread = @{@"title":@"NSThread",@"className":@"NBLoThreadController"};
+    NSDictionary *interView = @{@"title":@"线程面试题",@"className":@"NBLoInterViewController"};
     
-    NSArray *dics = @[gcdDic,operation,thread];
+    NSArray *dics = @[gcdDic,operation,thread,interView];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

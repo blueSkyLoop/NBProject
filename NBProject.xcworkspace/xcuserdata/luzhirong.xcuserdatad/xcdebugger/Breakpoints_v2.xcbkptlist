@@ -109,5 +109,68 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/MLeaksFinder/MLeaksFinder/UINavigationController+MemoryLeak.m"
+            timestampString = "573456415.555457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "+load"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UINavigationController(MemoryLeak) load]"
+                  moduleName = "NBProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coder/Desktop/NBProject/Pods/MLeaksFinder/MLeaksFinder/UINavigationController+MemoryLeak.m"
+                  timestampString = "573457783.6117049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42+[UINavigationController(MemoryLeak) load]_block_invoke"
+                  moduleName = "NBProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coder/Desktop/NBProject/Pods/MLeaksFinder/MLeaksFinder/UINavigationController+MemoryLeak.m"
+                  timestampString = "573457783.616734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "NBProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coder/Desktop/NBProject/Pods/MLeaksFinder/MLeaksFinder/UINavigationController+MemoryLeak.m"
+                  timestampString = "573457783.621448"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
