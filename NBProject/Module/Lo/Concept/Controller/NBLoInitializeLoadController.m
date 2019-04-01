@@ -49,10 +49,10 @@
     /* 结论:
      分类和类自身都实现的initialize方法,会调用分类的initialize,不调用类自身的initialize
      
-     load方法按照父类到子类,类自身到Category的顺序被调用
+     load方法按照 父类 --> 子类 --> 类自身 --> Category的顺序被调用
      */
     /*
-     2018-08-30 16:20:55.551241+0800 NBProject[39793:1959864] TestButton         Frame initialize
+     2018-08-30 16:20:55.551241+0800 NBProject[39793:1959864] TestButton         Frame initialize (分类)
      2018-08-30 16:20:55.553416+0800 NBProject[39793:1959864] TestButton         load
      2018-08-30 16:20:55.555236+0800 NBProject[39793:1959864] SubclassButton     color initialize
      2018-08-30 16:20:55.556034+0800 NBProject[39793:1959864] SubclassButton SubclassButton load
