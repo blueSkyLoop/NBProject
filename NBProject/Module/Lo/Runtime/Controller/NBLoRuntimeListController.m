@@ -19,7 +19,9 @@
     NSDictionary *Method = @{@"title":@"属性、方法遍历",@"className":@"NBLoRuntimeMethodController"};
     NSDictionary *Method1 = @{@"title":@"方法交互",@"className":@"NBLoMethodSwizzlingController"};
     
-    NSArray *dics = @[Method,Method1];
+    NSDictionary *Method2 = @{@"title":@"综合使用",@"className":@"MMRuntimeController"};
+    
+    NSArray *dics = @[Method,Method1,Method2];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 

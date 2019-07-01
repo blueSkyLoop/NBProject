@@ -10,10 +10,8 @@
 @class Dog;
 @interface Person : NSObject
 
+
 @property (nonatomic, copy) NSString *name;
-
-
-
 
 @property (nonatomic, assign) NSInteger money;
 
@@ -22,4 +20,6 @@
 /** 数组，容器类 */
 @property (strong,nonatomic) NSMutableArray <Dog *>*dogs;
 
+//公共的
+- (void)publicMethod;
 @end

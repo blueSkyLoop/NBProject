@@ -92,6 +92,21 @@
 		2178727222C9DC9400E7C3F6 /* WLSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726822C9DC9400E7C3F6 /* WLSubView.m */; };
 		2178727322C9DC9400E7C3F6 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726E22C9DC9400E7C3F6 /* SubView.m */; };
 		2178727422C9DC9400E7C3F6 /* LableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726F22C9DC9400E7C3F6 /* LableView.m */; };
+		217872A022C9EC5100E7C3F6 /* sevenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178727A22C9EC5100E7C3F6 /* sevenController.m */; };
+		217872A222C9EC5100E7C3F6 /* fiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178727E22C9EC5100E7C3F6 /* fiveController.m */; };
+		217872A422C9EC5100E7C3F6 /* threeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728322C9EC5100E7C3F6 /* threeController.m */; };
+		217872A522C9EC5100E7C3F6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728422C9EC5100E7C3F6 /* Model.m */; };
+		217872A622C9EC5100E7C3F6 /* NSObject+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728622C9EC5100E7C3F6 /* NSObject+hook.m */; };
+		217872A722C9EC5100E7C3F6 /* MMRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728822C9EC5100E7C3F6 /* MMRuntimeController.m */; };
+		217872A822C9EC5100E7C3F6 /* UIImage+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728B22C9EC5100E7C3F6 /* UIImage+hook.m */; };
+		217872A922C9EC5100E7C3F6 /* twoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178728C22C9EC5100E7C3F6 /* twoController.m */; };
+		217872AA22C9EC5100E7C3F6 /* UINavigationBar+alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729022C9EC5100E7C3F6 /* UINavigationBar+alpha.m */; };
+		217872AB22C9EC5100E7C3F6 /* one1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729322C9EC5100E7C3F6 /* one1Controller.m */; };
+		217872AC22C9EC5100E7C3F6 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729422C9EC5100E7C3F6 /* UIGestureRecognizer+Block.m */; };
+		217872AD22C9EC5100E7C3F6 /* oneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729622C9EC5100E7C3F6 /* oneController.m */; };
+		217872AE22C9EC5100E7C3F6 /* fourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729A22C9EC5100E7C3F6 /* fourController.m */; };
+		217872AF22C9EC5100E7C3F6 /* sixController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729C22C9EC5100E7C3F6 /* sixController.m */; };
+		217872B022C9EC5100E7C3F6 /* MMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729F22C9EC5100E7C3F6 /* MMModel.m */; };
 		218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E7C2140D8B400EDE075 /* NBLoRateController.m */; };
 		218B4E8F2140FE0700EDE075 /* UIViewController+LoadingRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E8E2140FE0600EDE075 /* UIViewController+LoadingRate.m */; };
 		2198BD3821EC912C000B0676 /* NBLoRacListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198BD2F21EC912C000B0676 /* NBLoRacListController.m */; };
@@ -335,6 +350,36 @@
 		2178726D22C9DC9400E7C3F6 /* textView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textView.h; sourceTree = "<group>"; };
 		2178726E22C9DC9400E7C3F6 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
 		2178726F22C9DC9400E7C3F6 /* LableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LableView.m; sourceTree = "<group>"; };
+		2178727622C9EC5100E7C3F6 /* MMRuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRuntimeController.h; sourceTree = "<group>"; };
+		2178727822C9EC5100E7C3F6 /* sevenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sevenController.h; sourceTree = "<group>"; };
+		2178727A22C9EC5100E7C3F6 /* sevenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sevenController.m; sourceTree = "<group>"; };
+		2178727E22C9EC5100E7C3F6 /* fiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fiveController.m; sourceTree = "<group>"; };
+		2178727F22C9EC5100E7C3F6 /* fiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiveController.h; sourceTree = "<group>"; };
+		2178728222C9EC5100E7C3F6 /* NSObject+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+hook.h"; sourceTree = "<group>"; };
+		2178728322C9EC5100E7C3F6 /* threeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeController.m; sourceTree = "<group>"; };
+		2178728422C9EC5100E7C3F6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		2178728522C9EC5100E7C3F6 /* threeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeController.h; sourceTree = "<group>"; };
+		2178728622C9EC5100E7C3F6 /* NSObject+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+hook.m"; sourceTree = "<group>"; };
+		2178728722C9EC5100E7C3F6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		2178728822C9EC5100E7C3F6 /* MMRuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRuntimeController.m; sourceTree = "<group>"; };
+		2178728A22C9EC5100E7C3F6 /* twoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoController.h; sourceTree = "<group>"; };
+		2178728B22C9EC5100E7C3F6 /* UIImage+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+hook.m"; sourceTree = "<group>"; };
+		2178728C22C9EC5100E7C3F6 /* twoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoController.m; sourceTree = "<group>"; };
+		2178728D22C9EC5100E7C3F6 /* UIImage+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+hook.h"; sourceTree = "<group>"; };
+		2178728F22C9EC5100E7C3F6 /* oneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneController.h; sourceTree = "<group>"; };
+		2178729022C9EC5100E7C3F6 /* UINavigationBar+alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+alpha.m"; sourceTree = "<group>"; };
+		2178729222C9EC5100E7C3F6 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		2178729322C9EC5100E7C3F6 /* one1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one1Controller.m; sourceTree = "<group>"; };
+		2178729422C9EC5100E7C3F6 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		2178729522C9EC5100E7C3F6 /* one1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one1Controller.h; sourceTree = "<group>"; };
+		2178729622C9EC5100E7C3F6 /* oneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneController.m; sourceTree = "<group>"; };
+		2178729722C9EC5100E7C3F6 /* UINavigationBar+alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+alpha.h"; sourceTree = "<group>"; };
+		2178729922C9EC5100E7C3F6 /* fourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourController.h; sourceTree = "<group>"; };
+		2178729A22C9EC5100E7C3F6 /* fourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourController.m; sourceTree = "<group>"; };
+		2178729C22C9EC5100E7C3F6 /* sixController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixController.m; sourceTree = "<group>"; };
+		2178729D22C9EC5100E7C3F6 /* MMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModel.h; sourceTree = "<group>"; };
+		2178729E22C9EC5100E7C3F6 /* sixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixController.h; sourceTree = "<group>"; };
+		2178729F22C9EC5100E7C3F6 /* MMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModel.m; sourceTree = "<group>"; };
 		218B4E7B2140D8B400EDE075 /* NBLoRateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoRateController.h; sourceTree = "<group>"; };
 		218B4E7C2140D8B400EDE075 /* NBLoRateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoRateController.m; sourceTree = "<group>"; };
 		218B4E8D2140FE0600EDE075 /* UIViewController+LoadingRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LoadingRate.h"; sourceTree = "<group>"; };
@@ -904,6 +949,7 @@
 		2151F2BC2136403400057159 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				2178727522C9EC5100E7C3F6 /* 综合 */,
 				2151F2DA21379FEE00057159 /* Model */,
 				2151F2CB2136407900057159 /* Controller */,
 			);
@@ -1102,6 +1148,107 @@
 				2178726A22C9DC9400E7C3F6 /* WLSubView.h */,
 			);
 			path = WLScrollView;
+			sourceTree = "<group>";
+		};
+		2178727522C9EC5100E7C3F6 /* 综合 */ = {
+			isa = PBXGroup;
+			children = (
+				2178727622C9EC5100E7C3F6 /* MMRuntimeController.h */,
+				2178728822C9EC5100E7C3F6 /* MMRuntimeController.m */,
+				2178728E22C9EC5100E7C3F6 /* 场景1(动态给分类添加属性) */,
+				2178728922C9EC5100E7C3F6 /* 场景2(方法的交换swizzling) */,
+				2178728122C9EC5100E7C3F6 /* 场景3(字典转模型) */,
+				2178729822C9EC5100E7C3F6 /* 场景4(获取所有的私有属性和方法) */,
+				2178727C22C9EC5100E7C3F6 /* 场景5(对私有属性修改) */,
+				2178729B22C9EC5100E7C3F6 /* 场景6(归档:解档) */,
+				2178727722C9EC5100E7C3F6 /* 场景7(动态的添加方法) */,
+			);
+			path = "综合";
+			sourceTree = "<group>";
+		};
+		2178727722C9EC5100E7C3F6 /* 场景7(动态的添加方法) */ = {
+			isa = PBXGroup;
+			children = (
+				2178727822C9EC5100E7C3F6 /* sevenController.h */,
+				2178727A22C9EC5100E7C3F6 /* sevenController.m */,
+			);
+			path = "场景7(动态的添加方法)";
+			sourceTree = "<group>";
+		};
+		2178727C22C9EC5100E7C3F6 /* 场景5(对私有属性修改) */ = {
+			isa = PBXGroup;
+			children = (
+				2178727E22C9EC5100E7C3F6 /* fiveController.m */,
+				2178727F22C9EC5100E7C3F6 /* fiveController.h */,
+			);
+			path = "场景5(对私有属性修改)";
+			sourceTree = "<group>";
+		};
+		2178728122C9EC5100E7C3F6 /* 场景3(字典转模型) */ = {
+			isa = PBXGroup;
+			children = (
+				2178728222C9EC5100E7C3F6 /* NSObject+hook.h */,
+				2178728322C9EC5100E7C3F6 /* threeController.m */,
+				2178728422C9EC5100E7C3F6 /* Model.m */,
+				2178728522C9EC5100E7C3F6 /* threeController.h */,
+				2178728622C9EC5100E7C3F6 /* NSObject+hook.m */,
+				2178728722C9EC5100E7C3F6 /* Model.h */,
+			);
+			path = "场景3(字典转模型)";
+			sourceTree = "<group>";
+		};
+		2178728922C9EC5100E7C3F6 /* 场景2(方法的交换swizzling) */ = {
+			isa = PBXGroup;
+			children = (
+				2178728A22C9EC5100E7C3F6 /* twoController.h */,
+				2178728C22C9EC5100E7C3F6 /* twoController.m */,
+				2178728D22C9EC5100E7C3F6 /* UIImage+hook.h */,
+				2178728B22C9EC5100E7C3F6 /* UIImage+hook.m */,
+			);
+			path = "场景2(方法的交换swizzling)";
+			sourceTree = "<group>";
+		};
+		2178728E22C9EC5100E7C3F6 /* 场景1(动态给分类添加属性) */ = {
+			isa = PBXGroup;
+			children = (
+				2178728F22C9EC5100E7C3F6 /* oneController.h */,
+				2178729622C9EC5100E7C3F6 /* oneController.m */,
+				2178729722C9EC5100E7C3F6 /* UINavigationBar+alpha.h */,
+				2178729022C9EC5100E7C3F6 /* UINavigationBar+alpha.m */,
+				2178729122C9EC5100E7C3F6 /* (block直接调用手势的action) */,
+			);
+			path = "场景1(动态给分类添加属性)";
+			sourceTree = "<group>";
+		};
+		2178729122C9EC5100E7C3F6 /* (block直接调用手势的action) */ = {
+			isa = PBXGroup;
+			children = (
+				2178729522C9EC5100E7C3F6 /* one1Controller.h */,
+				2178729322C9EC5100E7C3F6 /* one1Controller.m */,
+				2178729222C9EC5100E7C3F6 /* UIGestureRecognizer+Block.h */,
+				2178729422C9EC5100E7C3F6 /* UIGestureRecognizer+Block.m */,
+			);
+			path = "(block直接调用手势的action)";
+			sourceTree = "<group>";
+		};
+		2178729822C9EC5100E7C3F6 /* 场景4(获取所有的私有属性和方法) */ = {
+			isa = PBXGroup;
+			children = (
+				2178729922C9EC5100E7C3F6 /* fourController.h */,
+				2178729A22C9EC5100E7C3F6 /* fourController.m */,
+			);
+			path = "场景4(获取所有的私有属性和方法)";
+			sourceTree = "<group>";
+		};
+		2178729B22C9EC5100E7C3F6 /* 场景6(归档:解档) */ = {
+			isa = PBXGroup;
+			children = (
+				2178729C22C9EC5100E7C3F6 /* sixController.m */,
+				2178729D22C9EC5100E7C3F6 /* MMModel.h */,
+				2178729E22C9EC5100E7C3F6 /* sixController.h */,
+				2178729F22C9EC5100E7C3F6 /* MMModel.m */,
+			);
+			path = "场景6(归档:解档)";
 			sourceTree = "<group>";
 		};
 		218B4E892140D98500EDE075 /* LoadingRate */ = {
@@ -1469,7 +1616,7 @@
 				TargetAttributes = {
 					2143953320F2F99E00DF7812 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2143954B20F2F99E00DF7812 = {
 						CreatedOnToolsVersion = 9.2;
@@ -1620,8 +1767,12 @@
 				214E2525210810EF0021227A /* UIViewController+MHTelephone.m in Sources */,
 				217352A02106D01500FEE5A0 /* NSDate+Current.m in Sources */,
 				213AC211212D0FF900DC69D3 /* NBLoYYFPSController.m in Sources */,
+				217872A422C9EC5100E7C3F6 /* threeController.m in Sources */,
+				217872A022C9EC5100E7C3F6 /* sevenController.m in Sources */,
+				217872AC22C9EC5100E7C3F6 /* UIGestureRecognizer+Block.m in Sources */,
 				213AC208212D0BEA00DC69D3 /* UIViewController+YYFPSLabel.m in Sources */,
 				21CD321621894EA200ECBDF5 /* NBProtocolView.m in Sources */,
+				217872AF22C9EC5100E7C3F6 /* sixController.m in Sources */,
 				214E251521071FFE0021227A /* NSDate+Comparison.m in Sources */,
 				2199034B2137D99900B7FCA0 /* SubclassButton.m in Sources */,
 				21DCCE1220F8A11300D4B405 /* NBBaseCollectionDelegateModel.m in Sources */,
@@ -1631,6 +1782,7 @@
 				219903612139319100B7FCA0 /* NBBaseModel.m in Sources */,
 				21115604212E8EE800AC6671 /* ZYLJudgeNetworkType.m in Sources */,
 				2178726422C9DC7900E7C3F6 /* NBLoWLScrollController.m in Sources */,
+				217872AB22C9EC5100E7C3F6 /* one1Controller.m in Sources */,
 				2199030E2137D61F00B7FCA0 /* NBLoCategoryController.m in Sources */,
 				2198BD4021EC91CF000B0676 /* NBLoRacLoginController.m in Sources */,
 				219903382137D67E00B7FCA0 /* ClassC.m in Sources */,
@@ -1654,6 +1806,7 @@
 				21505441211D26140063CBBD /* NBLoOperationController.m in Sources */,
 				214E25102106FE4A0021227A /* NBLoPhoneHisController.m in Sources */,
 				21CD3226218AA19400ECBDF5 /* NBArchiverModel.m in Sources */,
+				217872B022C9EC5100E7C3F6 /* MMModel.m in Sources */,
 				21505432211C406F0063CBBD /* NBLoThreadListController.m in Sources */,
 				2154933321D34A600038FD43 /* UINavigationController+LoLeaks.m in Sources */,
 				217352942106CAF400FEE5A0 /* NBControllerModel.m in Sources */,
@@ -1661,7 +1814,9 @@
 				21FD2C7B2175B13800B2B02E /* NBCALayerController.m in Sources */,
 				21AF38A620FC343C00FD6AC3 /* NBLoGCDController.m in Sources */,
 				8E7FA41E20FD9F9A00F0338A /* UIViewController+TableView.m in Sources */,
+				217872A822C9EC5100E7C3F6 /* UIImage+hook.m in Sources */,
 				212B5C4321DC5AD800BFDF27 /* NBLoCustomKVOController.m in Sources */,
+				217872AE22C9EC5100E7C3F6 /* fourController.m in Sources */,
 				219903392137D67E00B7FCA0 /* MidStudent.m in Sources */,
 				2199034C2137D99900B7FCA0 /* TestButton.m in Sources */,
 				219903492137D99900B7FCA0 /* SubclassButton+border.m in Sources */,
@@ -1698,8 +1853,10 @@
 				2178727322C9DC9400E7C3F6 /* SubView.m in Sources */,
 				21D63564210AEBD100A29035 /* BGDB.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
+				217872A922C9EC5100E7C3F6 /* twoController.m in Sources */,
 				219903342137D67E00B7FCA0 /* ClassB.m in Sources */,
 				213AC205212D0B9400DC69D3 /* YYFPSLabel.m in Sources */,
+				217872A522C9EC5100E7C3F6 /* Model.m in Sources */,
 				217352992106CBFF00FEE5A0 /* AppDelegate+CallHistory.m in Sources */,
 				210CA1BA20F75C990004B954 /* JFAuthorizationStatusManager.m in Sources */,
 				2198BD3921EC912C000B0676 /* NBLoRacBottomController.m in Sources */,
@@ -1714,6 +1871,7 @@
 				2178727022C9DC9400E7C3F6 /* textView.m in Sources */,
 				2151F2CE2136407900057159 /* NBLoRuntimeListController.m in Sources */,
 				218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */,
+				217872AD22C9EC5100E7C3F6 /* oneController.m in Sources */,
 				219903372137D67E00B7FCA0 /* Student+Skills.m in Sources */,
 				214E254D2109762C0021227A /* NBCommonTableDelegateModel.m in Sources */,
 				219903352137D67E00B7FCA0 /* ClassA.m in Sources */,
@@ -1724,16 +1882,20 @@
 				2151F2D921379FD300057159 /* NBLoMethodSwizzlingController.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
 				214E2550210977830021227A /* NBCommonViewMoedel.m in Sources */,
+				217872A222C9EC5100E7C3F6 /* fiveController.m in Sources */,
+				217872A622C9EC5100E7C3F6 /* NSObject+hook.m in Sources */,
 				212B5C3521DC52A400BFDF27 /* NSObject+LoKVO.m in Sources */,
 				2130388821BE043E006D5EC7 /* NBLoEBPushController.m in Sources */,
 				21CD32062188405B00ECBDF5 /* Dog.m in Sources */,
 				21E6506221F9EDE900604F7E /* NBLoInterViewController.m in Sources */,
 				2109B9FB210079B800315653 /* NBLoMasonryController.m in Sources */,
 				219903362137D67E00B7FCA0 /* Student.m in Sources */,
+				217872AA22C9EC5100E7C3F6 /* UINavigationBar+alpha.m in Sources */,
 				21115602212E8EE800AC6671 /* ZYLSingleDownloaderModel.m in Sources */,
 				2109B9F1210076C600315653 /* NBLoUIController.m in Sources */,
 				212B5C4621DCAC4800BFDF27 /* NBLoContainerKVOController.m in Sources */,
 				2151F2D12136735300057159 /* NSObject+MethodIvar.m in Sources */,
+				217872A722C9EC5100E7C3F6 /* MMRuntimeController.m in Sources */,
 				210CA1CA20F83AB80004B954 /* NSObject+isNull.m in Sources */,
 				21D6354921099B1900A29035 /* NBCommonBaseController.m in Sources */,
 				21115601212E8EE800AC6671 /* ZYLSingleDownloader.m in Sources */,
@@ -1904,9 +2066,10 @@
 			baseConfigurationReference = 3F98430C053D9655656E42AA /* Pods-NBProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUL8MVVQ4H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/NBProject/SupportFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1925,9 +2088,10 @@
 			baseConfigurationReference = 8CB72F6B55CEAAA31192CC1A /* Pods-NBProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FUL8MVVQ4H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/NBProject/SupportFile/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
