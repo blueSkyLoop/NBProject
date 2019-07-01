@@ -86,6 +86,12 @@
 		21780BC620F3643B00A9C192 /* NBBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC520F3643B00A9C192 /* NBBaseView.m */; };
 		21780BC920F5998300A9C192 /* NBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BC820F5998300A9C192 /* NBTabBarController.m */; };
 		21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21780BCB20F59B9700A9C192 /* NBBaseController.m */; };
+		2178726422C9DC7900E7C3F6 /* NBLoWLScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726322C9DC7900E7C3F6 /* NBLoWLScrollController.m */; };
+		2178727022C9DC9400E7C3F6 /* textView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726522C9DC9400E7C3F6 /* textView.m */; };
+		2178727122C9DC9400E7C3F6 /* WLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726722C9DC9400E7C3F6 /* WLScrollView.m */; };
+		2178727222C9DC9400E7C3F6 /* WLSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726822C9DC9400E7C3F6 /* WLSubView.m */; };
+		2178727322C9DC9400E7C3F6 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726E22C9DC9400E7C3F6 /* SubView.m */; };
+		2178727422C9DC9400E7C3F6 /* LableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178726F22C9DC9400E7C3F6 /* LableView.m */; };
 		218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E7C2140D8B400EDE075 /* NBLoRateController.m */; };
 		218B4E8F2140FE0700EDE075 /* UIViewController+LoadingRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E8E2140FE0600EDE075 /* UIViewController+LoadingRate.m */; };
 		2198BD3821EC912C000B0676 /* NBLoRacListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198BD2F21EC912C000B0676 /* NBLoRacListController.m */; };
@@ -317,6 +323,18 @@
 		21780BCA20F59B9700A9C192 /* NBBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseController.h; sourceTree = "<group>"; };
 		21780BCB20F59B9700A9C192 /* NBBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseController.m; sourceTree = "<group>"; };
 		21780BCE20F5D3F000A9C192 /* NBMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBMacros.h; sourceTree = "<group>"; };
+		2178726222C9DC7900E7C3F6 /* NBLoWLScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLoWLScrollController.h; sourceTree = "<group>"; };
+		2178726322C9DC7900E7C3F6 /* NBLoWLScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoWLScrollController.m; sourceTree = "<group>"; };
+		2178726522C9DC9400E7C3F6 /* textView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textView.m; sourceTree = "<group>"; };
+		2178726722C9DC9400E7C3F6 /* WLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLScrollView.m; sourceTree = "<group>"; };
+		2178726822C9DC9400E7C3F6 /* WLSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSubView.m; sourceTree = "<group>"; };
+		2178726922C9DC9400E7C3F6 /* WLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLScrollView.h; sourceTree = "<group>"; };
+		2178726A22C9DC9400E7C3F6 /* WLSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSubView.h; sourceTree = "<group>"; };
+		2178726B22C9DC9400E7C3F6 /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		2178726C22C9DC9400E7C3F6 /* LableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LableView.h; sourceTree = "<group>"; };
+		2178726D22C9DC9400E7C3F6 /* textView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textView.h; sourceTree = "<group>"; };
+		2178726E22C9DC9400E7C3F6 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		2178726F22C9DC9400E7C3F6 /* LableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LableView.m; sourceTree = "<group>"; };
 		218B4E7B2140D8B400EDE075 /* NBLoRateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoRateController.h; sourceTree = "<group>"; };
 		218B4E7C2140D8B400EDE075 /* NBLoRateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoRateController.m; sourceTree = "<group>"; };
 		218B4E8D2140FE0600EDE075 /* UIViewController+LoadingRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LoadingRate.h"; sourceTree = "<group>"; };
@@ -477,6 +495,7 @@
 		2109B9E22100760F00315653 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2178725F22C9DC6200E7C3F6 /* WLScroll */,
 				213AC215212D3B0A00DC69D3 /* View */,
 				2109B9EE2100767300315653 /* Controller */,
 			);
@@ -1042,6 +1061,49 @@
 			path = Global;
 			sourceTree = "<group>";
 		};
+		2178725F22C9DC6200E7C3F6 /* WLScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2178726022C9DC6200E7C3F6 /* Controller */,
+				2178726122C9DC6200E7C3F6 /* View */,
+			);
+			path = WLScroll;
+			sourceTree = "<group>";
+		};
+		2178726022C9DC6200E7C3F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2178726222C9DC7900E7C3F6 /* NBLoWLScrollController.h */,
+				2178726322C9DC7900E7C3F6 /* NBLoWLScrollController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2178726122C9DC6200E7C3F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2178726C22C9DC9400E7C3F6 /* LableView.h */,
+				2178726F22C9DC9400E7C3F6 /* LableView.m */,
+				2178726B22C9DC9400E7C3F6 /* SubView.h */,
+				2178726E22C9DC9400E7C3F6 /* SubView.m */,
+				2178726D22C9DC9400E7C3F6 /* textView.h */,
+				2178726522C9DC9400E7C3F6 /* textView.m */,
+				2178726622C9DC9400E7C3F6 /* WLScrollView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2178726622C9DC9400E7C3F6 /* WLScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2178726722C9DC9400E7C3F6 /* WLScrollView.m */,
+				2178726822C9DC9400E7C3F6 /* WLSubView.m */,
+				2178726922C9DC9400E7C3F6 /* WLScrollView.h */,
+				2178726A22C9DC9400E7C3F6 /* WLSubView.h */,
+			);
+			path = WLScrollView;
+			sourceTree = "<group>";
+		};
 		218B4E892140D98500EDE075 /* LoadingRate */ = {
 			isa = PBXGroup;
 			children = (
@@ -1568,6 +1630,7 @@
 				213AC204212D0B9400DC69D3 /* YYWeakProxy.m in Sources */,
 				219903612139319100B7FCA0 /* NBBaseModel.m in Sources */,
 				21115604212E8EE800AC6671 /* ZYLJudgeNetworkType.m in Sources */,
+				2178726422C9DC7900E7C3F6 /* NBLoWLScrollController.m in Sources */,
 				2199030E2137D61F00B7FCA0 /* NBLoCategoryController.m in Sources */,
 				2198BD4021EC91CF000B0676 /* NBLoRacLoginController.m in Sources */,
 				219903382137D67E00B7FCA0 /* ClassC.m in Sources */,
@@ -1605,6 +1668,7 @@
 				21D63565210AEBD100A29035 /* NSCache+BGCache.m in Sources */,
 				2199033A2137D67E00B7FCA0 /* ClassA+Methods.m in Sources */,
 				2198BD3821EC912C000B0676 /* NBLoRacListController.m in Sources */,
+				2178727122C9DC9400E7C3F6 /* WLScrollView.m in Sources */,
 				21115600212E8EE800AC6671 /* ZYLTool.m in Sources */,
 				219B03612119830700CAEFC2 /* NBBaseRealmModel.m in Sources */,
 				2173529D2106CE9400FEE5A0 /* NSDate+ChangeString.m in Sources */,
@@ -1625,11 +1689,13 @@
 				210CA1BD20F75C990004B954 /* NBHttpConfig.m in Sources */,
 				21D6356F211039BE00A29035 /* NBLoRealmController.m in Sources */,
 				21780BCC20F59B9700A9C192 /* NBBaseController.m in Sources */,
+				2178727222C9DC9400E7C3F6 /* WLSubView.m in Sources */,
 				21DCCE1120F8A11300D4B405 /* NBBaseViewModel.m in Sources */,
 				21DCCE1020F8A11300D4B405 /* NBBaseTableDelegateModel.m in Sources */,
 				21CD321121894D8200ECBDF5 /* NBLoProtocolController.m in Sources */,
 				21B61FC4216B36D6008F82CB /* HLWebViewController.m in Sources */,
 				2154933221D34A600038FD43 /* UIViewController+LoLeaks.m in Sources */,
+				2178727322C9DC9400E7C3F6 /* SubView.m in Sources */,
 				21D63564210AEBD100A29035 /* BGDB.m in Sources */,
 				210CA19120F702880004B954 /* UIView+QuickInstance.m in Sources */,
 				219903342137D67E00B7FCA0 /* ClassB.m in Sources */,
@@ -1645,6 +1711,7 @@
 				213AC214212D3AA700DC69D3 /* NBLoScrollAnimationController.m in Sources */,
 				210E418321C358290096D0C3 /* NBLoBoy.m in Sources */,
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
+				2178727022C9DC9400E7C3F6 /* textView.m in Sources */,
 				2151F2CE2136407900057159 /* NBLoRuntimeListController.m in Sources */,
 				218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */,
 				219903372137D67E00B7FCA0 /* Student+Skills.m in Sources */,
@@ -1653,6 +1720,7 @@
 				210E418621C3583A0096D0C3 /* NBLoGirl.m in Sources */,
 				214E254A21096C010021227A /* NBLoSQLController.m in Sources */,
 				21505446211D31A10063CBBD /* NBLoThreadController.m in Sources */,
+				2178727422C9DC9400E7C3F6 /* LableView.m in Sources */,
 				2151F2D921379FD300057159 /* NBLoMethodSwizzlingController.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,
 				214E2550210977830021227A /* NBCommonViewMoedel.m in Sources */,
