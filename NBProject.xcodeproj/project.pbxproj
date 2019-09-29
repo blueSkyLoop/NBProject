@@ -107,8 +107,12 @@
 		217872AE22C9EC5100E7C3F6 /* fourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729A22C9EC5100E7C3F6 /* fourController.m */; };
 		217872AF22C9EC5100E7C3F6 /* sixController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729C22C9EC5100E7C3F6 /* sixController.m */; };
 		217872B022C9EC5100E7C3F6 /* MMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2178729F22C9EC5100E7C3F6 /* MMModel.m */; };
+		218A02E82317B5460099F964 /* NBLoCustomKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A02E72317B5460099F964 /* NBLoCustomKeyboardController.m */; };
+		218A02EB2318FB810099F964 /* LKKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A02EA2318FB800099F964 /* LKKeyBoardView.m */; };
 		218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E7C2140D8B400EDE075 /* NBLoRateController.m */; };
 		218B4E8F2140FE0700EDE075 /* UIViewController+LoadingRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218B4E8E2140FE0600EDE075 /* UIViewController+LoadingRate.m */; };
+		2198096B231CEBEE000D17B5 /* UIButton+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198096A231CEBEE000D17B5 /* UIButton+Creat.m */; };
+		2198096F231D08F1000D17B5 /* UITextField+Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198096E231D08F1000D17B5 /* UITextField+Selection.m */; };
 		2198BD3821EC912C000B0676 /* NBLoRacListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198BD2F21EC912C000B0676 /* NBLoRacListController.m */; };
 		2198BD3921EC912C000B0676 /* NBLoRacBottomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198BD3021EC912C000B0676 /* NBLoRacBottomController.m */; };
 		2198BD3B21EC912C000B0676 /* NBLoRacBottomController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2198BD3321EC912C000B0676 /* NBLoRacBottomController.xib */; };
@@ -317,6 +321,7 @@
 		2154933121D34A600038FD43 /* UINavigationController+LoLeaks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LoLeaks.h"; sourceTree = "<group>"; };
 		2156352921CC848D00D3A93A /* NBLoRuntimModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoRuntimModel.h; sourceTree = "<group>"; };
 		2156352A21CC848D00D3A93A /* NBLoRuntimModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoRuntimModel.m; sourceTree = "<group>"; };
+		2168F15F231914730060E8E0 /* LKHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKHeader.h; sourceTree = "<group>"; };
 		21721A5320F3435B001C639B /* NBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBNavigationController.h; sourceTree = "<group>"; };
 		21721A5420F3435B001C639B /* NBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBNavigationController.m; sourceTree = "<group>"; };
 		2173528C2106CAF400FEE5A0 /* NBControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBControllerModel.m; sourceTree = "<group>"; };
@@ -380,10 +385,18 @@
 		2178729D22C9EC5100E7C3F6 /* MMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModel.h; sourceTree = "<group>"; };
 		2178729E22C9EC5100E7C3F6 /* sixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixController.h; sourceTree = "<group>"; };
 		2178729F22C9EC5100E7C3F6 /* MMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModel.m; sourceTree = "<group>"; };
+		218A02E62317B5460099F964 /* NBLoCustomKeyboardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoCustomKeyboardController.h; sourceTree = "<group>"; };
+		218A02E72317B5460099F964 /* NBLoCustomKeyboardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoCustomKeyboardController.m; sourceTree = "<group>"; };
+		218A02E92318FB800099F964 /* LKKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKKeyBoardView.h; sourceTree = "<group>"; };
+		218A02EA2318FB800099F964 /* LKKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKeyBoardView.m; sourceTree = "<group>"; };
 		218B4E7B2140D8B400EDE075 /* NBLoRateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLoRateController.h; sourceTree = "<group>"; };
 		218B4E7C2140D8B400EDE075 /* NBLoRateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLoRateController.m; sourceTree = "<group>"; };
 		218B4E8D2140FE0600EDE075 /* UIViewController+LoadingRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LoadingRate.h"; sourceTree = "<group>"; };
 		218B4E8E2140FE0600EDE075 /* UIViewController+LoadingRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LoadingRate.m"; sourceTree = "<group>"; };
+		21980969231CEBEE000D17B5 /* UIButton+Creat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Creat.h"; sourceTree = "<group>"; };
+		2198096A231CEBEE000D17B5 /* UIButton+Creat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Creat.m"; sourceTree = "<group>"; };
+		2198096D231D08F1000D17B5 /* UITextField+Selection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Selection.h"; sourceTree = "<group>"; };
+		2198096E231D08F1000D17B5 /* UITextField+Selection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Selection.m"; sourceTree = "<group>"; };
 		2198BD2F21EC912C000B0676 /* NBLoRacListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoRacListController.m; sourceTree = "<group>"; };
 		2198BD3021EC912C000B0676 /* NBLoRacBottomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLoRacBottomController.m; sourceTree = "<group>"; };
 		2198BD3321EC912C000B0676 /* NBLoRacBottomController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBLoRacBottomController.xib; sourceTree = "<group>"; };
@@ -552,6 +565,8 @@
 			children = (
 				2109B9EF210076C600315653 /* NBLoUIController.h */,
 				2109B9F0210076C600315653 /* NBLoUIController.m */,
+				218A02E62317B5460099F964 /* NBLoCustomKeyboardController.h */,
+				218A02E72317B5460099F964 /* NBLoCustomKeyboardController.m */,
 				2109B9F9210079B800315653 /* NBLoMasonryController.h */,
 				2109B9FA210079B800315653 /* NBLoMasonryController.m */,
 				213AC212212D3AA700DC69D3 /* NBLoScrollAnimationController.h */,
@@ -565,6 +580,8 @@
 		210CA18D20F702880004B954 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2198096C231D08D2000D17B5 /* UITextField */,
+				2168F160231CAED70060E8E0 /* UIButton */,
 				2173529A2106CD0600FEE5A0 /* NSDate */,
 				8E7FA41B20FD9F9A00F0338A /* UIViewController */,
 				210CA1C720F83A870004B954 /* NSObject */,
@@ -724,17 +741,17 @@
 		211155EF212E8EE800AC6671 /* ZYLDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				211155F0212E8EE800AC6671 /* ZYLTool.h */,
-				211155F9212E8EE800AC6671 /* ZYLTool.m */,
+				211155F3212E8EE800AC6671 /* ZYLDownloader-Bridging-Header.h */,
 				211155F7212E8EE800AC6671 /* ZYLDownloader.h */,
 				211155F2212E8EE800AC6671 /* ZYLDownloader.m */,
-				211155F3212E8EE800AC6671 /* ZYLDownloader-Bridging-Header.h */,
+				211155F6212E8EE800AC6671 /* ZYLJudgeNetworkType.h */,
+				211155FD212E8EE800AC6671 /* ZYLJudgeNetworkType.m */,
 				211155F4212E8EE800AC6671 /* ZYLSingleDownloader.h */,
 				211155FA212E8EE800AC6671 /* ZYLSingleDownloader.m */,
 				211155F5212E8EE800AC6671 /* ZYLSingleDownloaderModel.h */,
 				211155FB212E8EE800AC6671 /* ZYLSingleDownloaderModel.m */,
-				211155F6212E8EE800AC6671 /* ZYLJudgeNetworkType.h */,
-				211155FD212E8EE800AC6671 /* ZYLJudgeNetworkType.m */,
+				211155F0212E8EE800AC6671 /* ZYLTool.h */,
+				211155F9212E8EE800AC6671 /* ZYLTool.m */,
 			);
 			path = ZYLDownloader;
 			sourceTree = "<group>";
@@ -798,6 +815,8 @@
 			children = (
 				213AC216212D3B2300DC69D3 /* WSLAnimationView.h */,
 				213AC217212D3B2300DC69D3 /* WSLAnimationView.m */,
+				218A02E92318FB800099F964 /* LKKeyBoardView.h */,
+				218A02EA2318FB800099F964 /* LKKeyBoardView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -994,6 +1013,15 @@
 			path = Leaks;
 			sourceTree = "<group>";
 		};
+		2168F160231CAED70060E8E0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				21980969231CEBEE000D17B5 /* UIButton+Creat.h */,
+				2198096A231CEBEE000D17B5 /* UIButton+Creat.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		21721A5220F34341001C639B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1095,6 +1123,7 @@
 		21780BCD20F5D3D100A9C192 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				2168F15F231914730060E8E0 /* LKHeader.h */,
 				21780BCE20F5D3F000A9C192 /* NBMacros.h */,
 				210CA1CB20F83D490004B954 /* NBMacrosNotification.h */,
 				210CA1CC20F83D8D0004B954 /* NBMacrosPrompt.h */,
@@ -1187,12 +1216,12 @@
 		2178728122C9EC5100E7C3F6 /* 场景3(字典转模型) */ = {
 			isa = PBXGroup;
 			children = (
-				2178728222C9EC5100E7C3F6 /* NSObject+hook.h */,
-				2178728322C9EC5100E7C3F6 /* threeController.m */,
-				2178728422C9EC5100E7C3F6 /* Model.m */,
-				2178728522C9EC5100E7C3F6 /* threeController.h */,
-				2178728622C9EC5100E7C3F6 /* NSObject+hook.m */,
 				2178728722C9EC5100E7C3F6 /* Model.h */,
+				2178728422C9EC5100E7C3F6 /* Model.m */,
+				2178728222C9EC5100E7C3F6 /* NSObject+hook.h */,
+				2178728622C9EC5100E7C3F6 /* NSObject+hook.m */,
+				2178728522C9EC5100E7C3F6 /* threeController.h */,
+				2178728322C9EC5100E7C3F6 /* threeController.m */,
 			);
 			path = "场景3(字典转模型)";
 			sourceTree = "<group>";
@@ -1258,6 +1287,15 @@
 				218B4E8E2140FE0600EDE075 /* UIViewController+LoadingRate.m */,
 			);
 			path = LoadingRate;
+			sourceTree = "<group>";
+		};
+		2198096C231D08D2000D17B5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				2198096D231D08F1000D17B5 /* UITextField+Selection.h */,
+				2198096E231D08F1000D17B5 /* UITextField+Selection.m */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		2198BD0B21E869BE000B0676 /* Rac */ = {
@@ -1762,6 +1800,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218A02E82317B5460099F964 /* NBLoCustomKeyboardController.m in Sources */,
 				21CD3221218AA08400ECBDF5 /* NBKeyedArchiverController.m in Sources */,
 				2150544B21212AEC0063CBBD /* NBBaseThreadController.m in Sources */,
 				214E2525210810EF0021227A /* UIViewController+MHTelephone.m in Sources */,
@@ -1788,6 +1827,7 @@
 				219903382137D67E00B7FCA0 /* ClassC.m in Sources */,
 				21D6356A210AFD9400A29035 /* NBSQLPerson.m in Sources */,
 				21CD32032188402B00ECBDF5 /* Person.m in Sources */,
+				2198096B231CEBEE000D17B5 /* UIButton+Creat.m in Sources */,
 				2151F2D52136754E00057159 /* NBLoRuntimeMethodController.m in Sources */,
 				2143957A20F3007600DF7812 /* AppDelegate.m in Sources */,
 				210CA1C620F75E670004B954 /* NBNetworking.m in Sources */,
@@ -1870,6 +1910,7 @@
 				210CA1BB20F75C990004B954 /* NBDeviceManager.m in Sources */,
 				2178727022C9DC9400E7C3F6 /* textView.m in Sources */,
 				2151F2CE2136407900057159 /* NBLoRuntimeListController.m in Sources */,
+				218A02EB2318FB810099F964 /* LKKeyBoardView.m in Sources */,
 				218B4E7D2140D8B400EDE075 /* NBLoRateController.m in Sources */,
 				217872AD22C9EC5100E7C3F6 /* oneController.m in Sources */,
 				219903372137D67E00B7FCA0 /* Student+Skills.m in Sources */,
@@ -1878,6 +1919,7 @@
 				210E418621C3583A0096D0C3 /* NBLoGirl.m in Sources */,
 				214E254A21096C010021227A /* NBLoSQLController.m in Sources */,
 				21505446211D31A10063CBBD /* NBLoThreadController.m in Sources */,
+				2198096F231D08F1000D17B5 /* UITextField+Selection.m in Sources */,
 				2178727422C9DC9400E7C3F6 /* LableView.m in Sources */,
 				2151F2D921379FD300057159 /* NBLoMethodSwizzlingController.m in Sources */,
 				210CA1BC20F75C990004B954 /* MHHUDManager.m in Sources */,

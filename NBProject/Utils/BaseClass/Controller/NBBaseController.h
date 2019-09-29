@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NBMacros.h"
+#import "LKHeader.h"
 @interface NBBaseController : UIViewController
 
 

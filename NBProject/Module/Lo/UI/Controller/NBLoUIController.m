@@ -21,9 +21,10 @@
     NSDictionary *AnimationScroll =  @{@"title":@"AnimationScrollView",@"className":@"NBLoScrollAnimationController"};
     NSDictionary *WLScroll =  @{@"title":@"WLScroll",@"className":@"NBLoWLScrollController"};
     NSDictionary *CALayer =  @{@"title":@"CALayer",@"className":@"NBCALayerController"};
+    NSDictionary *keyboard =  @{@"title":@"CustomKeyboard",@"className":@"NBLoCustomKeyboardController"};
     
     
-    NSArray *dics = @[masonry,AnimationScroll,WLScroll,CALayer];
+    NSArray *dics = @[masonry,AnimationScroll,WLScroll,CALayer,keyboard];
     [self.viewModel.dataSoure addObjectsFromArray:[NBControllerModel controllersWithDics:dics]];
 }
 
